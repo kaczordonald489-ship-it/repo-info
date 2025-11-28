@@ -1,10 +1,10 @@
-# `postgres:18.0-alpine3.21`
+# `postgres:18.1-alpine3.21`
 
 ## Docker Metadata
 
-- Image ID: `sha256:2c4f639f11b994ec396875c8f27a07d03c8273b7d3b842692964ec92d044a4c9`
-- Created: `2025-10-15T18:23:03Z`
-- Virtual Size: ~ 279.72 Mb  
+- Image ID: `sha256:cde4bff118d4577b81aab69f8831b38db53c930ca5938405fd2a450fa8813820`
+- Created: `2025-11-14T19:21:28.486242254Z`
+- Virtual Size: ~ 279.74 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["docker-entrypoint.sh"]`
@@ -14,8 +14,8 @@
   - `GOSU_VERSION=1.19`
   - `LANG=en_US.utf8`
   - `PG_MAJOR=18`
-  - `PG_VERSION=18.0`
-  - `PG_SHA256=0d5b903b1e5fe361bca7aa9507519933773eb34266b1357c4e7780fdee6d6078`
+  - `PG_VERSION=18.1`
+  - `PG_SHA256=ff86675c336c46e98ac991ebb306d1b67621ece1d06787beaade312c2c915d54`
   - `DOCKER_PG_LLVM_DEPS=llvm19-dev 		clang19`
   - `PGDATA=/var/lib/postgresql/18/docker`
 

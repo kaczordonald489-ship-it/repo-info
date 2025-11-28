@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:c2020d2f8454a30d1f6c40e1f88e1502d2bceeaea72db80179bf04c07fa52e90`
-- Created: `2025-11-05T01:13:39.562776317Z`
+- Image ID: `sha256:2c345f459afeba6c8db43b04995985a2393b88a6c9810f30b8e873694a69ff20`
+- Created: `2025-11-13T23:15:07.265542804Z`
 - Virtual Size: ~ 1.88 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -2086,21 +2086,25 @@ $ apt-get source -qq --print-uris pygobject=3.48.2-1
 'http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/pygobject_3.48.2-1.debian.tar.xz' pygobject_3.48.2-1.debian.tar.xz 23512 SHA512:8d5d449fd874a4a53b54464a6164613ffc7091d9846a790e6e20b1b38a11758abccb0244001cd12276adc0a1da57eac37ff3682cbfc66e87189a7b8141f35b3b
 ```
 
-### `dpkg` source package: `python3-defaults=3.12.3-0ubuntu2`
+### `dpkg` source package: `python3-defaults=3.12.3-0ubuntu2.1`
 
 Binary Packages:
 
-- `libpython3-stdlib:amd64=3.12.3-0ubuntu2`
-- `python3=3.12.3-0ubuntu2`
-- `python3-minimal=3.12.3-0ubuntu2`
+- `libpython3-stdlib:amd64=3.12.3-0ubuntu2.1`
+- `python3=3.12.3-0ubuntu2.1`
+- `python3-minimal=3.12.3-0ubuntu2.1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris python3-defaults=3.12.3-0ubuntu2.1
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-defaults/python3-defaults_3.12.3-0ubuntu2.1.dsc' python3-defaults_3.12.3-0ubuntu2.1.dsc 3116 SHA512:34bd93d70a55ea6e57e2c8adb7fab3a23507161c2ca61b2c089208cf3706455ef7e072cc04b68af9c1ecb04ed9636e65524501d9e2eb837319f220f275582c4b
+'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-defaults/python3-defaults_3.12.3-0ubuntu2.1.tar.gz' python3-defaults_3.12.3-0ubuntu2.1.tar.gz 147765 SHA512:9a729a8df22e37d473d39b8c9c95b8c5a7ad8dfd244b3c87576d389f48543edeeaa0bd8b0557de3224d0dbd0f06e02b573cb18adf685a54c02bb485a21ec36e5
+```
 
 ### `dpkg` source package: `python3.12=3.12.3-1ubuntu0.8`
 
@@ -2131,14 +2135,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.12-minimal/copyright`, `/usr/
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.12=3.12.3-1ubuntu0.8
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.dsc' python3.12_3.12.3-1ubuntu0.8.dsc 3920 SHA512:6ec5347db2f302907e401ac4bafc9f884d7f94ebd2d5972f98d0f239121d115fe50cbcc632be12bb31e40cabf26e81e91cba4a92f6f573b4902ed2413a0c2948
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3.orig.tar.xz' python3.12_3.12.3.orig.tar.xz 20625068 SHA512:4a2213b108e7f1f1525baa8348e68b2a2336d925e60d0a59f0225fc470768a2c8031edafc0b8243f94dbae18afda335ee5adf2785328c2218fd64cbb439f13a4
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.debian.tar.xz' python3.12_3.12.3-1ubuntu0.8.debian.tar.xz 257268 SHA512:36a58735bef1d2f760403ff898d75f4802d30badcf32ab041fb64e4c8bb0c9cc48de1dfc87f576192c6e03b9128ee50a8609975c7185cb573b51eb4d781036f3
-```
 
 ### `dpkg` source package: `readline=8.2-4build1`
 

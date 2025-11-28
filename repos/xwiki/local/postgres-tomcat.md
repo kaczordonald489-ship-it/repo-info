@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:46a06d897025d89a7e19a518c84463f6f8da67fc1d2d10c7240a9dc357aa76ca`
-- Created: `2025-11-14T03:18:21.215832964Z`
-- Virtual Size: ~ 1.24 Gb  
+- Image ID: `sha256:9e7be1133b07324373757b600148399889e8f572a241b0d3fde38c5934440a5f`
+- Created: `2025-11-24T18:12:15.155657642Z`
+- Virtual Size: ~ 1.29 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["docker-entrypoint.sh"]`
@@ -22,9 +22,9 @@
   - `TOMCAT_MAJOR=10`
   - `TOMCAT_VERSION=10.1.49`
   - `TOMCAT_SHA512=a46c8e37d4767b56a16dbdd8e81b80f25ad2edd5fba68b5099b9165cfffbe32bc923a601db8bb5cba50e8b1047a7906eb8c30ca176e1c0b8dfd85fbb9c54c6c2`
-  - `XWIKI_VERSION=17.9.0`
-  - `XWIKI_URL_PREFIX=https://maven.xwiki.org/releases/org/xwiki/platform/xwiki-platform-distribution-war/17.9.0`
-  - `XWIKI_DOWNLOAD_SHA256=917d927f03630cb7b7811ecca76bb4a3681e55b47ee262ae27c55f4e751439ce`
+  - `XWIKI_VERSION=17.10.0`
+  - `XWIKI_URL_PREFIX=https://maven.xwiki.org/releases/org/xwiki/platform/xwiki-platform-distribution-war/17.10.0`
+  - `XWIKI_DOWNLOAD_SHA256=7a1942782a74736ec4ebe654ede31a4454cff230bab6818a78db09452a2d1656`
   - `POSTGRES_JDBC_VERSION=42.7.8`
   - `POSTGRES_JDBC_SHA256=2a32a9dcbc42d67a50ad3a0de5efd102c8d2be46720045f2cbd6689f160ab7c7`
   - `POSTGRES_JDBC_PREFIX=https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.8`
@@ -1761,12 +1761,12 @@ $ apt-get source -qq --print-uris libdeflate=1.19-1build1.1
 'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdeflate/libdeflate_1.19-1build1.1.debian.tar.xz' libdeflate_1.19-1build1.1.debian.tar.xz 5004 SHA512:1a5ea09ac798d5c426db489bbee748e18c05e2a3dfc38c1e6d3c59612b006b0f26ef2058a4ece36e693d458d5c631c79c653beb2ca074b57f7fda7d0e0fb7f45
 ```
 
-### `dpkg` source package: `libdrm=2.4.122-1~ubuntu0.24.04.1`
+### `dpkg` source package: `libdrm=2.4.122-1~ubuntu0.24.04.2`
 
 Binary Packages:
 
-- `libdrm-common=2.4.122-1~ubuntu0.24.04.1`
-- `libdrm2:amd64=2.4.122-1~ubuntu0.24.04.1`
+- `libdrm-common=2.4.122-1~ubuntu0.24.04.2`
+- `libdrm2:amd64=2.4.122-1~ubuntu0.24.04.2`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -1775,11 +1775,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris libdrm=2.4.122-1~ubuntu0.24.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.dsc' libdrm_2.4.122-1~ubuntu0.24.04.1.dsc 3229 SHA512:4a77d2f693b385fa7cebd4158bf4333a9134a511048cd9b65bd088f427683a24278a2766bca6f69dbc8b16712a6f2d1d7241daaa16cfd9e0f274b5b7cc035689
+$ apt-get source -qq --print-uris libdrm=2.4.122-1~ubuntu0.24.04.2
+'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.2.dsc' libdrm_2.4.122-1~ubuntu0.24.04.2.dsc 3229 SHA512:e4231640e42a0964b6274e7052418d9fc345b55a61ffb0faed25a60d0b7a259f3503aaedbf14f7a03af15bd886fa0df5ffbece64e9f0aa1d61049b6d431dafc7
 'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz' libdrm_2.4.122.orig.tar.xz 481012 SHA512:ea6bac94416d4ba0e9805e142ae62904236bc49f803d4fc10c92968a4df64c818dd42524ad7a4e988062836783a148e27094050bb2754f751a368627f794ad13
 'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz.asc' libdrm_2.4.122.orig.tar.xz.asc 833 SHA512:af5ceab8c6dfa9a91f4c58dc89bfabfbf0566016bcbfa5a6d9b9c4079928907682ec63065c754ae021c051f6e70a163f833db822f3be5f8f8076f62fe5bc0d4d
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.debian.tar.xz' libdrm_2.4.122-1~ubuntu0.24.04.1.debian.tar.xz 62372 SHA512:8898803b271de2a2ebd1079f26873b6bf8ffe7e52563ce6030a3f6ef0a8bc4cac02f6249e3659ce47d83b6de4fd21b36f4d9866251c05aa4f4d71689b6364fbf
+'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.2.debian.tar.xz' libdrm_2.4.122-1~ubuntu0.24.04.2.debian.tar.xz 64280 SHA512:3a702cfeb15b51ea0860ff3f6e96cb35ee256a37a5da311511b7940a5698e28af1634a2dfc52e8487f145571faa762445168a955e32b38a154a68324d81b26bb
 ```
 
 ### `dpkg` source package: `libe-book=0.1.3-2build6`
@@ -3625,14 +3625,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.12-minimal/copyright`, `/usr/
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.12=3.12.3-1ubuntu0.8
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.dsc' python3.12_3.12.3-1ubuntu0.8.dsc 3920 SHA512:6ec5347db2f302907e401ac4bafc9f884d7f94ebd2d5972f98d0f239121d115fe50cbcc632be12bb31e40cabf26e81e91cba4a92f6f573b4902ed2413a0c2948
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3.orig.tar.xz' python3.12_3.12.3.orig.tar.xz 20625068 SHA512:4a2213b108e7f1f1525baa8348e68b2a2336d925e60d0a59f0225fc470768a2c8031edafc0b8243f94dbae18afda335ee5adf2785328c2218fd64cbb439f13a4
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.debian.tar.xz' python3.12_3.12.3-1ubuntu0.8.debian.tar.xz 257268 SHA512:36a58735bef1d2f760403ff898d75f4802d30badcf32ab041fb64e4c8bb0c9cc48de1dfc87f576192c6e03b9128ee50a8609975c7185cb573b51eb4d781036f3
-```
 
 ### `dpkg` source package: `raptor2=2.0.16-3ubuntu0.1`
 

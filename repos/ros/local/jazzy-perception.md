@@ -3768,15 +3768,9 @@ Binary Packages:
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris libdrm=2.4.122-1~ubuntu0.24.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.dsc' libdrm_2.4.122-1~ubuntu0.24.04.1.dsc 3229 SHA512:4a77d2f693b385fa7cebd4158bf4333a9134a511048cd9b65bd088f427683a24278a2766bca6f69dbc8b16712a6f2d1d7241daaa16cfd9e0f274b5b7cc035689
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz' libdrm_2.4.122.orig.tar.xz 481012 SHA512:ea6bac94416d4ba0e9805e142ae62904236bc49f803d4fc10c92968a4df64c818dd42524ad7a4e988062836783a148e27094050bb2754f751a368627f794ad13
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz.asc' libdrm_2.4.122.orig.tar.xz.asc 833 SHA512:af5ceab8c6dfa9a91f4c58dc89bfabfbf0566016bcbfa5a6d9b9c4079928907682ec63065c754ae021c051f6e70a163f833db822f3be5f8f8076f62fe5bc0d4d
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.debian.tar.xz' libdrm_2.4.122-1~ubuntu0.24.04.1.debian.tar.xz 62372 SHA512:8898803b271de2a2ebd1079f26873b6bf8ffe7e52563ce6030a3f6ef0a8bc4cac02f6249e3659ce47d83b6de4fd21b36f4d9866251c05aa4f4d71689b6364fbf
-```
 
 ### `dpkg` source package: `libedit=3.1-20230828-1build1`
 
@@ -6014,9 +6008,9 @@ Source:
 
 ```console
 $ apt-get source -qq --print-uris linux=6.8.0-87.88
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0-87.88.dsc' linux_6.8.0-87.88.dsc 9362 SHA512:be05f1ea0f41b7f63232dedb4952da3f4f071c27c2acc9411fa621e7e1e68eee999e5109082c03aad1a2843f81d39cf1242c96b618a018fd1e8f606219026fd1
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0.orig.tar.gz' linux_6.8.0.orig.tar.gz 230060117 SHA512:296f93b24e1f7d116377ba8ccd0d8a977e82248ef469586e52db496190092572e90bc05704760424d215261fcbf62e7240819dffd0976b0f6407361e1eac380c
-'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0-87.88.diff.gz' linux_6.8.0-87.88.diff.gz 6068755 SHA512:51ca081be56c322a5f6de91b47cb7dd7452e62eb3453d8ae1afc57adf2ee718fe43f333e4a683ec53615db7ab3eb8c1699fdab8ddfdef14731a8cd909f9bb1f5
+'http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0-87.88.dsc' linux_6.8.0-87.88.dsc 9362 SHA512:be05f1ea0f41b7f63232dedb4952da3f4f071c27c2acc9411fa621e7e1e68eee999e5109082c03aad1a2843f81d39cf1242c96b618a018fd1e8f606219026fd1
+'http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0.orig.tar.gz' linux_6.8.0.orig.tar.gz 230060117 SHA512:296f93b24e1f7d116377ba8ccd0d8a977e82248ef469586e52db496190092572e90bc05704760424d215261fcbf62e7240819dffd0976b0f6407361e1eac380c
+'http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux_6.8.0-87.88.diff.gz' linux_6.8.0-87.88.diff.gz 6068755 SHA512:51ca081be56c322a5f6de91b47cb7dd7452e62eb3453d8ae1afc57adf2ee718fe43f333e4a683ec53615db7ab3eb8c1699fdab8ddfdef14731a8cd909f9bb1f5
 ```
 
 ### `dpkg` source package: `llvm-toolchain-15=1:15.0.7-14build3`
@@ -6594,14 +6588,9 @@ Licenses: (parsed from: `/usr/share/doc/libmysqlclient-dev/copyright`, `/usr/sha
 - `public-domain`
 - `zlib/libpng`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris mysql-8.0=8.0.43-0ubuntu0.24.04.2
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43-0ubuntu0.24.04.2.dsc' mysql-8.0_8.0.43-0ubuntu0.24.04.2.dsc 3613 SHA512:d857e8032b1c3d04fb5d493839b7a912236f070064a0b372b2262ef4838b8ea8e4dcb9011650667bcf62a7eaae8adc63054d62d8bfbed85b1688471420efe492
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43.orig.tar.gz' mysql-8.0_8.0.43.orig.tar.gz 492715363 SHA512:433666f03448833a24e3811afb0fb98cdaeac573f1dc3b682afa10f534f3d3750c515ea93ef2b07557ea5d7151051e181a845e0885d2ac63f01558938c4485ba
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43-0ubuntu0.24.04.2.debian.tar.xz' mysql-8.0_8.0.43-0ubuntu0.24.04.2.debian.tar.xz 146384 SHA512:eac052ed3cb0f5ed354bbdc3ccbdfa0d8d2e20c8ac6e911d110bdfe06603588bc7ce3066e25959dc41e927085e777ff9f8d6d89a5076d2d898c2c52ecb6cad26
-```
 
 ### `dpkg` source package: `mysql-defaults=1.1.0build1`
 
@@ -7131,15 +7120,9 @@ Licenses: (parsed from: `/usr/share/doc/openjdk-21-jdk/copyright`, `/usr/share/d
 - `LGPL`
 - `MIT`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris openjdk-21=21.0.8+9~us1-0ubuntu1~24.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-21/openjdk-21_21.0.8%2b9%7eus1-0ubuntu1%7e24.04.1.dsc' openjdk-21_21.0.8+9~us1-0ubuntu1~24.04.1.dsc 5454 SHA512:19ed66d13369b845f9a84f41018be817746d9ad4a1b9acf32b4812ee20b25309369d8cf9732f245589d18d865043e4661d44de2abf14126796020e4097459fd9
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-21/openjdk-21_21.0.8%2b9%7eus1.orig-googletest.tar.xz' openjdk-21_21.0.8+9~us1.orig-googletest.tar.xz 613408 SHA512:6f36da71c9d2709b2ed306b84dbce4d2fb36b4a2720ccb17de928c742e6b9563d596423436e05addaa206d65372370dcf3bc51a06815b0bb3af4a481b3746810
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-21/openjdk-21_21.0.8%2b9%7eus1.orig.tar.xz' openjdk-21_21.0.8+9~us1.orig.tar.xz 67437140 SHA512:23d2bc571aebe92dbed6af8617ce55fa3e11cbede672527a9148fd73363026df71b483f623f950d65e3e914fb7df945fccbaaf1dae3a970a277ef1e25995a415
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-21/openjdk-21_21.0.8%2b9%7eus1-0ubuntu1%7e24.04.1.debian.tar.xz' openjdk-21_21.0.8+9~us1-0ubuntu1~24.04.1.debian.tar.xz 216908 SHA512:b90c80ae02ed4a9ba9fb55341046f958702ac77e91df998153d3166910f5c8f1adb741a8cac547c4f064f51406e0141795d17a1f16a6cf9115ca82a1bf7354df
-```
 
 ### `dpkg` source package: `openjpeg2=2.5.0-2ubuntu0.4`
 

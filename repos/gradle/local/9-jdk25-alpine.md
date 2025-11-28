@@ -1,9 +1,9 @@
-# `gradle:9.2.0-jdk25-alpine`
+# `gradle:9.2.1-jdk25-alpine`
 
 ## Docker Metadata
 
-- Image ID: `sha256:11519bb0efda0798c8dcb3866a608d9fedfe74d7436f170fc2d9da0396aeb06a`
-- Created: `2025-11-08T18:21:13.892013642Z`
+- Image ID: `sha256:70fedd81ae4e0e5fe9e6bb454e62f9da0d11092c7d40251dc43fda8195540e02`
+- Created: `2025-11-17T19:56:15.413723361Z`
 - Virtual Size: ~ 574.25 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -17,7 +17,7 @@
   - `LC_ALL=en_US.UTF-8`
   - `JAVA_VERSION=jdk-25.0.1+8`
   - `GRADLE_HOME=/opt/gradle`
-  - `GRADLE_VERSION=9.2.0`
+  - `GRADLE_VERSION=9.2.1`
 
 ## `apk` (`.apk`-based packages)
 

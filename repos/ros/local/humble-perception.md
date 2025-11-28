@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:7c38c757f5c9847defc2c884ec0dea713341a46d4c57f4085f9af2de9f437edd`
-- Created: `2022-05-26T18:52:15Z`
+- Image ID: `sha256:59770bcd3cb81de41bcfcb45df3b1cd13f144652a4103b9c8a561013c176d044`
+- Created: `2025-11-14T01:17:56.221711006Z`
 - Virtual Size: ~ 3.04 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -534,16 +534,16 @@ $ apt-get source -qq --print-uris bash=5.1-6ubuntu1.1
 'http://archive.ubuntu.com/ubuntu/pool/main/b/bash/bash_5.1-6ubuntu1.1.debian.tar.xz' bash_5.1-6ubuntu1.1.debian.tar.xz 99944 SHA512:d7fb6110df70232bd3280c1140a812a1903968792f6608481c184bd28760d03323ada75ed3ca4da4eb6c56a84781d6e2f441e0ee83dd9364a9e37fd0fa2211e9
 ```
 
-### `dpkg` source package: `binutils=2.38-4ubuntu2.8`
+### `dpkg` source package: `binutils=2.38-4ubuntu2.10`
 
 Binary Packages:
 
-- `binutils=2.38-4ubuntu2.8`
-- `binutils-common:amd64=2.38-4ubuntu2.8`
-- `binutils-x86-64-linux-gnu=2.38-4ubuntu2.8`
-- `libbinutils:amd64=2.38-4ubuntu2.8`
-- `libctf-nobfd0:amd64=2.38-4ubuntu2.8`
-- `libctf0:amd64=2.38-4ubuntu2.8`
+- `binutils=2.38-4ubuntu2.10`
+- `binutils-common:amd64=2.38-4ubuntu2.10`
+- `binutils-x86-64-linux-gnu=2.38-4ubuntu2.10`
+- `libbinutils:amd64=2.38-4ubuntu2.10`
+- `libctf-nobfd0:amd64=2.38-4ubuntu2.10`
+- `libctf0:amd64=2.38-4ubuntu2.10`
 
 Licenses: (parsed from: `/usr/share/doc/binutils/copyright`, `/usr/share/doc/binutils-common/copyright`, `/usr/share/doc/binutils-x86-64-linux-gnu/copyright`, `/usr/share/doc/libbinutils/copyright`, `/usr/share/doc/libctf-nobfd0/copyright`, `/usr/share/doc/libctf0/copyright`)
 
@@ -551,9 +551,14 @@ Licenses: (parsed from: `/usr/share/doc/binutils/copyright`, `/usr/share/doc/bin
 - `GPL`
 - `LGPL`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris binutils=2.38-4ubuntu2.10
+'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.38-4ubuntu2.10.dsc' binutils_2.38-4ubuntu2.10.dsc 8865 SHA512:090d05bba6e4f0ee3f33137f9cee0404a50d94f4ab5be459af5aecabed2cb9fd85e4adb7598a113abee8a045fdc59dacd04e47471494128c8c21286c56a7aaab
+'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.38.orig.tar.xz' binutils_2.38.orig.tar.xz 23651408 SHA512:8bf0b0d193c9c010e0518ee2b2e5a830898af206510992483b427477ed178396cd210235e85fd7bd99a96fc6d5eedbeccbd48317a10f752b7336ada8b2bb826d
+'http://archive.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.38-4ubuntu2.10.debian.tar.xz' binutils_2.38-4ubuntu2.10.debian.tar.xz 331552 SHA512:400f1d9da1da1c24b6b778b4cf1195c4042f7a3e33a75f8ff2c53691cc18d79d829a36365204299357196c273478c304ac477b4dd7cf757b24028681fe88816e
+```
 
 ### `dpkg` source package: `boost-defaults=1.74.0.3ubuntu7`
 
@@ -1475,19 +1480,23 @@ $ apt-get source -qq --print-uris distlib=0.3.4-1
 'http://archive.ubuntu.com/ubuntu/pool/universe/d/distlib/distlib_0.3.4-1.debian.tar.xz' distlib_0.3.4-1.debian.tar.xz 6296 SHA512:8c6d132d712b26ec79bbbaee349901456e14fc5a921e0da4dc32d98595384ce05ba78cae9450b5289cc35ea60fcd21991a6a98cb3571a7dbd8d79aae57f6f27a
 ```
 
-### `dpkg` source package: `distro-info-data=0.52ubuntu0.9`
+### `dpkg` source package: `distro-info-data=0.52ubuntu0.11`
 
 Binary Packages:
 
-- `distro-info-data=0.52ubuntu0.9`
+- `distro-info-data=0.52ubuntu0.11`
 
 Licenses: (parsed from: `/usr/share/doc/distro-info-data/copyright`)
 
 - `ISC`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris distro-info-data=0.52ubuntu0.11
+'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.52ubuntu0.11.dsc' distro-info-data_0.52ubuntu0.11.dsc 1800 SHA512:4c2db517e759008924a09a0d1f8f1fa9e413a09e39546487eea1d8db09118f5c167d9a8603f2d98e064255dc096c0715439508c60b736988974973bce799423d
+'http://archive.ubuntu.com/ubuntu/pool/main/d/distro-info-data/distro-info-data_0.52ubuntu0.11.tar.xz' distro-info-data_0.52ubuntu0.11.tar.xz 10360 SHA512:2b715166b4fad53deae5deb5bb57c2867caad8f9929bde5c8d5c32756655cc3969781a16dcce834f0ef35d12ae6f33b9a2713381425e22e892e8e0115db9d5ad
+```
 
 ### `dpkg` source package: `double-conversion=3.1.7-4`
 
@@ -4800,12 +4809,12 @@ $ apt-get source -qq --print-uris libsoxr=0.1.3-4build2
 'http://archive.ubuntu.com/ubuntu/pool/main/libs/libsoxr/libsoxr_0.1.3-4build2.debian.tar.xz' libsoxr_0.1.3-4build2.debian.tar.xz 5204 SHA512:1d035d3401469e531eb4a1552e5cbbaece8b0c455fe75f73898b925752a42c1c8e008440f450f0d1c6d70f52735dba673f72f019ae84cd38f9052e5dc177da00
 ```
 
-### `dpkg` source package: `libssh=0.9.6-2ubuntu0.22.04.4`
+### `dpkg` source package: `libssh=0.9.6-2ubuntu0.22.04.5`
 
 Binary Packages:
 
-- `libssh-4:amd64=0.9.6-2ubuntu0.22.04.4`
-- `libssh-gcrypt-4:amd64=0.9.6-2ubuntu0.22.04.4`
+- `libssh-4:amd64=0.9.6-2ubuntu0.22.04.5`
+- `libssh-gcrypt-4:amd64=0.9.6-2ubuntu0.22.04.5`
 
 Licenses: (parsed from: `/usr/share/doc/libssh-4/copyright`, `/usr/share/doc/libssh-gcrypt-4/copyright`)
 
@@ -4815,9 +4824,15 @@ Licenses: (parsed from: `/usr/share/doc/libssh-4/copyright`, `/usr/share/doc/lib
 - `LGPL-2.1+~OpenSSL`
 - `public-domain`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris libssh=0.9.6-2ubuntu0.22.04.5
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.9.6-2ubuntu0.22.04.5.dsc' libssh_0.9.6-2ubuntu0.22.04.5.dsc 2750 SHA512:b18f8255da313d01e8883e8b29a38648bd5e40df4d37af010224aacf9cf8e2a4c1320e3d7912e969319c01efe80d97005880346cbb1975008ffa5f91c7bfc4a1
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.9.6.orig.tar.xz' libssh_0.9.6.orig.tar.xz 1053056 SHA512:4040ec4af937e95be2e41313ef6d4db60b46b8d4dea10c09402398127c1d1ca8843392d207088aeee3c7ef631c6ae7b66861327dcebf78ed3af0723777619fd1
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.9.6.orig.tar.xz.asc' libssh_0.9.6.orig.tar.xz.asc 833 SHA512:1b6223efe9e4ce864cd8d97d517f9f0d38c1cd502b5874fdc6a58731038c2830a72ce753f02fc062d9d4d5922107ec9a2e62fe24a704bb5dec0dcfecdb569fe6
+'http://archive.ubuntu.com/ubuntu/pool/main/libs/libssh/libssh_0.9.6-2ubuntu0.22.04.5.debian.tar.xz' libssh_0.9.6-2ubuntu0.22.04.5.debian.tar.xz 67620 SHA512:d3b344a719d30b94916252a8c705dbc6c41bb522412c7cafb55b85d4a2cccb81ccaaf9a65a3cd6113a3093addf18a3b71e4c279069ef7d082992e2a43cc25e4f
+```
 
 ### `dpkg` source package: `libtasn1-6=4.18.0-4ubuntu0.1`
 
@@ -5478,22 +5493,27 @@ $ apt-get source -qq --print-uris libxkbcommon=1.4.0-1
 'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxkbcommon/libxkbcommon_1.4.0-1.debian.tar.xz' libxkbcommon_1.4.0-1.debian.tar.xz 8028 SHA512:d49087f93cd0cdbd56a7756a9895f97eaffdbf5aba8dfb65896337890cf732818373cb5cccee1dcbe99e119b5eff32380f3840c2f3ee2bcaec064632cd26c0a2
 ```
 
-### `dpkg` source package: `libxml2=2.9.13+dfsg-1ubuntu0.9`
+### `dpkg` source package: `libxml2=2.9.13+dfsg-1ubuntu0.10`
 
 Binary Packages:
 
-- `libxml2:amd64=2.9.13+dfsg-1ubuntu0.9`
-- `libxml2-dev:amd64=2.9.13+dfsg-1ubuntu0.9`
-- `libxml2-utils=2.9.13+dfsg-1ubuntu0.9`
+- `libxml2:amd64=2.9.13+dfsg-1ubuntu0.10`
+- `libxml2-dev:amd64=2.9.13+dfsg-1ubuntu0.10`
+- `libxml2-utils=2.9.13+dfsg-1ubuntu0.10`
 
 Licenses: (parsed from: `/usr/share/doc/libxml2/copyright`, `/usr/share/doc/libxml2-dev/copyright`, `/usr/share/doc/libxml2-utils/copyright`)
 
 - `ISC`
 - `MIT-1`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris libxml2=2.9.13+dfsg-1ubuntu0.10
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2_2.9.13%2bdfsg-1ubuntu0.10.dsc' libxml2_2.9.13+dfsg-1ubuntu0.10.dsc 3034 SHA512:0a7b2308e1e21ce144787a2fde4f6bd2356fd433701707ed622b6dedf284a3b6ac2c9acab4f1044354100688685116cb7e6d170b18a14a59e116ab5b9d0edd81
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2_2.9.13%2bdfsg.orig.tar.xz' libxml2_2.9.13+dfsg.orig.tar.xz 2351356 SHA512:6283071de4934c856c7ff5202ac1a2ed5892d7fcde82a364d40c8bc2bf3d3201fbcbb5f6983d8bf6b962026bc216b8182d71efe280f1dcef2931b277314e6e89
+'http://archive.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2_2.9.13%2bdfsg-1ubuntu0.10.debian.tar.xz' libxml2_2.9.13+dfsg-1ubuntu0.10.debian.tar.xz 49928 SHA512:25a132aaa4a0107d6f554d5882c52316d9236ea30ab1cccdfc6d7e5cbf2eacdfaafe14c46e26ef77e8274e408ff766c19041060e1ac3607b3f5c8fb771099a07
+```
 
 ### `dpkg` source package: `libxmu=2:1.1.3-3`
 
@@ -5735,19 +5755,24 @@ $ apt-get source -qq --print-uris libzstd=1.4.8+dfsg-3build1
 'http://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd_1.4.8%2bdfsg-3build1.debian.tar.xz' libzstd_1.4.8+dfsg-3build1.debian.tar.xz 12316 SHA512:8123965a6e73c5ddd8d535e78ed1074e2eabd7f8ed090d215a89feedffae9391cf472d2395242d3cb0351cbf76603448dae93ad70d0989806b42b03c65b22db0
 ```
 
-### `dpkg` source package: `linux=5.15.0-157.167`
+### `dpkg` source package: `linux=5.15.0-161.171`
 
 Binary Packages:
 
-- `linux-libc-dev:amd64=5.15.0-157.167`
+- `linux-libc-dev:amd64=5.15.0-161.171`
 
 Licenses: (parsed from: `/usr/share/doc/linux-libc-dev/copyright`)
 
 - `GPL-2`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris linux=5.15.0-161.171
+'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_5.15.0-161.171.dsc' linux_5.15.0-161.171.dsc 7799 SHA512:6698adf5b8baf8d375de006c0e1eb03905306bc50f522df3601b5f361f6009e76fc3d295d08213d7e36d33237e76ab3758415ba63017d4b3528884a4e68d9af0
+'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_5.15.0.orig.tar.gz' linux_5.15.0.orig.tar.gz 194969557 SHA512:ae9a32132d5988441c189157703b0f8fa4e232d8d24f7104f944c06827db740beafae55eb37a51eb99b4ac513927cd372321fa1e84afff4d450b786e44414861
+'http://archive.ubuntu.com/ubuntu/pool/main/l/linux/linux_5.15.0-161.171.diff.gz' linux_5.15.0-161.171.diff.gz 12092382 SHA512:a04b358def23afaa6eb8b2359393978473e180ac1ca27f1c674d4b3a0098eb785ec502a6376ae9e7c3b6028000618238e72856031ec7f4c82f0a803dcb994792
+```
 
 ### `dpkg` source package: `llvm-toolchain-14=1:14.0.0-1ubuntu1.1`
 
@@ -6261,14 +6286,9 @@ Licenses: (parsed from: `/usr/share/doc/libmysqlclient-dev/copyright`, `/usr/sha
 - `public-domain`
 - `zlib/libpng`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris mysql-8.0=8.0.43-0ubuntu0.22.04.2
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43-0ubuntu0.22.04.2.dsc' mysql-8.0_8.0.43-0ubuntu0.22.04.2.dsc 3568 SHA512:a57e3cd163dbc789324c4386396be5834ca281187493f264855d8844256545b4c3d1689818a5b4d8f8c36d260f183896cc717a06f620394e361598f509b2d4b3
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43.orig.tar.gz' mysql-8.0_8.0.43.orig.tar.gz 492715363 SHA512:433666f03448833a24e3811afb0fb98cdaeac573f1dc3b682afa10f534f3d3750c515ea93ef2b07557ea5d7151051e181a845e0885d2ac63f01558938c4485ba
-'http://archive.ubuntu.com/ubuntu/pool/main/m/mysql-8.0/mysql-8.0_8.0.43-0ubuntu0.22.04.2.debian.tar.xz' mysql-8.0_8.0.43-0ubuntu0.22.04.2.debian.tar.xz 162924 SHA512:b2e23062be8877589bf4a03e059256c38e19def70c14732d2b75c2b116ae484cce107fc766d7d1eacfe71b1945f1ce227ce802eb52f26905b481ad9f5f7fdfdd
-```
 
 ### `dpkg` source package: `mysql-defaults=1.0.8`
 
@@ -6800,14 +6820,9 @@ Licenses: (parsed from: `/usr/share/doc/openjdk-11-jdk/copyright`, `/usr/share/d
 - `LGPL`
 - `MIT`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris openjdk-lts=11.0.28+6-1ubuntu1~22.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-lts/openjdk-lts_11.0.28%2b6-1ubuntu1%7e22.04.1.dsc' openjdk-lts_11.0.28+6-1ubuntu1~22.04.1.dsc 4869 SHA512:3013858164252d8316e9fee75e5d0a4d13786b5c37acb08cf88e0095406c4aeb040458e05b4ee8fabae1cc13d8e0a0b4571d14a6c8a066685cd4e021b3f1dcb7
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-lts/openjdk-lts_11.0.28%2b6.orig.tar.xz' openjdk-lts_11.0.28+6.orig.tar.xz 69281452 SHA512:e25083b5a46ec81972398a4a1ec635f7a797ca486a31d1eb89b9fb34a0f3ebab239bbcf058f229060b9f9b76b895bef6879ee7fa677091aaeb1f42c41f5ae66c
-'http://archive.ubuntu.com/ubuntu/pool/main/o/openjdk-lts/openjdk-lts_11.0.28%2b6-1ubuntu1%7e22.04.1.debian.tar.xz' openjdk-lts_11.0.28+6-1ubuntu1~22.04.1.debian.tar.xz 171144 SHA512:f40376fe95bdfc665cec0ab6b7f230bce6d485deb1c53588ebdfcf23809f5e6b9ed221217b95f1dd27c071c051888845402d70dca10a8a27b9e59593140de6e1
-```
 
 ### `dpkg` source package: `openjpeg2=2.4.0-6ubuntu0.4`
 
@@ -7400,13 +7415,13 @@ $ apt-get source -qq --print-uris pmix=4.1.2-2ubuntu1
 'http://archive.ubuntu.com/ubuntu/pool/universe/p/pmix/pmix_4.1.2-2ubuntu1.debian.tar.xz' pmix_4.1.2-2ubuntu1.debian.tar.xz 10560 SHA512:05562618af9b84894a3c8254eb0927275ddb3d09df3821c2d2b7b62fd7b405e46e008f95b067612540154f196a9ec1f2aa5aed73a43e2b283a2335a98ec4714b
 ```
 
-### `dpkg` source package: `poppler=22.02.0-2ubuntu0.10`
+### `dpkg` source package: `poppler=22.02.0-2ubuntu0.12`
 
 Binary Packages:
 
-- `libpoppler-dev:amd64=22.02.0-2ubuntu0.10`
-- `libpoppler-private-dev:amd64=22.02.0-2ubuntu0.10`
-- `libpoppler118:amd64=22.02.0-2ubuntu0.10`
+- `libpoppler-dev:amd64=22.02.0-2ubuntu0.12`
+- `libpoppler-private-dev:amd64=22.02.0-2ubuntu0.12`
+- `libpoppler118:amd64=22.02.0-2ubuntu0.12`
 
 Licenses: (parsed from: `/usr/share/doc/libpoppler-dev/copyright`, `/usr/share/doc/libpoppler-private-dev/copyright`, `/usr/share/doc/libpoppler118/copyright`)
 
@@ -7414,9 +7429,14 @@ Licenses: (parsed from: `/usr/share/doc/libpoppler-dev/copyright`, `/usr/share/d
 - `GPL-2`
 - `GPL-3`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris poppler=22.02.0-2ubuntu0.12
+'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_22.02.0-2ubuntu0.12.dsc' poppler_22.02.0-2ubuntu0.12.dsc 3364 SHA512:1cfc708bac0830c672567b21e742e257320ca28ead8ae5f75961d02179da85c3e7e422da5f5a1f9f15c05746a28e6ffbc6caa7dfbe45f7b56a50062d3daf8e5f
+'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_22.02.0.orig.tar.xz' poppler_22.02.0.orig.tar.xz 1807024 SHA512:61867241d6d076dae554d654a8ad3b1a073079bad31f45170516b886fabb4c238ff2d49705924da219e128eb4052ac6337121967347600e54f61790dd0eed487
+'http://archive.ubuntu.com/ubuntu/pool/main/p/poppler/poppler_22.02.0-2ubuntu0.12.debian.tar.xz' poppler_22.02.0-2ubuntu0.12.debian.tar.xz 46692 SHA512:7d146c1f5deb702267624b1147cbe91a03260e45ac58679afb2a1e7f4230bc167b63d8473ae608f2bd2ad02767fbe887e246cf31b897fe21c3a0c75a35c9b2d2
+```
 
 ### `dpkg` source package: `postgresql-14=14.19-0ubuntu0.22.04.1`
 
@@ -8176,11 +8196,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `python3-colcon-core=0.20.0+upstream-1`
+### `dpkg` source package: `python3-colcon-core=0.20.1+upstream-1`
 
 Binary Packages:
 
-- `python3-colcon-core=0.20.0+upstream-1`
+- `python3-colcon-core=0.20.1+upstream-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -8572,14 +8592,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.10/copyright`, `/usr/share/do
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.10=3.10.12-1~22.04.11
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.10/python3.10_3.10.12-1%7e22.04.11.dsc' python3.10_3.10.12-1~22.04.11.dsc 3723 SHA512:c4fe28e481e1378b345d5da896de0b7f105dbde3a71139527e25731e1820859226e0c9ba072092b2d67deda6c03630e2141a2b2ed3ed002d15284794008dd69e
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.10/python3.10_3.10.12.orig.tar.xz' python3.10_3.10.12.orig.tar.xz 19654836 SHA512:5ea018e71bfe7872e02eaf8aef56d5583c0880e4ce5fbbdf8ea76da20c2e94ac6a3ba8badb4b7d1bc21853402a3b63541b04181737417b1626e786b696595cf5
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.10/python3.10_3.10.12-1%7e22.04.11.debian.tar.xz' python3.10_3.10.12-1~22.04.11.debian.tar.xz 255884 SHA512:0422ae8d184845ee2c9f9efc88f0b9e1046fe02c89b6cf2ce7350569633502e2d9c878123c215b3a5b1b98a1c5a84d1bb66de6701366c6eda5bba8a33bc01b39
-```
 
 ### `dpkg` source package: `pyyaml=5.4.1-1ubuntu1`
 
@@ -8998,11 +9013,11 @@ Licenses: (parsed from: `/usr/share/doc/ros2-apt-source/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-action-msgs=1.2.2-1jammy.20250823.084453`
+### `dpkg` source package: `ros-humble-action-msgs=1.2.2-1jammy.20251008.012059`
 
 Binary Packages:
 
-- `ros-humble-action-msgs=1.2.2-1jammy.20250823.084453`
+- `ros-humble-action-msgs=1.2.2-1jammy.20251008.012059`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-action-msgs/copyright`)
 
@@ -9012,11 +9027,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-action-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-actionlib-msgs=4.9.0-1jammy.20250823.084714`
+### `dpkg` source package: `ros-humble-actionlib-msgs=4.9.0-1jammy.20251008.022015`
 
 Binary Packages:
 
-- `ros-humble-actionlib-msgs=4.9.0-1jammy.20250823.084714`
+- `ros-humble-actionlib-msgs=4.9.0-1jammy.20251008.022015`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-actionlib-msgs/copyright`)
 
@@ -9644,11 +9659,11 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-builtin-interfaces=1.2.2-1jammy.20250823.080641`
+### `dpkg` source package: `ros-humble-builtin-interfaces=1.2.2-1jammy.20251008.004312`
 
 Binary Packages:
 
-- `ros-humble-builtin-interfaces=1.2.2-1jammy.20250823.080641`
+- `ros-humble-builtin-interfaces=1.2.2-1jammy.20251008.004312`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-builtin-interfaces/copyright`)
 
@@ -9658,11 +9673,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-builtin-interfaces/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-camera-calibration-parsers=3.1.12-1jammy.20250912.143234`
+### `dpkg` source package: `ros-humble-camera-calibration-parsers=3.1.12-1jammy.20251008.031620`
 
 Binary Packages:
 
-- `ros-humble-camera-calibration-parsers=3.1.12-1jammy.20250912.143234`
+- `ros-humble-camera-calibration-parsers=3.1.12-1jammy.20251008.031620`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-calibration-parsers/copyright`)
 
@@ -9672,11 +9687,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-calibration-parsers/co
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-camera-calibration=3.0.8-1jammy.20250912.170640`
+### `dpkg` source package: `ros-humble-camera-calibration=3.0.8-1jammy.20251017.015854`
 
 Binary Packages:
 
-- `ros-humble-camera-calibration=3.0.8-1jammy.20250912.170640`
+- `ros-humble-camera-calibration=3.0.8-1jammy.20251017.015854`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-calibration/copyright`)
 
@@ -9686,11 +9701,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-calibration/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-camera-info-manager=3.1.12-1jammy.20250912.143535`
+### `dpkg` source package: `ros-humble-camera-info-manager=3.1.12-1jammy.20251008.032215`
 
 Binary Packages:
 
-- `ros-humble-camera-info-manager=3.1.12-1jammy.20250912.143535`
+- `ros-humble-camera-info-manager=3.1.12-1jammy.20251008.032215`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-info-manager/copyright`)
 
@@ -9700,11 +9715,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-camera-info-manager/copyright
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-class-loader=2.2.0-3jammy.20250822.214034`
+### `dpkg` source package: `ros-humble-class-loader=2.2.0-3jammy.20251007.224207`
 
 Binary Packages:
 
-- `ros-humble-class-loader=2.2.0-3jammy.20250822.214034`
+- `ros-humble-class-loader=2.2.0-3jammy.20251007.224207`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-class-loader/copyright`)
 
@@ -9714,11 +9729,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-class-loader/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-common-interfaces=4.9.0-1jammy.20250823.085306`
+### `dpkg` source package: `ros-humble-common-interfaces=4.9.0-1jammy.20251008.022218`
 
 Binary Packages:
 
-- `ros-humble-common-interfaces=4.9.0-1jammy.20250823.085306`
+- `ros-humble-common-interfaces=4.9.0-1jammy.20251008.022218`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-common-interfaces/copyright`)
 
@@ -9728,11 +9743,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-common-interfaces/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-composition-interfaces=1.2.2-1jammy.20250823.084651`
+### `dpkg` source package: `ros-humble-composition-interfaces=1.2.2-1jammy.20251008.011416`
 
 Binary Packages:
 
-- `ros-humble-composition-interfaces=1.2.2-1jammy.20250823.084651`
+- `ros-humble-composition-interfaces=1.2.2-1jammy.20251008.011416`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-composition-interfaces/copyright`)
 
@@ -9742,11 +9757,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-composition-interfaces/copyri
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-compressed-depth-image-transport=2.5.4-1jammy.20250912.170653`
+### `dpkg` source package: `ros-humble-compressed-depth-image-transport=2.5.4-1jammy.20251017.021653`
 
 Binary Packages:
 
-- `ros-humble-compressed-depth-image-transport=2.5.4-1jammy.20250912.170653`
+- `ros-humble-compressed-depth-image-transport=2.5.4-1jammy.20251017.021653`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-compressed-depth-image-transport/copyright`)
 
@@ -9756,11 +9771,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-compressed-depth-image-transp
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-compressed-image-transport=2.5.4-1jammy.20250912.170729`
+### `dpkg` source package: `ros-humble-compressed-image-transport=2.5.4-1jammy.20251017.021716`
 
 Binary Packages:
 
-- `ros-humble-compressed-image-transport=2.5.4-1jammy.20250912.170729`
+- `ros-humble-compressed-image-transport=2.5.4-1jammy.20251017.021716`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-compressed-image-transport/copyright`)
 
@@ -9785,11 +9800,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-console-bridge-vendor/copyrig
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-cv-bridge=3.2.1-1jammy.20250823.090127`
+### `dpkg` source package: `ros-humble-cv-bridge=3.2.1-1jammy.20251008.014610`
 
 Binary Packages:
 
-- `ros-humble-cv-bridge=3.2.1-1jammy.20250823.090127`
+- `ros-humble-cv-bridge=3.2.1-1jammy.20251008.014610`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-cv-bridge/copyright`)
 
@@ -9800,11 +9815,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-cv-bridge/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-depth-image-proc=3.0.8-1jammy.20250912.171549`
+### `dpkg` source package: `ros-humble-depth-image-proc=3.0.8-1jammy.20251017.032402`
 
 Binary Packages:
 
-- `ros-humble-depth-image-proc=3.0.8-1jammy.20250912.171549`
+- `ros-humble-depth-image-proc=3.0.8-1jammy.20251017.032402`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-depth-image-proc/copyright`)
 
@@ -9814,11 +9829,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-depth-image-proc/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-diagnostic-msgs=4.9.0-1jammy.20250823.083600`
+### `dpkg` source package: `ros-humble-diagnostic-msgs=4.9.0-1jammy.20251008.013758`
 
 Binary Packages:
 
-- `ros-humble-diagnostic-msgs=4.9.0-1jammy.20250823.083600`
+- `ros-humble-diagnostic-msgs=4.9.0-1jammy.20251008.013758`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-diagnostic-msgs/copyright`)
 
@@ -9828,11 +9843,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-diagnostic-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-diagnostic-updater=4.0.6-1jammy.20250915.214728`
+### `dpkg` source package: `ros-humble-diagnostic-updater=4.0.6-1jammy.20251008.032016`
 
 Binary Packages:
 
-- `ros-humble-diagnostic-updater=4.0.6-1jammy.20250915.214728`
+- `ros-humble-diagnostic-updater=4.0.6-1jammy.20251008.032016`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-diagnostic-updater/copyright`)
 
@@ -9884,11 +9899,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-fastcdr/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-fastrtps-cmake-module=2.2.2-2jammy.20250718.232819`
+### `dpkg` source package: `ros-humble-fastrtps-cmake-module=2.2.3-1jammy.20250924.083922`
 
 Binary Packages:
 
-- `ros-humble-fastrtps-cmake-module=2.2.2-2jammy.20250718.232819`
+- `ros-humble-fastrtps-cmake-module=2.2.3-1jammy.20250924.083922`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-fastrtps-cmake-module/copyright`)
 
@@ -9912,11 +9927,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-fastrtps/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-filters=2.2.2-1jammy.20250912.144250`
+### `dpkg` source package: `ros-humble-filters=2.2.2-1jammy.20251013.135547`
 
 Binary Packages:
 
-- `ros-humble-filters=2.2.2-1jammy.20250912.144250`
+- `ros-humble-filters=2.2.2-1jammy.20251013.135547`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-filters/copyright`)
 
@@ -9941,11 +9956,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-foonathan-memory-vendor/copyr
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-geometry-msgs=4.9.0-1jammy.20250823.082657`
+### `dpkg` source package: `ros-humble-geometry-msgs=4.9.0-1jammy.20251008.012906`
 
 Binary Packages:
 
-- `ros-humble-geometry-msgs=4.9.0-1jammy.20250823.082657`
+- `ros-humble-geometry-msgs=4.9.0-1jammy.20251008.012906`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-geometry-msgs/copyright`)
 
@@ -9955,11 +9970,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-geometry-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-geometry2=0.25.16-1jammy.20250912.171824`
+### `dpkg` source package: `ros-humble-geometry2=0.25.16-1jammy.20251017.025746`
 
 Binary Packages:
 
-- `ros-humble-geometry2=0.25.16-1jammy.20250912.171824`
+- `ros-humble-geometry2=0.25.16-1jammy.20251017.025746`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-geometry2/copyright`)
 
@@ -9997,11 +10012,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-gtest-vendor/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-common=3.1.12-1jammy.20250912.165513`
+### `dpkg` source package: `ros-humble-image-common=3.1.12-1jammy.20251017.021146`
 
 Binary Packages:
 
-- `ros-humble-image-common=3.1.12-1jammy.20250912.165513`
+- `ros-humble-image-common=3.1.12-1jammy.20251017.021146`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-common/copyright`)
 
@@ -10011,11 +10026,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-common/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-geometry=3.2.1-1jammy.20250823.090135`
+### `dpkg` source package: `ros-humble-image-geometry=3.2.1-1jammy.20251008.022319`
 
 Binary Packages:
 
-- `ros-humble-image-geometry=3.2.1-1jammy.20250823.090135`
+- `ros-humble-image-geometry=3.2.1-1jammy.20251008.022319`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-geometry/copyright`)
 
@@ -10026,11 +10041,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-geometry/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-pipeline=3.0.8-1jammy.20250915.222612`
+### `dpkg` source package: `ros-humble-image-pipeline=3.0.8-1jammy.20251017.033307`
 
 Binary Packages:
 
-- `ros-humble-image-pipeline=3.0.8-1jammy.20250915.222612`
+- `ros-humble-image-pipeline=3.0.8-1jammy.20251017.033307`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-pipeline/copyright`)
 
@@ -10040,11 +10055,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-pipeline/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-proc=3.0.8-1jammy.20250912.155728`
+### `dpkg` source package: `ros-humble-image-proc=3.0.8-1jammy.20251017.021653`
 
 Binary Packages:
 
-- `ros-humble-image-proc=3.0.8-1jammy.20250912.155728`
+- `ros-humble-image-proc=3.0.8-1jammy.20251017.021653`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-proc/copyright`)
 
@@ -10054,11 +10069,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-proc/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-publisher=3.0.8-1jammy.20250912.155257`
+### `dpkg` source package: `ros-humble-image-publisher=3.0.8-1jammy.20251017.021144`
 
 Binary Packages:
 
-- `ros-humble-image-publisher=3.0.8-1jammy.20250912.155257`
+- `ros-humble-image-publisher=3.0.8-1jammy.20251017.021144`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-publisher/copyright`)
 
@@ -10068,11 +10083,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-publisher/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-rotate=3.0.8-1jammy.20250912.160719`
+### `dpkg` source package: `ros-humble-image-rotate=3.0.8-1jammy.20251017.023010`
 
 Binary Packages:
 
-- `ros-humble-image-rotate=3.0.8-1jammy.20250912.160719`
+- `ros-humble-image-rotate=3.0.8-1jammy.20251017.023010`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-rotate/copyright`)
 
@@ -10082,11 +10097,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-rotate/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-transport-plugins=2.5.4-1jammy.20250912.171531`
+### `dpkg` source package: `ros-humble-image-transport-plugins=2.5.4-1jammy.20251017.031841`
 
 Binary Packages:
 
-- `ros-humble-image-transport-plugins=2.5.4-1jammy.20250912.171531`
+- `ros-humble-image-transport-plugins=2.5.4-1jammy.20251017.031841`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-transport-plugins/copyright`)
 
@@ -10096,11 +10111,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-transport-plugins/copyr
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-transport=3.1.12-1jammy.20250912.154645`
+### `dpkg` source package: `ros-humble-image-transport=3.1.12-1jammy.20251017.015733`
 
 Binary Packages:
 
-- `ros-humble-image-transport=3.1.12-1jammy.20250912.154645`
+- `ros-humble-image-transport=3.1.12-1jammy.20251017.015733`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-transport/copyright`)
 
@@ -10110,11 +10125,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-transport/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-image-view=3.0.8-1jammy.20250912.155352`
+### `dpkg` source package: `ros-humble-image-view=3.0.8-1jammy.20251017.020404`
 
 Binary Packages:
 
-- `ros-humble-image-view=3.0.8-1jammy.20250912.155352`
+- `ros-humble-image-view=3.0.8-1jammy.20251017.020404`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-image-view/copyright`)
 
@@ -10124,11 +10139,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-image-view/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-kdl-parser=2.6.4-1jammy.20250823.081546`
+### `dpkg` source package: `ros-humble-kdl-parser=2.6.4-1jammy.20251014.062728`
 
 Binary Packages:
 
-- `ros-humble-kdl-parser=2.6.4-1jammy.20250823.081546`
+- `ros-humble-kdl-parser=2.6.4-1jammy.20251014.062728`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-kdl-parser/copyright`)
 
@@ -10152,11 +10167,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-keyboard-handler/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-laser-filters=2.0.9-1jammy.20250915.221512`
+### `dpkg` source package: `ros-humble-laser-filters=2.0.9-1jammy.20251017.032137`
 
 Binary Packages:
 
-- `ros-humble-laser-filters=2.0.9-1jammy.20250915.221512`
+- `ros-humble-laser-filters=2.0.9-1jammy.20251017.032137`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-laser-filters/copyright`)
 
@@ -10166,11 +10181,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-laser-filters/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-laser-geometry=2.4.0-2jammy.20250912.144645`
+### `dpkg` source package: `ros-humble-laser-geometry=2.4.1-1jammy.20251008.045003`
 
 Binary Packages:
 
-- `ros-humble-laser-geometry=2.4.0-2jammy.20250912.144645`
+- `ros-humble-laser-geometry=2.4.1-1jammy.20251008.045003`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-laser-geometry/copyright`)
 
@@ -10180,11 +10195,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-laser-geometry/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-ros=0.19.12-1jammy.20250915.203949`
+### `dpkg` source package: `ros-humble-launch-ros=0.19.12-1jammy.20251008.023409`
 
 Binary Packages:
 
-- `ros-humble-launch-ros=0.19.12-1jammy.20250915.203949`
+- `ros-humble-launch-ros=0.19.12-1jammy.20251008.023409`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-ros/copyright`)
 
@@ -10194,11 +10209,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-ros/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-testing-ament-cmake=1.0.10-1jammy.20250718.233200`
+### `dpkg` source package: `ros-humble-launch-testing-ament-cmake=1.0.11-1jammy.20251007.163755`
 
 Binary Packages:
 
-- `ros-humble-launch-testing-ament-cmake=1.0.10-1jammy.20250718.233200`
+- `ros-humble-launch-testing-ament-cmake=1.0.11-1jammy.20251007.163755`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing-ament-cmake/copyright`)
 
@@ -10209,11 +10224,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing-ament-cmake/co
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-testing-ros=0.19.12-1jammy.20250915.211527`
+### `dpkg` source package: `ros-humble-launch-testing-ros=0.19.12-1jammy.20251008.023652`
 
 Binary Packages:
 
-- `ros-humble-launch-testing-ros=0.19.12-1jammy.20250915.211527`
+- `ros-humble-launch-testing-ros=0.19.12-1jammy.20251008.023652`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing-ros/copyright`)
 
@@ -10223,11 +10238,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing-ros/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-testing=1.0.10-1jammy.20250718.232207`
+### `dpkg` source package: `ros-humble-launch-testing=1.0.11-1jammy.20251007.163529`
 
 Binary Packages:
 
-- `ros-humble-launch-testing=1.0.10-1jammy.20250718.232207`
+- `ros-humble-launch-testing=1.0.11-1jammy.20251007.163529`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing/copyright`)
 
@@ -10237,11 +10252,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-testing/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-xml=1.0.10-1jammy.20250718.232044`
+### `dpkg` source package: `ros-humble-launch-xml=1.0.11-1jammy.20251007.163410`
 
 Binary Packages:
 
-- `ros-humble-launch-xml=1.0.10-1jammy.20250718.232044`
+- `ros-humble-launch-xml=1.0.11-1jammy.20251007.163410`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-xml/copyright`)
 
@@ -10251,11 +10266,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-xml/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch-yaml=1.0.10-1jammy.20250718.232046`
+### `dpkg` source package: `ros-humble-launch-yaml=1.0.11-1jammy.20251007.162907`
 
 Binary Packages:
 
-- `ros-humble-launch-yaml=1.0.10-1jammy.20250718.232046`
+- `ros-humble-launch-yaml=1.0.11-1jammy.20251007.162907`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-yaml/copyright`)
 
@@ -10265,11 +10280,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch-yaml/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-launch=1.0.10-1jammy.20250718.231717`
+### `dpkg` source package: `ros-humble-launch=1.0.11-1jammy.20251007.162613`
 
 Binary Packages:
 
-- `ros-humble-launch=1.0.10-1jammy.20250718.231717`
+- `ros-humble-launch=1.0.11-1jammy.20251007.162613`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-launch/copyright`)
 
@@ -10279,11 +10294,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-launch/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-libstatistics-collector=1.3.4-1jammy.20250823.092823`
+### `dpkg` source package: `ros-humble-libstatistics-collector=1.3.4-1jammy.20251008.022413`
 
 Binary Packages:
 
-- `ros-humble-libstatistics-collector=1.3.4-1jammy.20250823.092823`
+- `ros-humble-libstatistics-collector=1.3.4-1jammy.20251008.022413`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-libstatistics-collector/copyright`)
 
@@ -10293,11 +10308,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-libstatistics-collector/copyr
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-libyaml-vendor=1.2.2-2jammy.20250822.214049`
+### `dpkg` source package: `ros-humble-libyaml-vendor=1.2.2-2jammy.20251007.224205`
 
 Binary Packages:
 
-- `ros-humble-libyaml-vendor=1.2.2-2jammy.20250822.214049`
+- `ros-humble-libyaml-vendor=1.2.2-2jammy.20251007.224205`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-libyaml-vendor/copyright`)
 
@@ -10308,11 +10323,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-libyaml-vendor/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-lifecycle-msgs=1.2.2-1jammy.20250823.080617`
+### `dpkg` source package: `ros-humble-lifecycle-msgs=1.2.2-1jammy.20251008.011720`
 
 Binary Packages:
 
-- `ros-humble-lifecycle-msgs=1.2.2-1jammy.20250823.080617`
+- `ros-humble-lifecycle-msgs=1.2.2-1jammy.20251008.011720`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-lifecycle-msgs/copyright`)
 
@@ -10322,11 +10337,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-lifecycle-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-message-filters=4.3.8-1jammy.20250912.154039`
+### `dpkg` source package: `ros-humble-message-filters=4.3.11-1jammy.20251017.000410`
 
 Binary Packages:
 
-- `ros-humble-message-filters=4.3.8-1jammy.20250912.154039`
+- `ros-humble-message-filters=4.3.11-1jammy.20251017.000410`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-message-filters/copyright`)
 
@@ -10336,11 +10351,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-message-filters/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-nav-msgs=4.9.0-1jammy.20250823.083630`
+### `dpkg` source package: `ros-humble-nav-msgs=4.9.0-1jammy.20251008.013825`
 
 Binary Packages:
 
-- `ros-humble-nav-msgs=4.9.0-1jammy.20250823.083630`
+- `ros-humble-nav-msgs=4.9.0-1jammy.20251008.013825`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-nav-msgs/copyright`)
 
@@ -10379,11 +10394,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-osrf-pycommon/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-pcl-conversions=2.4.5-2jammy.20250912.154646`
+### `dpkg` source package: `ros-humble-pcl-conversions=2.4.5-2jammy.20251017.015844`
 
 Binary Packages:
 
-- `ros-humble-pcl-conversions=2.4.5-2jammy.20250912.154646`
+- `ros-humble-pcl-conversions=2.4.5-2jammy.20251017.015844`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-conversions/copyright`)
 
@@ -10393,11 +10408,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-conversions/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-pcl-msgs=1.0.0-7jammy.20250823.084422`
+### `dpkg` source package: `ros-humble-pcl-msgs=1.0.0-7jammy.20251008.015616`
 
 Binary Packages:
 
-- `ros-humble-pcl-msgs=1.0.0-7jammy.20250823.084422`
+- `ros-humble-pcl-msgs=1.0.0-7jammy.20251008.015616`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-msgs/copyright`)
 
@@ -10407,11 +10422,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-pcl-ros=2.4.5-2jammy.20250912.161257`
+### `dpkg` source package: `ros-humble-pcl-ros=2.4.5-2jammy.20251017.023909`
 
 Binary Packages:
 
-- `ros-humble-pcl-ros=2.4.5-2jammy.20250912.161257`
+- `ros-humble-pcl-ros=2.4.5-2jammy.20251017.023909`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-ros/copyright`)
 
@@ -10421,11 +10436,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-pcl-ros/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-perception-pcl=2.4.5-2jammy.20250912.170845`
+### `dpkg` source package: `ros-humble-perception-pcl=2.4.5-2jammy.20251017.024908`
 
 Binary Packages:
 
-- `ros-humble-perception-pcl=2.4.5-2jammy.20250912.170845`
+- `ros-humble-perception-pcl=2.4.5-2jammy.20251017.024908`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-perception-pcl/copyright`)
 
@@ -10435,11 +10450,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-perception-pcl/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-perception=0.10.0-1jammy.20250915.224610`
+### `dpkg` source package: `ros-humble-perception=0.10.0-1jammy.20251017.033434`
 
 Binary Packages:
 
-- `ros-humble-perception=0.10.0-1jammy.20250915.224610`
+- `ros-humble-perception=0.10.0-1jammy.20251017.033434`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-perception/copyright`)
 
@@ -10449,11 +10464,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-perception/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-pluginlib=5.1.0-3jammy.20250823.071715`
+### `dpkg` source package: `ros-humble-pluginlib=5.1.2-1jammy.20251013.122250`
 
 Binary Packages:
 
-- `ros-humble-pluginlib=5.1.0-3jammy.20250823.071715`
+- `ros-humble-pluginlib=5.1.2-1jammy.20251013.122250`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-pluginlib/copyright`)
 
@@ -10507,11 +10522,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-python-orocos-kdl-vendor/copy
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-action=5.3.10-1jammy.20250823.092949`
+### `dpkg` source package: `ros-humble-rcl-action=5.3.10-1jammy.20251008.022357`
 
 Binary Packages:
 
-- `ros-humble-rcl-action=5.3.10-1jammy.20250823.092949`
+- `ros-humble-rcl-action=5.3.10-1jammy.20251008.022357`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-action/copyright`)
 
@@ -10521,11 +10536,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-action/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-interfaces=1.2.2-1jammy.20250823.080952`
+### `dpkg` source package: `ros-humble-rcl-interfaces=1.2.2-1jammy.20251008.010841`
 
 Binary Packages:
 
-- `ros-humble-rcl-interfaces=1.2.2-1jammy.20250823.080952`
+- `ros-humble-rcl-interfaces=1.2.2-1jammy.20251008.010841`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-interfaces/copyright`)
 
@@ -10535,11 +10550,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-interfaces/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-lifecycle=5.3.10-1jammy.20250823.092829`
+### `dpkg` source package: `ros-humble-rcl-lifecycle=5.3.10-1jammy.20251008.022357`
 
 Binary Packages:
 
-- `ros-humble-rcl-lifecycle=5.3.10-1jammy.20250823.092829`
+- `ros-humble-rcl-lifecycle=5.3.10-1jammy.20251008.022357`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-lifecycle/copyright`)
 
@@ -10549,11 +10564,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-lifecycle/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-logging-interface=2.3.1-1jammy.20250822.213940`
+### `dpkg` source package: `ros-humble-rcl-logging-interface=2.3.1-1jammy.20251007.224423`
 
 Binary Packages:
 
-- `ros-humble-rcl-logging-interface=2.3.1-1jammy.20250822.213940`
+- `ros-humble-rcl-logging-interface=2.3.1-1jammy.20251007.224423`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-logging-interface/copyright`)
 
@@ -10563,11 +10578,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-logging-interface/copyrig
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-logging-spdlog=2.3.1-1jammy.20250822.214322`
+### `dpkg` source package: `ros-humble-rcl-logging-spdlog=2.3.1-1jammy.20251007.224836`
 
 Binary Packages:
 
-- `ros-humble-rcl-logging-spdlog=2.3.1-1jammy.20250822.214322`
+- `ros-humble-rcl-logging-spdlog=2.3.1-1jammy.20251007.224836`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-logging-spdlog/copyright`)
 
@@ -10577,11 +10592,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-logging-spdlog/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl-yaml-param-parser=5.3.10-1jammy.20250823.072714`
+### `dpkg` source package: `ros-humble-rcl-yaml-param-parser=5.3.10-1jammy.20251007.230143`
 
 Binary Packages:
 
-- `ros-humble-rcl-yaml-param-parser=5.3.10-1jammy.20250823.072714`
+- `ros-humble-rcl-yaml-param-parser=5.3.10-1jammy.20251007.230143`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-yaml-param-parser/copyright`)
 
@@ -10591,11 +10606,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl-yaml-param-parser/copyrig
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcl=5.3.10-1jammy.20250823.091736`
+### `dpkg` source package: `ros-humble-rcl=5.3.10-1jammy.20251008.021348`
 
 Binary Packages:
 
-- `ros-humble-rcl=5.3.10-1jammy.20250823.091736`
+- `ros-humble-rcl=5.3.10-1jammy.20251008.021348`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl/copyright`)
 
@@ -10605,11 +10620,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcl/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rclcpp-action=16.0.15-1jammy.20250912.132823`
+### `dpkg` source package: `ros-humble-rclcpp-action=16.0.15-1jammy.20251008.031604`
 
 Binary Packages:
 
-- `ros-humble-rclcpp-action=16.0.15-1jammy.20250912.132823`
+- `ros-humble-rclcpp-action=16.0.15-1jammy.20251008.031604`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-action/copyright`)
 
@@ -10619,11 +10634,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-action/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rclcpp-components=16.0.15-1jammy.20250912.132818`
+### `dpkg` source package: `ros-humble-rclcpp-components=16.0.15-1jammy.20251008.031458`
 
 Binary Packages:
 
-- `ros-humble-rclcpp-components=16.0.15-1jammy.20250912.132818`
+- `ros-humble-rclcpp-components=16.0.15-1jammy.20251008.031458`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-components/copyright`)
 
@@ -10633,11 +10648,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-components/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rclcpp-lifecycle=16.0.15-1jammy.20250912.132814`
+### `dpkg` source package: `ros-humble-rclcpp-lifecycle=16.0.15-1jammy.20251008.031503`
 
 Binary Packages:
 
-- `ros-humble-rclcpp-lifecycle=16.0.15-1jammy.20250912.132814`
+- `ros-humble-rclcpp-lifecycle=16.0.15-1jammy.20251008.031503`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-lifecycle/copyright`)
 
@@ -10647,11 +10662,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp-lifecycle/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rclcpp=16.0.15-1jammy.20250912.054719`
+### `dpkg` source package: `ros-humble-rclcpp=16.0.15-1jammy.20251008.022719`
 
 Binary Packages:
 
-- `ros-humble-rclcpp=16.0.15-1jammy.20250912.054719`
+- `ros-humble-rclcpp=16.0.15-1jammy.20251008.022719`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp/copyright`)
 
@@ -10661,11 +10676,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rclcpp/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rclpy=3.3.17-1jammy.20250823.093318`
+### `dpkg` source package: `ros-humble-rclpy=3.3.17-1jammy.20251008.022757`
 
 Binary Packages:
 
-- `ros-humble-rclpy=3.3.17-1jammy.20250823.093318`
+- `ros-humble-rclpy=3.3.17-1jammy.20251008.022757`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rclpy/copyright`)
 
@@ -10675,11 +10690,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rclpy/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcpputils=2.4.5-1jammy.20250822.213255`
+### `dpkg` source package: `ros-humble-rcpputils=2.4.6-1jammy.20251007.223755`
 
 Binary Packages:
 
-- `ros-humble-rcpputils=2.4.5-1jammy.20250822.213255`
+- `ros-humble-rcpputils=2.4.6-1jammy.20251007.223755`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcpputils/copyright`)
 
@@ -10690,11 +10705,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcpputils/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rcutils=5.1.7-1jammy.20250822.212458`
+### `dpkg` source package: `ros-humble-rcutils=5.1.7-1jammy.20251007.205148`
 
 Binary Packages:
 
-- `ros-humble-rcutils=5.1.7-1jammy.20250822.212458`
+- `ros-humble-rcutils=5.1.7-1jammy.20251007.205148`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rcutils/copyright`)
 
@@ -10704,11 +10719,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rcutils/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rmw-dds-common=1.6.0-2jammy.20250823.074135`
+### `dpkg` source package: `ros-humble-rmw-dds-common=1.6.0-2jammy.20251008.004048`
 
 Binary Packages:
 
-- `ros-humble-rmw-dds-common=1.6.0-2jammy.20250823.074135`
+- `ros-humble-rmw-dds-common=1.6.0-2jammy.20251008.004048`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-dds-common/copyright`)
 
@@ -10718,11 +10733,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-dds-common/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rmw-fastrtps-cpp=6.2.8-1jammy.20250823.090018`
+### `dpkg` source package: `ros-humble-rmw-fastrtps-cpp=6.2.9-1jammy.20251008.013154`
 
 Binary Packages:
 
-- `ros-humble-rmw-fastrtps-cpp=6.2.8-1jammy.20250823.090018`
+- `ros-humble-rmw-fastrtps-cpp=6.2.9-1jammy.20251008.013154`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-fastrtps-cpp/copyright`)
 
@@ -10732,11 +10747,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-fastrtps-cpp/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rmw-fastrtps-shared-cpp=6.2.8-1jammy.20250823.074642`
+### `dpkg` source package: `ros-humble-rmw-fastrtps-shared-cpp=6.2.9-1jammy.20251008.004429`
 
 Binary Packages:
 
-- `ros-humble-rmw-fastrtps-shared-cpp=6.2.8-1jammy.20250823.074642`
+- `ros-humble-rmw-fastrtps-shared-cpp=6.2.9-1jammy.20251008.004429`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-fastrtps-shared-cpp/copyright`)
 
@@ -10760,11 +10775,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-implementation-cmake/copy
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rmw-implementation=2.8.5-1jammy.20250823.090557`
+### `dpkg` source package: `ros-humble-rmw-implementation=2.8.5-1jammy.20251008.020948`
 
 Binary Packages:
 
-- `ros-humble-rmw-implementation=2.8.5-1jammy.20250823.090557`
+- `ros-humble-rmw-implementation=2.8.5-1jammy.20251008.020948`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-implementation/copyright`)
 
@@ -10774,11 +10789,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw-implementation/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rmw=6.1.2-1jammy.20250823.071804`
+### `dpkg` source package: `ros-humble-rmw=6.1.2-1jammy.20251007.224734`
 
 Binary Packages:
 
-- `ros-humble-rmw=6.1.2-1jammy.20250823.071804`
+- `ros-humble-rmw=6.1.2-1jammy.20251007.224734`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw/copyright`)
 
@@ -10788,11 +10803,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rmw/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-robot-state-publisher=3.0.3-2jammy.20250915.211527`
+### `dpkg` source package: `ros-humble-robot-state-publisher=3.0.3-2jammy.20251017.022230`
 
 Binary Packages:
 
-- `ros-humble-robot-state-publisher=3.0.3-2jammy.20250915.211527`
+- `ros-humble-robot-state-publisher=3.0.3-2jammy.20251017.022230`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-robot-state-publisher/copyright`)
 
@@ -10802,11 +10817,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-robot-state-publisher/copyrig
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros-base=0.10.0-1jammy.20250915.224524`
+### `dpkg` source package: `ros-humble-ros-base=0.10.0-1jammy.20251017.032654`
 
 Binary Packages:
 
-- `ros-humble-ros-base=0.10.0-1jammy.20250915.224524`
+- `ros-humble-ros-base=0.10.0-1jammy.20251017.032654`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros-base/copyright`)
 
@@ -10816,11 +10831,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros-base/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros-core=0.10.0-1jammy.20250915.224454`
+### `dpkg` source package: `ros-humble-ros-core=0.10.0-1jammy.20251013.140131`
 
 Binary Packages:
 
-- `ros-humble-ros-core=0.10.0-1jammy.20250915.224454`
+- `ros-humble-ros-core=0.10.0-1jammy.20251013.140131`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros-core/copyright`)
 
@@ -10858,11 +10873,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros-workspace/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2action=0.18.14-1jammy.20250915.214818`
+### `dpkg` source package: `ros-humble-ros2action=0.18.14-1jammy.20251008.030225`
 
 Binary Packages:
 
-- `ros-humble-ros2action=0.18.14-1jammy.20250915.214818`
+- `ros-humble-ros2action=0.18.14-1jammy.20251008.030225`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2action/copyright`)
 
@@ -10872,11 +10887,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2action/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2bag=0.15.15-1jammy.20250915.214635`
+### `dpkg` source package: `ros-humble-ros2bag=0.15.15-1jammy.20251013.153150`
 
 Binary Packages:
 
-- `ros-humble-ros2bag=0.15.15-1jammy.20250915.214635`
+- `ros-humble-ros2bag=0.15.15-1jammy.20251013.153150`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2bag/copyright`)
 
@@ -10886,11 +10901,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2bag/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2cli-common-extensions=0.1.1-4jammy.20250915.221608`
+### `dpkg` source package: `ros-humble-ros2cli-common-extensions=0.1.1-4jammy.20251008.045720`
 
 Binary Packages:
 
-- `ros-humble-ros2cli-common-extensions=0.1.1-4jammy.20250915.221608`
+- `ros-humble-ros2cli-common-extensions=0.1.1-4jammy.20251008.045720`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2cli-common-extensions/copyright`)
 
@@ -10900,11 +10915,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2cli-common-extensions/cop
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2cli=0.18.14-1jammy.20250912.054938`
+### `dpkg` source package: `ros-humble-ros2cli=0.18.14-1jammy.20251008.030025`
 
 Binary Packages:
 
-- `ros-humble-ros2cli=0.18.14-1jammy.20250912.054938`
+- `ros-humble-ros2cli=0.18.14-1jammy.20251008.030025`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2cli/copyright`)
 
@@ -10914,11 +10929,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2cli/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2component=0.18.14-1jammy.20250915.215529`
+### `dpkg` source package: `ros-humble-ros2component=0.18.14-1jammy.20251008.033132`
 
 Binary Packages:
 
-- `ros-humble-ros2component=0.18.14-1jammy.20250915.215529`
+- `ros-humble-ros2component=0.18.14-1jammy.20251008.033132`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2component/copyright`)
 
@@ -10928,11 +10943,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2component/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2doctor=0.18.14-1jammy.20250915.213410`
+### `dpkg` source package: `ros-humble-ros2doctor=0.18.14-1jammy.20251008.030241`
 
 Binary Packages:
 
-- `ros-humble-ros2doctor=0.18.14-1jammy.20250915.213410`
+- `ros-humble-ros2doctor=0.18.14-1jammy.20251008.030241`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2doctor/copyright`)
 
@@ -10942,11 +10957,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2doctor/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2interface=0.18.14-1jammy.20250915.214825`
+### `dpkg` source package: `ros-humble-ros2interface=0.18.14-1jammy.20251008.030320`
 
 Binary Packages:
 
-- `ros-humble-ros2interface=0.18.14-1jammy.20250915.214825`
+- `ros-humble-ros2interface=0.18.14-1jammy.20251008.030320`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2interface/copyright`)
 
@@ -10956,11 +10971,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2interface/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2launch=0.19.12-1jammy.20250915.215012`
+### `dpkg` source package: `ros-humble-ros2launch=0.19.12-1jammy.20251008.043951`
 
 Binary Packages:
 
-- `ros-humble-ros2launch=0.19.12-1jammy.20250915.215012`
+- `ros-humble-ros2launch=0.19.12-1jammy.20251008.043951`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2launch/copyright`)
 
@@ -10970,11 +10985,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2launch/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2lifecycle=0.18.14-1jammy.20250915.214013`
+### `dpkg` source package: `ros-humble-ros2lifecycle=0.18.14-1jammy.20251008.045434`
 
 Binary Packages:
 
-- `ros-humble-ros2lifecycle=0.18.14-1jammy.20250915.214013`
+- `ros-humble-ros2lifecycle=0.18.14-1jammy.20251008.045434`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2lifecycle/copyright`)
 
@@ -10984,11 +10999,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2lifecycle/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2multicast=0.18.14-1jammy.20250912.133009`
+### `dpkg` source package: `ros-humble-ros2multicast=0.18.14-1jammy.20251008.043746`
 
 Binary Packages:
 
-- `ros-humble-ros2multicast=0.18.14-1jammy.20250912.133009`
+- `ros-humble-ros2multicast=0.18.14-1jammy.20251008.043746`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2multicast/copyright`)
 
@@ -10998,11 +11013,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2multicast/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2node=0.18.14-1jammy.20250915.213454`
+### `dpkg` source package: `ros-humble-ros2node=0.18.14-1jammy.20251008.030318`
 
 Binary Packages:
 
-- `ros-humble-ros2node=0.18.14-1jammy.20250915.213454`
+- `ros-humble-ros2node=0.18.14-1jammy.20251008.030318`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2node/copyright`)
 
@@ -11012,11 +11027,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2node/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2param=0.18.14-1jammy.20250915.214007`
+### `dpkg` source package: `ros-humble-ros2param=0.18.14-1jammy.20251008.030647`
 
 Binary Packages:
 
-- `ros-humble-ros2param=0.18.14-1jammy.20250915.214007`
+- `ros-humble-ros2param=0.18.14-1jammy.20251008.030647`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2param/copyright`)
 
@@ -11026,11 +11041,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2param/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2pkg=0.18.14-1jammy.20250915.214826`
+### `dpkg` source package: `ros-humble-ros2pkg=0.18.14-1jammy.20251008.030315`
 
 Binary Packages:
 
-- `ros-humble-ros2pkg=0.18.14-1jammy.20250915.214826`
+- `ros-humble-ros2pkg=0.18.14-1jammy.20251008.030315`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2pkg/copyright`)
 
@@ -11040,11 +11055,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2pkg/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2run=0.18.14-1jammy.20250915.221249`
+### `dpkg` source package: `ros-humble-ros2run=0.18.14-1jammy.20251008.043724`
 
 Binary Packages:
 
-- `ros-humble-ros2run=0.18.14-1jammy.20250915.221249`
+- `ros-humble-ros2run=0.18.14-1jammy.20251008.043724`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2run/copyright`)
 
@@ -11054,11 +11069,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2run/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2service=0.18.14-1jammy.20250915.213507`
+### `dpkg` source package: `ros-humble-ros2service=0.18.14-1jammy.20251008.030327`
 
 Binary Packages:
 
-- `ros-humble-ros2service=0.18.14-1jammy.20250915.213507`
+- `ros-humble-ros2service=0.18.14-1jammy.20251008.030327`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2service/copyright`)
 
@@ -11068,11 +11083,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2service/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-ros2topic=0.18.14-1jammy.20250915.213542`
+### `dpkg` source package: `ros-humble-ros2topic=0.18.14-1jammy.20251008.030325`
 
 Binary Packages:
 
-- `ros-humble-ros2topic=0.18.14-1jammy.20250915.213542`
+- `ros-humble-ros2topic=0.18.14-1jammy.20251008.030325`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2topic/copyright`)
 
@@ -11083,11 +11098,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-ros2topic/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-compression-zstd=0.15.15-1jammy.20250912.175616`
+### `dpkg` source package: `ros-humble-rosbag2-compression-zstd=0.15.15-1jammy.20251013.150501`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-compression-zstd=0.15.15-1jammy.20250912.175616`
+- `ros-humble-rosbag2-compression-zstd=0.15.15-1jammy.20251013.150501`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-compression-zstd/copyright`)
 
@@ -11097,11 +11112,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-compression-zstd/copy
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-compression=0.15.15-1jammy.20250912.175138`
+### `dpkg` source package: `ros-humble-rosbag2-compression=0.15.15-1jammy.20251013.150045`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-compression=0.15.15-1jammy.20250912.175138`
+- `ros-humble-rosbag2-compression=0.15.15-1jammy.20251013.150045`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-compression/copyright`)
 
@@ -11111,11 +11126,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-compression/copyright
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-cpp=0.15.15-1jammy.20250912.174227`
+### `dpkg` source package: `ros-humble-rosbag2-cpp=0.15.15-1jammy.20251013.142412`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-cpp=0.15.15-1jammy.20250912.174227`
+- `ros-humble-rosbag2-cpp=0.15.15-1jammy.20251013.142412`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-cpp/copyright`)
 
@@ -11125,11 +11140,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-cpp/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-interfaces=0.15.15-1jammy.20250823.080914`
+### `dpkg` source package: `ros-humble-rosbag2-interfaces=0.15.15-1jammy.20251008.005725`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-interfaces=0.15.15-1jammy.20250823.080914`
+- `ros-humble-rosbag2-interfaces=0.15.15-1jammy.20251008.005725`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-interfaces/copyright`)
 
@@ -11139,11 +11154,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-interfaces/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-py=0.15.15-1jammy.20250912.181926`
+### `dpkg` source package: `ros-humble-rosbag2-py=0.15.15-1jammy.20251013.152748`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-py=0.15.15-1jammy.20250912.181926`
+- `ros-humble-rosbag2-py=0.15.15-1jammy.20251013.152748`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-py/copyright`)
 
@@ -11153,11 +11168,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-py/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-storage-default-plugins=0.15.15-1jammy.20250912.173848`
+### `dpkg` source package: `ros-humble-rosbag2-storage-default-plugins=0.15.15-1jammy.20251013.142049`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-storage-default-plugins=0.15.15-1jammy.20250912.173848`
+- `ros-humble-rosbag2-storage-default-plugins=0.15.15-1jammy.20251013.142049`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-storage-default-plugins/copyright`)
 
@@ -11167,11 +11182,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-storage-default-plugi
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-storage=0.15.15-1jammy.20250912.172107`
+### `dpkg` source package: `ros-humble-rosbag2-storage=0.15.15-1jammy.20251013.141455`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-storage=0.15.15-1jammy.20250912.172107`
+- `ros-humble-rosbag2-storage=0.15.15-1jammy.20251013.141455`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-storage/copyright`)
 
@@ -11181,11 +11196,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-storage/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2-transport=0.15.15-1jammy.20250912.175837`
+### `dpkg` source package: `ros-humble-rosbag2-transport=0.15.15-1jammy.20251013.150745`
 
 Binary Packages:
 
-- `ros-humble-rosbag2-transport=0.15.15-1jammy.20250912.175837`
+- `ros-humble-rosbag2-transport=0.15.15-1jammy.20251013.150745`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-transport/copyright`)
 
@@ -11195,11 +11210,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2-transport/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosbag2=0.15.15-1jammy.20250915.220733`
+### `dpkg` source package: `ros-humble-rosbag2=0.15.15-1jammy.20251013.154508`
 
 Binary Packages:
 
-- `ros-humble-rosbag2=0.15.15-1jammy.20250915.220733`
+- `ros-humble-rosbag2=0.15.15-1jammy.20251013.154508`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2/copyright`)
 
@@ -11209,11 +11224,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosbag2/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosgraph-msgs=1.2.2-1jammy.20250823.081106`
+### `dpkg` source package: `ros-humble-rosgraph-msgs=1.2.2-1jammy.20251008.011627`
 
 Binary Packages:
 
-- `ros-humble-rosgraph-msgs=1.2.2-1jammy.20250823.081106`
+- `ros-humble-rosgraph-msgs=1.2.2-1jammy.20251008.011627`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosgraph-msgs/copyright`)
 
@@ -11265,11 +11280,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-cmake/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-default-generators=1.2.0-2jammy.20250823.073703`
+### `dpkg` source package: `ros-humble-rosidl-default-generators=1.2.0-2jammy.20251008.003842`
 
 Binary Packages:
 
-- `ros-humble-rosidl-default-generators=1.2.0-2jammy.20250823.073703`
+- `ros-humble-rosidl-default-generators=1.2.0-2jammy.20251008.003842`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-default-generators/copyright`)
 
@@ -11279,11 +11294,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-default-generators/cop
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-default-runtime=1.2.0-2jammy.20250823.073450`
+### `dpkg` source package: `ros-humble-rosidl-default-runtime=1.2.0-2jammy.20251008.003651`
 
 Binary Packages:
 
-- `ros-humble-rosidl-default-runtime=1.2.0-2jammy.20250823.073450`
+- `ros-humble-rosidl-default-runtime=1.2.0-2jammy.20251008.003651`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-default-runtime/copyright`)
 
@@ -11293,11 +11308,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-default-runtime/copyri
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-generator-c=3.1.7-1jammy.20250823.071804`
+### `dpkg` source package: `ros-humble-rosidl-generator-c=3.1.7-1jammy.20251007.224312`
 
 Binary Packages:
 
-- `ros-humble-rosidl-generator-c=3.1.7-1jammy.20250823.071804`
+- `ros-humble-rosidl-generator-c=3.1.7-1jammy.20251007.224312`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-generator-c/copyright`)
 
@@ -11307,11 +11322,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-generator-c/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-generator-cpp=3.1.7-1jammy.20250823.072101`
+### `dpkg` source package: `ros-humble-rosidl-generator-cpp=3.1.7-1jammy.20251007.224958`
 
 Binary Packages:
 
-- `ros-humble-rosidl-generator-cpp=3.1.7-1jammy.20250823.072101`
+- `ros-humble-rosidl-generator-cpp=3.1.7-1jammy.20251007.224958`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-generator-cpp/copyright`)
 
@@ -11321,11 +11336,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-generator-cpp/copyrigh
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-generator-py=0.14.5-1jammy.20250823.073129`
+### `dpkg` source package: `ros-humble-rosidl-generator-py=0.14.6-1jammy.20251008.003302`
 
 Binary Packages:
 
-- `ros-humble-rosidl-generator-py=0.14.5-1jammy.20250823.073129`
+- `ros-humble-rosidl-generator-py=0.14.6-1jammy.20251008.003302`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-generator-py/copyright`)
 
@@ -11349,11 +11364,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-parser/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-runtime-c=3.1.7-1jammy.20250822.213259`
+### `dpkg` source package: `ros-humble-rosidl-runtime-c=3.1.7-1jammy.20251007.223800`
 
 Binary Packages:
 
-- `ros-humble-rosidl-runtime-c=3.1.7-1jammy.20250822.213259`
+- `ros-humble-rosidl-runtime-c=3.1.7-1jammy.20251007.223800`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-c/copyright`)
 
@@ -11363,11 +11378,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-c/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-runtime-cpp=3.1.7-1jammy.20250822.213928`
+### `dpkg` source package: `ros-humble-rosidl-runtime-cpp=3.1.7-1jammy.20251007.224323`
 
 Binary Packages:
 
-- `ros-humble-rosidl-runtime-cpp=3.1.7-1jammy.20250822.213928`
+- `ros-humble-rosidl-runtime-cpp=3.1.7-1jammy.20251007.224323`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-cpp/copyright`)
 
@@ -11377,11 +11392,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-cpp/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-runtime-py=0.9.3-1jammy.20250823.090108`
+### `dpkg` source package: `ros-humble-rosidl-runtime-py=0.9.3-1jammy.20251008.022009`
 
 Binary Packages:
 
-- `ros-humble-rosidl-runtime-py=0.9.3-1jammy.20250823.090108`
+- `ros-humble-rosidl-runtime-py=0.9.3-1jammy.20251008.022009`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-py/copyright`)
 
@@ -11391,11 +11406,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-runtime-py/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-c=2.0.2-1jammy.20250822.213955`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-c=2.0.2-1jammy.20251007.224533`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-c=2.0.2-1jammy.20250822.213955`
+- `ros-humble-rosidl-typesupport-c=2.0.2-1jammy.20251007.224533`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-c/copyright`)
 
@@ -11405,11 +11420,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-c/copyrigh
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-cpp=2.0.2-1jammy.20250823.071805`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-cpp=2.0.2-1jammy.20251007.225012`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-cpp=2.0.2-1jammy.20250823.071805`
+- `ros-humble-rosidl-typesupport-cpp=2.0.2-1jammy.20251007.225012`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-cpp/copyright`)
 
@@ -11419,11 +11434,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-cpp/copyri
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-fastrtps-c=2.2.2-2jammy.20250823.072919`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-fastrtps-c=2.2.3-1jammy.20251008.002808`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-fastrtps-c=2.2.2-2jammy.20250823.072919`
+- `ros-humble-rosidl-typesupport-fastrtps-c=2.2.3-1jammy.20251008.002808`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-fastrtps-c/copyright`)
 
@@ -11433,11 +11448,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-fastrtps-c
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-fastrtps-cpp=2.2.2-2jammy.20250823.072708`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-fastrtps-cpp=2.2.3-1jammy.20251007.230149`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-fastrtps-cpp=2.2.2-2jammy.20250823.072708`
+- `ros-humble-rosidl-typesupport-fastrtps-cpp=2.2.3-1jammy.20251007.230149`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-fastrtps-cpp/copyright`)
 
@@ -11461,11 +11476,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-interface/
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-introspection-c=3.1.7-1jammy.20250822.213757`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-introspection-c=3.1.7-1jammy.20251007.224144`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-introspection-c=3.1.7-1jammy.20250822.213757`
+- `ros-humble-rosidl-typesupport-introspection-c=3.1.7-1jammy.20251007.224144`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-introspection-c/copyright`)
 
@@ -11475,11 +11490,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-introspect
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rosidl-typesupport-introspection-cpp=3.1.7-1jammy.20250823.071553`
+### `dpkg` source package: `ros-humble-rosidl-typesupport-introspection-cpp=3.1.7-1jammy.20251007.224749`
 
 Binary Packages:
 
-- `ros-humble-rosidl-typesupport-introspection-cpp=3.1.7-1jammy.20250823.071553`
+- `ros-humble-rosidl-typesupport-introspection-cpp=3.1.7-1jammy.20251007.224749`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-introspection-cpp/copyright`)
 
@@ -11489,11 +11504,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rosidl-typesupport-introspect
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-rpyutils=0.2.1-2jammy.20250718.231317`
+### `dpkg` source package: `ros-humble-rpyutils=0.2.2-1jammy.20250920.001004`
 
 Binary Packages:
 
-- `ros-humble-rpyutils=0.2.1-2jammy.20250718.231317`
+- `ros-humble-rpyutils=0.2.2-1jammy.20250920.001004`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-rpyutils/copyright`)
 
@@ -11503,11 +11518,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-rpyutils/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-sensor-msgs-py=4.9.0-1jammy.20250823.090135`
+### `dpkg` source package: `ros-humble-sensor-msgs-py=4.9.0-1jammy.20251008.022335`
 
 Binary Packages:
 
-- `ros-humble-sensor-msgs-py=4.9.0-1jammy.20250823.090135`
+- `ros-humble-sensor-msgs-py=4.9.0-1jammy.20251008.022335`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-sensor-msgs-py/copyright`)
 
@@ -11517,11 +11532,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-sensor-msgs-py/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-sensor-msgs=4.9.0-1jammy.20250823.083704`
+### `dpkg` source package: `ros-humble-sensor-msgs=4.9.0-1jammy.20251008.013930`
 
 Binary Packages:
 
-- `ros-humble-sensor-msgs=4.9.0-1jammy.20250823.083704`
+- `ros-humble-sensor-msgs=4.9.0-1jammy.20251008.013930`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-sensor-msgs/copyright`)
 
@@ -11531,11 +11546,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-sensor-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-shape-msgs=4.9.0-1jammy.20250823.083907`
+### `dpkg` source package: `ros-humble-shape-msgs=4.9.0-1jammy.20251008.014259`
 
 Binary Packages:
 
-- `ros-humble-shape-msgs=4.9.0-1jammy.20250823.083907`
+- `ros-humble-shape-msgs=4.9.0-1jammy.20251008.014259`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-shape-msgs/copyright`)
 
@@ -11588,11 +11603,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-sqlite3-vendor/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-sros2-cmake=0.10.7-1jammy.20250915.224317`
+### `dpkg` source package: `ros-humble-sros2-cmake=0.10.7-1jammy.20251008.043737`
 
 Binary Packages:
 
-- `ros-humble-sros2-cmake=0.10.7-1jammy.20250915.224317`
+- `ros-humble-sros2-cmake=0.10.7-1jammy.20251008.043737`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-sros2-cmake/copyright`)
 
@@ -11602,11 +11617,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-sros2-cmake/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-sros2=0.10.7-1jammy.20250915.221319`
+### `dpkg` source package: `ros-humble-sros2=0.10.7-1jammy.20251008.030702`
 
 Binary Packages:
 
-- `ros-humble-sros2=0.10.7-1jammy.20250915.221319`
+- `ros-humble-sros2=0.10.7-1jammy.20251008.030702`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-sros2/copyright`)
 
@@ -11616,11 +11631,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-sros2/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-statistics-msgs=1.2.2-1jammy.20250823.081117`
+### `dpkg` source package: `ros-humble-statistics-msgs=1.2.2-1jammy.20251008.011627`
 
 Binary Packages:
 
-- `ros-humble-statistics-msgs=1.2.2-1jammy.20250823.081117`
+- `ros-humble-statistics-msgs=1.2.2-1jammy.20251008.011627`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-statistics-msgs/copyright`)
 
@@ -11630,11 +11645,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-statistics-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-std-msgs=4.9.0-1jammy.20250823.081120`
+### `dpkg` source package: `ros-humble-std-msgs=4.9.0-1jammy.20251008.011635`
 
 Binary Packages:
 
-- `ros-humble-std-msgs=4.9.0-1jammy.20250823.081120`
+- `ros-humble-std-msgs=4.9.0-1jammy.20251008.011635`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-std-msgs/copyright`)
 
@@ -11644,11 +11659,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-std-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-std-srvs=4.9.0-1jammy.20250823.080757`
+### `dpkg` source package: `ros-humble-std-srvs=4.9.0-1jammy.20251008.011845`
 
 Binary Packages:
 
-- `ros-humble-std-srvs=4.9.0-1jammy.20250823.080757`
+- `ros-humble-std-srvs=4.9.0-1jammy.20251008.011845`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-std-srvs/copyright`)
 
@@ -11658,11 +11673,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-std-srvs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-stereo-image-proc=3.0.8-1jammy.20250915.214949`
+### `dpkg` source package: `ros-humble-stereo-image-proc=3.0.8-1jammy.20251017.022241`
 
 Binary Packages:
 
-- `ros-humble-stereo-image-proc=3.0.8-1jammy.20250915.214949`
+- `ros-humble-stereo-image-proc=3.0.8-1jammy.20251017.022241`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-stereo-image-proc/copyright`)
 
@@ -11672,11 +11687,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-stereo-image-proc/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-stereo-msgs=4.9.0-1jammy.20250823.084434`
+### `dpkg` source package: `ros-humble-stereo-msgs=4.9.0-1jammy.20251008.015634`
 
 Binary Packages:
 
-- `ros-humble-stereo-msgs=4.9.0-1jammy.20250823.084434`
+- `ros-humble-stereo-msgs=4.9.0-1jammy.20251008.015634`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-stereo-msgs/copyright`)
 
@@ -11686,11 +11701,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-stereo-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-bullet=0.25.16-1jammy.20250912.171255`
+### `dpkg` source package: `ros-humble-tf2-bullet=0.25.16-1jammy.20251017.022300`
 
 Binary Packages:
 
-- `ros-humble-tf2-bullet=0.25.16-1jammy.20250912.171255`
+- `ros-humble-tf2-bullet=0.25.16-1jammy.20251017.022300`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-bullet/copyright`)
 
@@ -11700,11 +11715,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-bullet/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-eigen-kdl=0.25.16-1jammy.20250823.090506`
+### `dpkg` source package: `ros-humble-tf2-eigen-kdl=0.25.16-1jammy.20251008.030054`
 
 Binary Packages:
 
-- `ros-humble-tf2-eigen-kdl=0.25.16-1jammy.20250823.090506`
+- `ros-humble-tf2-eigen-kdl=0.25.16-1jammy.20251008.030054`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-eigen-kdl/copyright`)
 
@@ -11714,11 +11729,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-eigen-kdl/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-eigen=0.25.16-1jammy.20250912.171310`
+### `dpkg` source package: `ros-humble-tf2-eigen=0.25.16-1jammy.20251017.022305`
 
 Binary Packages:
 
-- `ros-humble-tf2-eigen=0.25.16-1jammy.20250912.171310`
+- `ros-humble-tf2-eigen=0.25.16-1jammy.20251017.022305`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-eigen/copyright`)
 
@@ -11728,11 +11743,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-eigen/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-geometry-msgs=0.25.16-1jammy.20250912.160150`
+### `dpkg` source package: `ros-humble-tf2-geometry-msgs=0.25.16-1jammy.20251017.022303`
 
 Binary Packages:
 
-- `ros-humble-tf2-geometry-msgs=0.25.16-1jammy.20250912.160150`
+- `ros-humble-tf2-geometry-msgs=0.25.16-1jammy.20251017.022303`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-geometry-msgs/copyright`)
 
@@ -11742,11 +11757,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-geometry-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-kdl=0.25.16-1jammy.20250912.160150`
+### `dpkg` source package: `ros-humble-tf2-kdl=0.25.16-1jammy.20251017.022312`
 
 Binary Packages:
 
-- `ros-humble-tf2-kdl=0.25.16-1jammy.20250912.160150`
+- `ros-humble-tf2-kdl=0.25.16-1jammy.20251017.022312`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-kdl/copyright`)
 
@@ -11756,11 +11771,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-kdl/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-msgs=0.25.16-1jammy.20250823.085111`
+### `dpkg` source package: `ros-humble-tf2-msgs=0.25.16-1jammy.20251008.022209`
 
 Binary Packages:
 
-- `ros-humble-tf2-msgs=0.25.16-1jammy.20250823.085111`
+- `ros-humble-tf2-msgs=0.25.16-1jammy.20251008.022209`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-msgs/copyright`)
 
@@ -11770,11 +11785,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-py=0.25.16-1jammy.20250823.094041`
+### `dpkg` source package: `ros-humble-tf2-py=0.25.16-1jammy.20251008.023721`
 
 Binary Packages:
 
-- `ros-humble-tf2-py=0.25.16-1jammy.20250823.094041`
+- `ros-humble-tf2-py=0.25.16-1jammy.20251008.023721`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-py/copyright`)
 
@@ -11784,11 +11799,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-py/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-ros-py=0.25.16-1jammy.20250823.094305`
+### `dpkg` source package: `ros-humble-tf2-ros-py=0.25.16-1jammy.20251008.025841`
 
 Binary Packages:
 
-- `ros-humble-tf2-ros-py=0.25.16-1jammy.20250823.094305`
+- `ros-humble-tf2-ros-py=0.25.16-1jammy.20251008.025841`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-ros-py/copyright`)
 
@@ -11798,11 +11813,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-ros-py/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-ros=0.25.16-1jammy.20250912.154652`
+### `dpkg` source package: `ros-humble-tf2-ros=0.25.16-1jammy.20251017.015716`
 
 Binary Packages:
 
-- `ros-humble-tf2-ros=0.25.16-1jammy.20250912.154652`
+- `ros-humble-tf2-ros=0.25.16-1jammy.20251017.015716`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-ros/copyright`)
 
@@ -11812,11 +11827,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-ros/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-sensor-msgs=0.25.16-1jammy.20250912.160156`
+### `dpkg` source package: `ros-humble-tf2-sensor-msgs=0.25.16-1jammy.20251017.022316`
 
 Binary Packages:
 
-- `ros-humble-tf2-sensor-msgs=0.25.16-1jammy.20250912.160156`
+- `ros-humble-tf2-sensor-msgs=0.25.16-1jammy.20251017.022316`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-sensor-msgs/copyright`)
 
@@ -11826,11 +11841,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-sensor-msgs/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2-tools=0.25.16-1jammy.20250823.094508`
+### `dpkg` source package: `ros-humble-tf2-tools=0.25.16-1jammy.20251008.030057`
 
 Binary Packages:
 
-- `ros-humble-tf2-tools=0.25.16-1jammy.20250823.094508`
+- `ros-humble-tf2-tools=0.25.16-1jammy.20251008.030057`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-tools/copyright`)
 
@@ -11840,11 +11855,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2-tools/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-tf2=0.25.16-1jammy.20250823.090055`
+### `dpkg` source package: `ros-humble-tf2=0.25.16-1jammy.20251008.022213`
 
 Binary Packages:
 
-- `ros-humble-tf2=0.25.16-1jammy.20250823.090055`
+- `ros-humble-tf2=0.25.16-1jammy.20251008.022213`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2/copyright`)
 
@@ -11854,11 +11869,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tf2/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-theora-image-transport=2.5.4-1jammy.20250912.155754`
+### `dpkg` source package: `ros-humble-theora-image-transport=2.5.4-1jammy.20251017.021814`
 
 Binary Packages:
 
-- `ros-humble-theora-image-transport=2.5.4-1jammy.20250912.155754`
+- `ros-humble-theora-image-transport=2.5.4-1jammy.20251017.021814`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-theora-image-transport/copyright`)
 
@@ -11924,11 +11939,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-tracetools/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-trajectory-msgs=4.9.0-1jammy.20250823.084016`
+### `dpkg` source package: `ros-humble-trajectory-msgs=4.9.0-1jammy.20251008.014317`
 
 Binary Packages:
 
-- `ros-humble-trajectory-msgs=4.9.0-1jammy.20250823.084016`
+- `ros-humble-trajectory-msgs=4.9.0-1jammy.20251008.014317`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-trajectory-msgs/copyright`)
 
@@ -11953,11 +11968,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-uncrustify-vendor/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-unique-identifier-msgs=2.2.1-3jammy.20250823.080815`
+### `dpkg` source package: `ros-humble-unique-identifier-msgs=2.2.1-3jammy.20251008.011849`
 
 Binary Packages:
 
-- `ros-humble-unique-identifier-msgs=2.2.1-3jammy.20250823.080815`
+- `ros-humble-unique-identifier-msgs=2.2.1-3jammy.20251008.011849`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-unique-identifier-msgs/copyright`)
 
@@ -11981,11 +11996,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-urdf-parser-plugin/copyright`
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-urdf=2.6.1-1jammy.20250823.080226`
+### `dpkg` source package: `ros-humble-urdf=2.6.1-1jammy.20251013.141527`
 
 Binary Packages:
 
-- `ros-humble-urdf=2.6.1-1jammy.20250823.080226`
+- `ros-humble-urdf=2.6.1-1jammy.20251013.141527`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-urdf/copyright`)
 
@@ -12023,11 +12038,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-urdfdom/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-vision-opencv=3.2.1-1jammy.20250823.090654`
+### `dpkg` source package: `ros-humble-vision-opencv=3.2.1-1jammy.20251008.030708`
 
 Binary Packages:
 
-- `ros-humble-vision-opencv=3.2.1-1jammy.20250823.090654`
+- `ros-humble-vision-opencv=3.2.1-1jammy.20251008.030708`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-vision-opencv/copyright`)
 
@@ -12038,11 +12053,11 @@ Licenses: (parsed from: `/usr/share/doc/ros-humble-vision-opencv/copyright`)
 This is *usually* due to a new package version being released and the old version being removed.
 
 
-### `dpkg` source package: `ros-humble-visualization-msgs=4.9.0-1jammy.20250823.084439`
+### `dpkg` source package: `ros-humble-visualization-msgs=4.9.0-1jammy.20251008.015652`
 
 Binary Packages:
 
-- `ros-humble-visualization-msgs=4.9.0-1jammy.20250823.084439`
+- `ros-humble-visualization-msgs=4.9.0-1jammy.20251008.015652`
 
 Licenses: (parsed from: `/usr/share/doc/ros-humble-visualization-msgs/copyright`)
 
@@ -12560,15 +12575,15 @@ $ apt-get source -qq --print-uris superlu=5.3.0+dfsg1-2
 'http://archive.ubuntu.com/ubuntu/pool/universe/s/superlu/superlu_5.3.0%2bdfsg1-2.debian.tar.xz' superlu_5.3.0+dfsg1-2.debian.tar.xz 6688 SHA512:004eead02371f6513b0f0d878a6456e8c99461d14f61cd322c41669ef2cdd1bb59d7f3680e7bb9b3718824c84c1684aabb411c6aa7066f61d9c24106c6152772
 ```
 
-### `dpkg` source package: `systemd=249.11-0ubuntu3.16`
+### `dpkg` source package: `systemd=249.11-0ubuntu3.17`
 
 Binary Packages:
 
-- `libpam-systemd:amd64=249.11-0ubuntu3.16`
-- `libsystemd0:amd64=249.11-0ubuntu3.16`
-- `libudev1:amd64=249.11-0ubuntu3.16`
-- `systemd=249.11-0ubuntu3.16`
-- `systemd-sysv=249.11-0ubuntu3.16`
+- `libpam-systemd:amd64=249.11-0ubuntu3.17`
+- `libsystemd0:amd64=249.11-0ubuntu3.17`
+- `libudev1:amd64=249.11-0ubuntu3.17`
+- `systemd=249.11-0ubuntu3.17`
+- `systemd-sysv=249.11-0ubuntu3.17`
 
 Licenses: (parsed from: `/usr/share/doc/libpam-systemd/copyright`, `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/libudev1/copyright`, `/usr/share/doc/systemd/copyright`, `/usr/share/doc/systemd-sysv/copyright`)
 
@@ -12584,10 +12599,10 @@ Licenses: (parsed from: `/usr/share/doc/libpam-systemd/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris systemd=249.11-0ubuntu3.16
-'http://security.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11-0ubuntu3.16.dsc' systemd_249.11-0ubuntu3.16.dsc 5907 SHA512:1faddef1d1b9d3c90dc2828af76bc4cf315aca5d193975e467854323bb279f4260acf52a228d91f6537ffdfdbb62d2849cad95d87cbb37a3d5f389e5a48d9c57
-'http://security.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11.orig.tar.gz' systemd_249.11.orig.tar.gz 10622702 SHA512:fed7f81933648945a4bfac9fb12150ecd84d32181f79be0e14e0b3a789343a87569f868670e0b8dfc2801fab39f7490f95ee8c29ba831d7611f78c14ace5ddd8
-'http://security.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11-0ubuntu3.16.debian.tar.xz' systemd_249.11-0ubuntu3.16.debian.tar.xz 258928 SHA512:ed86a0da87cd7e5981d65eb93e9fc07fdbb167c585b66aed3e20dcd857ef18cd067447636ddf377ba5b80d39db9703a7d1c86461e8e73a6623f8938bca864293
+$ apt-get source -qq --print-uris systemd=249.11-0ubuntu3.17
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11-0ubuntu3.17.dsc' systemd_249.11-0ubuntu3.17.dsc 5907 SHA512:083cd0d255916c4752afc9d0ca867376727788c9acedf65f731c24a6dd5ca49f8fe6d68ea59be6f4a590d7807cfc34cb52b4a588b9cb98407f36878b32b8ec6a
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11.orig.tar.gz' systemd_249.11.orig.tar.gz 10622702 SHA512:fed7f81933648945a4bfac9fb12150ecd84d32181f79be0e14e0b3a789343a87569f868670e0b8dfc2801fab39f7490f95ee8c29ba831d7611f78c14ace5ddd8
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_249.11-0ubuntu3.17.debian.tar.xz' systemd_249.11-0ubuntu3.17.debian.tar.xz 262436 SHA512:c8d14b5c6dd6396dafaaa9acfa6ce65297b8ca63869cc97cda98ff3f8e9ecf6daa2d2696e16eb7e780a3429f508457fa5dae6a34c9ba75a4f44dc3d1840cae2a
 ```
 
 ### `dpkg` source package: `sysvinit=3.01-1ubuntu1`

@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:bd1d569fb062787b5ac3523c75a46116cb382422a3ffbd9c063258e00f7646a2`
-- Created: `2025-07-11T21:38:03Z`
+- Image ID: `sha256:0745ced90756f8f0e75e16b872c7f4e281ea37e1dd93ba101880152bb31a98a6`
+- Created: `2025-11-14T17:51:17.165825884Z`
 - Virtual Size: ~ 10.37 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -178,16 +178,16 @@ MPL-2.0 AND MIT
 ### `apk` package: `cjson`
 
 ```console
-cjson-1.7.18-r1 description:
+cjson-1.7.19-r0 description:
 Lighweight JSON parser in C
 
-cjson-1.7.18-r1 webpage:
+cjson-1.7.19-r0 webpage:
 https://github.com/DaveGamble/cJSON
 
-cjson-1.7.18-r1 installed size:
+cjson-1.7.19-r0 installed size:
 29 KiB
 
-cjson-1.7.18-r1 license:
+cjson-1.7.19-r0 license:
 MIT
 
 ```

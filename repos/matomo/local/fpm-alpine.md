@@ -1,10 +1,10 @@
-# `matomo:5.5.1-fpm-alpine`
+# `matomo:5.5.2-fpm-alpine`
 
 ## Docker Metadata
 
-- Image ID: `sha256:3dd011a01185a8302b9c9e08c518b9b0c4dba5ba5e8c29b814e221607dd89783`
-- Created: `2025-10-21T08:44:12Z`
-- Virtual Size: ~ 169.67 Mb  
+- Image ID: `sha256:1c0c0c19c3ab03d1041f39e19a411ceb02c6c5080a6fc25413ca1ca64248b133`
+- Created: `2025-11-20T20:53:03.751613642Z`
+- Virtual Size: ~ 168.86 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/entrypoint.sh"]`
@@ -17,12 +17,12 @@
   - `PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64`
   - `PHP_LDFLAGS=-Wl,-O1 -pie`
   - `GPG_KEYS=AFD8691FDAEDF03BDF6E460563F15A9B715376CA 9D7F99A0CB8F05C8A6958D6256A97AF7600A39A6 0616E93D95AF471243E26761770426E17EBBB3DD`
-  - `PHP_VERSION=8.4.14`
-  - `PHP_URL=https://www.php.net/distributions/php-8.4.14.tar.xz`
-  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.4.14.tar.xz.asc`
-  - `PHP_SHA256=bac90ee7cf738e814c89b6b27d4d2c4b70e50942a420837e1a22f5fd5f9867a3`
+  - `PHP_VERSION=8.4.15`
+  - `PHP_URL=https://www.php.net/distributions/php-8.4.15.tar.xz`
+  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.4.15.tar.xz.asc`
+  - `PHP_SHA256=a060684f614b8344f9b34c334b6ba8db1177555997edb5b1aceab0a4b807da7e`
   - `PHP_MEMORY_LIMIT=256M`
-  - `MATOMO_VERSION=5.5.1`
+  - `MATOMO_VERSION=5.5.2`
 
 ## `apk` (`.apk`-based packages)
 

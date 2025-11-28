@@ -1,9 +1,9 @@
-# `mariadb:11.8.4-noble`
+# `mariadb:11.8.5-noble`
 
 ## Docker Metadata
 
-- Image ID: `sha256:01f221c81748f5ef793e7bf57d858a0fd606a1e03f39b935ddf832fcb889cad0`
-- Created: `2025-11-10T18:50:07.769722122Z`
+- Image ID: `sha256:f57b654bf058c814e4a0145e2397afe290df44dd1f5cb990a01878be9f531e78`
+- Created: `2025-11-17T18:09:22.488857854Z`
 - Virtual Size: ~ 333.54 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -13,7 +13,7 @@
   - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `GOSU_VERSION=1.19`
   - `LANG=C.UTF-8`
-  - `MARIADB_VERSION=1:11.8.4+maria~ubu2404`
+  - `MARIADB_VERSION=1:11.8.5+maria~ubu2404`
 - Labels:
   - `org.opencontainers.image.authors=MariaDB Community`
   - `org.opencontainers.image.base.name=docker.io/library/ubuntu:noble`
@@ -25,7 +25,7 @@
   - `org.opencontainers.image.title=MariaDB Database`
   - `org.opencontainers.image.url=https://github.com/MariaDB/mariadb-docker`
   - `org.opencontainers.image.vendor=MariaDB Community`
-  - `org.opencontainers.image.version=11.8.4`
+  - `org.opencontainers.image.version=11.8.5`
 
 ## `dpkg` (`.deb`-based packages)
 
@@ -1635,18 +1635,18 @@ $ apt-get source -qq --print-uris lz4=1.9.4-1build1.1
 'http://archive.ubuntu.com/ubuntu/pool/main/l/lz4/lz4_1.9.4-1build1.1.debian.tar.xz' lz4_1.9.4-1build1.1.debian.tar.xz 8356 SHA512:deb05c99d5ba5702997608b9c5fbe72b1a383bce253e0e25c409746c44d98245c559c0744767a18d32bdb5303a575c18f5c784fe4ad0b03565a13450c86c74f1
 ```
 
-### `dpkg` source package: `mariadb=1:11.8.4+maria~ubu2404`
+### `dpkg` source package: `mariadb=1:11.8.5+maria~ubu2404`
 
 Binary Packages:
 
-- `libmariadb3:amd64=1:11.8.4+maria~ubu2404`
-- `mariadb-backup=1:11.8.4+maria~ubu2404`
-- `mariadb-client=1:11.8.4+maria~ubu2404`
-- `mariadb-client-core=1:11.8.4+maria~ubu2404`
-- `mariadb-common=1:11.8.4+maria~ubu2404`
-- `mariadb-server=1:11.8.4+maria~ubu2404`
-- `mariadb-server-core=1:11.8.4+maria~ubu2404`
-- `mysql-common=1:11.8.4+maria~ubu2404`
+- `libmariadb3:amd64=1:11.8.5+maria~ubu2404`
+- `mariadb-backup=1:11.8.5+maria~ubu2404`
+- `mariadb-client=1:11.8.5+maria~ubu2404`
+- `mariadb-client-core=1:11.8.5+maria~ubu2404`
+- `mariadb-common=1:11.8.5+maria~ubu2404`
+- `mariadb-server=1:11.8.5+maria~ubu2404`
+- `mariadb-server-core=1:11.8.5+maria~ubu2404`
+- `mysql-common=1:11.8.5+maria~ubu2404`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -1655,9 +1655,9 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris mariadb=1:11.8.4+maria~ubu2404
-'http://archive.mariadb.org/mariadb-11.8.4/repo/ubuntu/pool/main/m/mariadb/mariadb_11.8.4%2bmaria%7eubu2404.dsc' mariadb_11.8.4+maria~ubu2404.dsc 4625 SHA256:9a0f8e5af3d082d35702a31c9862db105948412bfe2366321333d738bbd23041
-'http://archive.mariadb.org/mariadb-11.8.4/repo/ubuntu/pool/main/m/mariadb/mariadb_11.8.4%2bmaria%7eubu2404.tar.xz' mariadb_11.8.4+maria~ubu2404.tar.xz 184430088 SHA256:65d611741e1af0d9b9d52dc4d4153e1ad042abdc98228e749221ce07d64395c7
+$ apt-get source -qq --print-uris mariadb=1:11.8.5+maria~ubu2404
+'http://archive.mariadb.org/mariadb-11.8.5/repo/ubuntu/pool/main/m/mariadb/mariadb_11.8.5%2bmaria%7eubu2404.dsc' mariadb_11.8.5+maria~ubu2404.dsc 4625 SHA256:9155d46c71fc6b8d2af45891bbbc945697202c9205f9d17ad72123c8d252fece
+'http://archive.mariadb.org/mariadb-11.8.5/repo/ubuntu/pool/main/m/mariadb/mariadb_11.8.5%2bmaria%7eubu2404.tar.xz' mariadb_11.8.5+maria~ubu2404.tar.xz 184350084 SHA256:9eec143d81b83765e09803dac088e9038f1c15ddd71f95fb73754f4a3be2d311
 ```
 
 ### `dpkg` source package: `mawk=1.3.4.20240123-1build1`
@@ -2184,12 +2184,12 @@ $ apt-get source -qq --print-uris sqlite3=3.45.1-1ubuntu2.5
 'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.45.1-1ubuntu2.5.debian.tar.xz' sqlite3_3.45.1-1ubuntu2.5.debian.tar.xz 35260 SHA512:a031e8f6aeefbb9ea45439a24dc82f9e74b12c3e92b6444057648cc07187c00a0ca6cf32a6c51c0e50787f41d525c687cc3dad7492b46d785fa1088b04d10ea1
 ```
 
-### `dpkg` source package: `systemd=255.4-1ubuntu8.10`
+### `dpkg` source package: `systemd=255.4-1ubuntu8.11`
 
 Binary Packages:
 
-- `libsystemd0:amd64=255.4-1ubuntu8.10`
-- `libudev1:amd64=255.4-1ubuntu8.10`
+- `libsystemd0:amd64=255.4-1ubuntu8.11`
+- `libudev1:amd64=255.4-1ubuntu8.11`
 
 Licenses: (parsed from: `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/libudev1/copyright`)
 
@@ -2202,9 +2202,14 @@ Licenses: (parsed from: `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/
 - `LGPL-2.1+`
 - `public-domain`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris systemd=255.4-1ubuntu8.11
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.11.dsc' systemd_255.4-1ubuntu8.11.dsc 7324 SHA512:911c29309ba54128641ff4dac6bc86a3b2e276778fb8446daa29747385a7f6781f339ec4ab82bf34085d8156e08da2e9965e1bcabcd1d65ee575b5d82ef18ddf
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4.orig.tar.gz' systemd_255.4.orig.tar.gz 14952427 SHA512:8a2bde11a55f7f788ba7751789a5e9be6ce9634e88d54e49f6e832c4c49020c6cacaf2a610fe26f92998b0cbf43c6c2150a96b2c0953d23261009f57d71ea979
+'http://archive.ubuntu.com/ubuntu/pool/main/s/systemd/systemd_255.4-1ubuntu8.11.debian.tar.xz' systemd_255.4-1ubuntu8.11.debian.tar.xz 256052 SHA512:b8bf683caee235c8c46725592dd8b9c5acc08c3c0709ded98e039c089bc34c04618fc70dae70efdf8ee8bec09f2e124951d31574973c9d6f752ab935b700f7f8
+```
 
 ### `dpkg` source package: `sysvinit=3.08-6ubuntu3`
 

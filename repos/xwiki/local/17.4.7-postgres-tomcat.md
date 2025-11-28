@@ -1772,15 +1772,9 @@ Binary Packages:
 If source is available (seen below), check the contents of `debian/copyright` within it.
 
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris libdrm=2.4.122-1~ubuntu0.24.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.dsc' libdrm_2.4.122-1~ubuntu0.24.04.1.dsc 3229 SHA512:4a77d2f693b385fa7cebd4158bf4333a9134a511048cd9b65bd088f427683a24278a2766bca6f69dbc8b16712a6f2d1d7241daaa16cfd9e0f274b5b7cc035689
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz' libdrm_2.4.122.orig.tar.xz 481012 SHA512:ea6bac94416d4ba0e9805e142ae62904236bc49f803d4fc10c92968a4df64c818dd42524ad7a4e988062836783a148e27094050bb2754f751a368627f794ad13
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122.orig.tar.xz.asc' libdrm_2.4.122.orig.tar.xz.asc 833 SHA512:af5ceab8c6dfa9a91f4c58dc89bfabfbf0566016bcbfa5a6d9b9c4079928907682ec63065c754ae021c051f6e70a163f833db822f3be5f8f8076f62fe5bc0d4d
-'http://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm_2.4.122-1%7eubuntu0.24.04.1.debian.tar.xz' libdrm_2.4.122-1~ubuntu0.24.04.1.debian.tar.xz 62372 SHA512:8898803b271de2a2ebd1079f26873b6bf8ffe7e52563ce6030a3f6ef0a8bc4cac02f6249e3659ce47d83b6de4fd21b36f4d9866251c05aa4f4d71689b6364fbf
-```
 
 ### `dpkg` source package: `libe-book=0.1.3-2build6`
 
@@ -3625,14 +3619,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.12-minimal/copyright`, `/usr/
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.12=3.12.3-1ubuntu0.8
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.dsc' python3.12_3.12.3-1ubuntu0.8.dsc 3920 SHA512:6ec5347db2f302907e401ac4bafc9f884d7f94ebd2d5972f98d0f239121d115fe50cbcc632be12bb31e40cabf26e81e91cba4a92f6f573b4902ed2413a0c2948
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3.orig.tar.xz' python3.12_3.12.3.orig.tar.xz 20625068 SHA512:4a2213b108e7f1f1525baa8348e68b2a2336d925e60d0a59f0225fc470768a2c8031edafc0b8243f94dbae18afda335ee5adf2785328c2218fd64cbb439f13a4
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/python3.12_3.12.3-1ubuntu0.8.debian.tar.xz' python3.12_3.12.3-1ubuntu0.8.debian.tar.xz 257268 SHA512:36a58735bef1d2f760403ff898d75f4802d30badcf32ab041fb64e4c8bb0c9cc48de1dfc87f576192c6e03b9128ee50a8609975c7185cb573b51eb4d781036f3
-```
 
 ### `dpkg` source package: `raptor2=2.0.16-3ubuntu0.1`
 
