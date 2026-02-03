@@ -1,10 +1,10 @@
-# `hylang:1.1.0-python3.11-alpine3.22`
+# `hylang:1.2.0-python3.11-alpine3.22`
 
 ## Docker Metadata
 
-- Image ID: `sha256:5c8d0c36026d599008421c53288fbef1bf261b14f40bca530f021f69c4fc5abf`
-- Created: `2025-11-20T19:43:29.398572188Z`
-- Virtual Size: ~ 69.91 Mb  
+- Image ID: `sha256:97852de3f4519d1fcde87e85493276dcbb8a9dd6da9e9572cad370edcf5e2936`
+- Created: `2026-01-28T05:02:15.671080916Z`
+- Virtual Size: ~ 69.70 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["hy"]`
@@ -14,7 +14,7 @@
   - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
   - `PYTHON_VERSION=3.11.14`
   - `PYTHON_SHA256=8d3ed8ec5c88c1c95f5e558612a725450d2452813ddad5e58fdb1a53b1209b78`
-  - `HY_VERSION=1.1.0`
+  - `HY_VERSION=1.2.0`
   - `HYRULE_VERSION=1.0.1`
 
 ## `apk` (`.apk`-based packages)
@@ -73,16 +73,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.22.2-r0 description:
+alpine-release-3.22.3-r0 description:
 Alpine release data
 
-alpine-release-3.22.2-r0 webpage:
+alpine-release-3.22.3-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.22.2-r0 installed size:
+alpine-release-3.22.3-r0 installed size:
 343 B
 
-alpine-release-3.22.2-r0 license:
+alpine-release-3.22.3-r0 license:
 MIT
 
 ```
@@ -107,16 +107,16 @@ GPL-2.0-only
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r19 description:
+busybox-1.37.0-r20 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r19 webpage:
+busybox-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r19 installed size:
+busybox-1.37.0-r20 installed size:
 798 KiB
 
-busybox-1.37.0-r19 license:
+busybox-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -124,16 +124,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r19 description:
+busybox-binsh-1.37.0-r20 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r19 webpage:
+busybox-binsh-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r19 installed size:
+busybox-binsh-1.37.0-r20 installed size:
 1 B
 
-busybox-binsh-1.37.0-r19 license:
+busybox-binsh-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -294,16 +294,16 @@ GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.5.4-r0 description:
+libcrypto3-3.5.5-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.5.4-r0 webpage:
+libcrypto3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.5.4-r0 installed size:
+libcrypto3-3.5.5-r0 installed size:
 5091 KiB
 
-libcrypto3-3.5.4-r0 license:
+libcrypto3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -396,16 +396,16 @@ X11
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.5.4-r0 description:
+libssl3-3.5.5-r0 description:
 SSL shared libraries
 
-libssl3-3.5.4-r0 webpage:
+libssl3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.5.4-r0 installed size:
+libssl3-3.5.5-r0 installed size:
 823 KiB
 
-libssl3-3.5.4-r0 license:
+libssl3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -583,16 +583,16 @@ blessing
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r19 description:
+ssl_client-1.37.0-r20 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r19 webpage:
+ssl_client-1.37.0-r20 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r19 installed size:
+ssl_client-1.37.0-r20 installed size:
 14 KiB
 
-ssl_client-1.37.0-r19 license:
+ssl_client-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -600,16 +600,16 @@ GPL-2.0-only
 ### `apk` package: `tzdata`
 
 ```console
-tzdata-2025b-r0 description:
+tzdata-2025c-r0 description:
 Timezone data
 
-tzdata-2025b-r0 webpage:
+tzdata-2025c-r0 webpage:
 https://www.iana.org/time-zones
 
-tzdata-2025b-r0 installed size:
-435 KiB
+tzdata-2025c-r0 installed size:
+436 KiB
 
-tzdata-2025b-r0 license:
+tzdata-2025c-r0 license:
 Public-Domain
 
 ```

@@ -1,10 +1,10 @@
-# `dart:3.10.1-sdk`
+# `dart:3.10.8-sdk`
 
 ## Docker Metadata
 
-- Image ID: `sha256:c18729fcb2ff834aaf2ff55a539cc4cc3f5beac867ebbfb8fe0d5c8b7f83868d`
-- Created: `2025-11-18T21:59:54.35933132Z`
-- Virtual Size: ~ 787.00 Mb  
+- Image ID: `sha256:6513881f6ef0d02dd7d7f349502d152406b4d0e05cd579e87ac219c095173953`
+- Created: `2026-01-27T19:54:49.366424487Z`
+- Virtual Size: ~ 795.14 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["bash"]`
@@ -154,11 +154,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/audit/1:4.0.2-2/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/audit/1:4.0.2-2/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `base-files=13.8+deb13u2`
+### `dpkg` source package: `base-files=13.8+deb13u3`
 
 Binary Packages:
 
-- `base-files=13.8+deb13u2`
+- `base-files=13.8+deb13u3`
 
 Licenses: (parsed from: `/usr/share/doc/base-files/copyright`)
 
@@ -169,16 +169,16 @@ Licenses: (parsed from: `/usr/share/doc/base-files/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris base-files=13.8+deb13u2
-'http://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8%2bdeb13u2.dsc' base-files_13.8+deb13u2.dsc 1247 SHA256:ea3dc1f1288ab9c2d064855e739e9f5786863ee044f5db8ac09d8a76ffcba3b6
-'http://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8%2bdeb13u2.tar.xz' base-files_13.8+deb13u2.tar.xz 68692 SHA256:d92bd5a92e12ef0195f449ea63bf53d4a4f3c12c6730f77fdafb917a305902a0
+$ apt-get source -qq --print-uris base-files=13.8+deb13u3
+'http://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8%2bdeb13u3.dsc' base-files_13.8+deb13u3.dsc 1247 SHA256:6a1014d933408bc9af0de9c40348b420a1dd4ad72426f725a4556b3c0eaae826
+'http://deb.debian.org/debian/pool/main/b/base-files/base-files_13.8%2bdeb13u3.tar.xz' base-files_13.8+deb13u3.tar.xz 68680 SHA256:4b374947c6d0c71c605a8c9661f54b572f412d75c134af78b3dcc698542a9d64
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/base-files/13.8+deb13u2/ (for browsing the source)
-- https://sources.debian.net/src/base-files/13.8+deb13u2/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/base-files/13.8+deb13u2/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/base-files/13.8+deb13u3/ (for browsing the source)
+- https://sources.debian.net/src/base-files/13.8+deb13u3/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/base-files/13.8+deb13u3/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `base-passwd=3.6.7`
 
@@ -209,7 +209,7 @@ Other potentially useful URLs:
 
 Binary Packages:
 
-- `bash=5.2.37-2+b5`
+- `bash=5.2.37-2+b7`
 
 Licenses: (parsed from: `/usr/share/doc/bash/copyright`)
 
@@ -240,13 +240,13 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/bash/5.2.37-2/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/bash/5.2.37-2/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `bind9=1:9.20.15-1~deb13u1`
+### `dpkg` source package: `bind9=1:9.20.18-1~deb13u1`
 
 Binary Packages:
 
-- `bind9-dnsutils=1:9.20.15-1~deb13u1`
-- `bind9-host=1:9.20.15-1~deb13u1`
-- `bind9-libs:amd64=1:9.20.15-1~deb13u1`
+- `bind9-dnsutils=1:9.20.18-1~deb13u1`
+- `bind9-host=1:9.20.18-1~deb13u1`
+- `bind9-libs:amd64=1:9.20.18-1~deb13u1`
 
 Licenses: (parsed from: `/usr/share/doc/bind9-dnsutils/copyright`, `/usr/share/doc/bind9-host/copyright`, `/usr/share/doc/bind9-libs/copyright`)
 
@@ -261,18 +261,18 @@ Licenses: (parsed from: `/usr/share/doc/bind9-dnsutils/copyright`, `/usr/share/d
 Source:
 
 ```console
-$ apt-get source -qq --print-uris bind9=1:9.20.15-1~deb13u1
-'http://deb.debian.org/debian/pool/main/b/bind9/bind9_9.20.15-1%7edeb13u1.dsc' bind9_9.20.15-1~deb13u1.dsc 3197 SHA256:a327e32c45d6b72613a20a2a36edf6650f234735d1c9d1dc33f55544aa263a60
-'http://deb.debian.org/debian/pool/main/b/bind9/bind9_9.20.15.orig.tar.xz' bind9_9.20.15.orig.tar.xz 5765964 SHA256:d62b38fae48ba83fca6181112d0c71018d8b0f2ce285dc79dc6a0367722ccabb
-'http://deb.debian.org/debian/pool/main/b/bind9/bind9_9.20.15.orig.tar.xz.asc' bind9_9.20.15.orig.tar.xz.asc 833 SHA256:2e9215f01c68734fd03b207dc1dd62fe32af79d02fe8182002529faaca6c9361
-'http://deb.debian.org/debian/pool/main/b/bind9/bind9_9.20.15-1%7edeb13u1.debian.tar.xz' bind9_9.20.15-1~deb13u1.debian.tar.xz 61900 SHA256:ab95e35c4eb58cedf6fb3dece49ba2e4323a0cfd0ed6fc7ac03e1dfe5deec781
+$ apt-get source -qq --print-uris bind9=1:9.20.18-1~deb13u1
+'http://deb.debian.org/debian-security/pool/updates/main/b/bind9/bind9_9.20.18-1%7edeb13u1.dsc' bind9_9.20.18-1~deb13u1.dsc 3197 SHA256:b53f64dde0b5c42be3cd56410481899fca8dfaec7e6f08dc94d5fb50a8fc8b35
+'http://deb.debian.org/debian-security/pool/updates/main/b/bind9/bind9_9.20.18.orig.tar.xz' bind9_9.20.18.orig.tar.xz 5775248 SHA256:dfc546c990ac4515529cd45c4dd995862b18ae8a2d0cb29208e8896a5d325331
+'http://deb.debian.org/debian-security/pool/updates/main/b/bind9/bind9_9.20.18.orig.tar.xz.asc' bind9_9.20.18.orig.tar.xz.asc 833 SHA256:d56f087e30a8efd1b624acdf06203bb45fe8cfca18e9565c8a566957edacf069
+'http://deb.debian.org/debian-security/pool/updates/main/b/bind9/bind9_9.20.18-1%7edeb13u1.debian.tar.xz' bind9_9.20.18-1~deb13u1.debian.tar.xz 61968 SHA256:8637cc9863804bac64b896fa0a2957506731b02b5975b8afab9a52efd77c5f28
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/bind9/1:9.20.15-1~deb13u1/ (for browsing the source)
-- https://sources.debian.net/src/bind9/1:9.20.15-1~deb13u1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/bind9/1:9.20.15-1~deb13u1/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/bind9/1:9.20.18-1~deb13u1/ (for browsing the source)
+- https://sources.debian.net/src/bind9/1:9.20.18-1~deb13u1/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/bind9/1:9.20.18-1~deb13u1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `brotli=1.1.0-2`
 
@@ -702,7 +702,7 @@ Other potentially useful URLs:
 
 Binary Packages:
 
-- `libcom-err2:amd64=1.47.2-3+b3`
+- `libcom-err2:amd64=1.47.2-3+b7`
 
 Licenses: (parsed from: `/usr/share/doc/libcom-err2/copyright`)
 
@@ -945,12 +945,12 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/git/1:2.47.3-0+deb13u1/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/git/1:2.47.3-0+deb13u1/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `glibc=2.41-12`
+### `dpkg` source package: `glibc=2.41-12+deb13u1`
 
 Binary Packages:
 
-- `libc-bin=2.41-12`
-- `libc6:amd64=2.41-12`
+- `libc-bin=2.41-12+deb13u1`
+- `libc6:amd64=2.41-12+deb13u1`
 
 Licenses: (parsed from: `/usr/share/doc/libc-bin/copyright`, `/usr/share/doc/libc6/copyright`)
 
@@ -990,17 +990,17 @@ Licenses: (parsed from: `/usr/share/doc/libc-bin/copyright`, `/usr/share/doc/lib
 Source:
 
 ```console
-$ apt-get source -qq --print-uris glibc=2.41-12
-'http://deb.debian.org/debian/pool/main/g/glibc/glibc_2.41-12.dsc' glibc_2.41-12.dsc 7544 SHA256:4329da091780b7d6e5afc376241bddc8b97f992c767472eb9def828869a92e49
+$ apt-get source -qq --print-uris glibc=2.41-12+deb13u1
+'http://deb.debian.org/debian/pool/main/g/glibc/glibc_2.41-12%2bdeb13u1.dsc' glibc_2.41-12+deb13u1.dsc 7576 SHA256:a5f8dff3c6b7330f3faecab25bba83579068adc3de4910195e6b25619aae52da
 'http://deb.debian.org/debian/pool/main/g/glibc/glibc_2.41.orig.tar.xz' glibc_2.41.orig.tar.xz 20323540 SHA256:f24aa441021121a79266f0d75242706cab8843a47901fefe74527491807f1998
-'http://deb.debian.org/debian/pool/main/g/glibc/glibc_2.41-12.debian.tar.xz' glibc_2.41-12.debian.tar.xz 437996 SHA256:8cad4516356215a261f4da0e394c62044a1f6c31371e415ee522441e376b7e7c
+'http://deb.debian.org/debian/pool/main/g/glibc/glibc_2.41-12%2bdeb13u1.debian.tar.xz' glibc_2.41-12+deb13u1.debian.tar.xz 459896 SHA256:6891522908b43466b8908332ab2a362041e82c68b583b0b34a50227cba97f4e7
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/glibc/2.41-12/ (for browsing the source)
-- https://sources.debian.net/src/glibc/2.41-12/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/glibc/2.41-12/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/glibc/2.41-12+deb13u1/ (for browsing the source)
+- https://sources.debian.net/src/glibc/2.41-12+deb13u1/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/glibc/2.41-12+deb13u1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `gmp=2:6.3.0+dfsg-3`
 
@@ -1033,11 +1033,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/gmp/2:6.3.0+dfsg-3/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/gmp/2:6.3.0+dfsg-3/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `gnutls28=3.8.9-3`
+### `dpkg` source package: `gnutls28=3.8.9-3+deb13u1`
 
 Binary Packages:
 
-- `libgnutls30t64:amd64=3.8.9-3`
+- `libgnutls30t64:amd64=3.8.9-3+deb13u1`
 
 Licenses: (parsed from: `/usr/share/doc/libgnutls30t64/copyright`)
 
@@ -1059,18 +1059,18 @@ Licenses: (parsed from: `/usr/share/doc/libgnutls30t64/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris gnutls28=3.8.9-3
-'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9-3.dsc' gnutls28_3.8.9-3.dsc 3236 SHA256:607dbc91727ff5d8a51af66e800abab837479de4e18775fc069a7b5ffc780d3d
+$ apt-get source -qq --print-uris gnutls28=3.8.9-3+deb13u1
+'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9-3%2bdeb13u1.dsc' gnutls28_3.8.9-3+deb13u1.dsc 3268 SHA256:42c8187a42f028030e325d2f04142252c8f817bd4c6431bc8278c4ed947e104d
 'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9.orig.tar.xz' gnutls28_3.8.9.orig.tar.xz 6847364 SHA256:69e113d802d1670c4d5ac1b99040b1f2d5c7c05daec5003813c049b5184820ed
 'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9.orig.tar.xz.asc' gnutls28_3.8.9.orig.tar.xz.asc 833 SHA256:7631d47762865d4ef494492cca794cf0fe6a8be892a4aa02f362ae29006d3054
-'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9-3.debian.tar.xz' gnutls28_3.8.9-3.debian.tar.xz 85848 SHA256:f578bd4dd0b35d56aedf002a4a7b504a965a9d1a4587d2ad3a92718a45887cbf
+'http://deb.debian.org/debian/pool/main/g/gnutls28/gnutls28_3.8.9-3%2bdeb13u1.debian.tar.xz' gnutls28_3.8.9-3+deb13u1.debian.tar.xz 90880 SHA256:abfcc258231c613bf20fe0026587c3989d6c3a68579f177554907464be59c6b1
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/gnutls28/3.8.9-3/ (for browsing the source)
-- https://sources.debian.net/src/gnutls28/3.8.9-3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/gnutls28/3.8.9-3/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/gnutls28/3.8.9-3+deb13u1/ (for browsing the source)
+- https://sources.debian.net/src/gnutls28/3.8.9-3+deb13u1/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/gnutls28/3.8.9-3+deb13u1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `grep=3.11-4`
 
@@ -1363,7 +1363,7 @@ Other potentially useful URLs:
 
 Binary Packages:
 
-- `libcap2:amd64=1:2.75-10+b1`
+- `libcap2:amd64=1:2.75-10+b3`
 
 Licenses: (parsed from: `/usr/share/doc/libcap2/copyright`)
 
@@ -2344,13 +2344,13 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/openssh/1:10.0p1-7/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/openssh/1:10.0p1-7/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `openssl=3.5.4-1~deb13u1`
+### `dpkg` source package: `openssl=3.5.4-1~deb13u2`
 
 Binary Packages:
 
-- `libssl3t64:amd64=3.5.4-1~deb13u1`
-- `openssl=3.5.4-1~deb13u1`
-- `openssl-provider-legacy=3.5.4-1~deb13u1`
+- `libssl3t64:amd64=3.5.4-1~deb13u2`
+- `openssl=3.5.4-1~deb13u2`
+- `openssl-provider-legacy=3.5.4-1~deb13u2`
 
 Licenses: (parsed from: `/usr/share/doc/libssl3t64/copyright`, `/usr/share/doc/openssl/copyright`, `/usr/share/doc/openssl-provider-legacy/copyright`)
 
@@ -2362,18 +2362,18 @@ Licenses: (parsed from: `/usr/share/doc/libssl3t64/copyright`, `/usr/share/doc/o
 Source:
 
 ```console
-$ apt-get source -qq --print-uris openssl=3.5.4-1~deb13u1
-'http://deb.debian.org/debian/pool/main/o/openssl/openssl_3.5.4-1%7edeb13u1.dsc' openssl_3.5.4-1~deb13u1.dsc 2669 SHA256:3ae8c547928de96ab95f8ab281501c95dd76050cbf569dddadf05c1950dd7779
-'http://deb.debian.org/debian/pool/main/o/openssl/openssl_3.5.4.orig.tar.gz' openssl_3.5.4.orig.tar.gz 53190367 SHA256:967311f84955316969bdb1d8d4b983718ef42338639c621ec4c34fddef355e99
-'http://deb.debian.org/debian/pool/main/o/openssl/openssl_3.5.4.orig.tar.gz.asc' openssl_3.5.4.orig.tar.gz.asc 833 SHA256:cfcabcfc6e43237392e0ab42e2326fceb71037036c2adaa7ecc7e251778e38f4
-'http://deb.debian.org/debian/pool/main/o/openssl/openssl_3.5.4-1%7edeb13u1.debian.tar.xz' openssl_3.5.4-1~deb13u1.debian.tar.xz 49900 SHA256:3659d7e13ee91c9a97570b084f6e32c4f4a5fb29cd846be05863323ad312ce4e
+$ apt-get source -qq --print-uris openssl=3.5.4-1~deb13u2
+'http://deb.debian.org/debian-security/pool/updates/main/o/openssl/openssl_3.5.4-1%7edeb13u2.dsc' openssl_3.5.4-1~deb13u2.dsc 2707 SHA256:646eb71bec0d395e564f1dd88e26ddede052200d37293bb03aa1372897b17dd8
+'http://deb.debian.org/debian-security/pool/updates/main/o/openssl/openssl_3.5.4.orig.tar.gz' openssl_3.5.4.orig.tar.gz 53190367 SHA256:967311f84955316969bdb1d8d4b983718ef42338639c621ec4c34fddef355e99
+'http://deb.debian.org/debian-security/pool/updates/main/o/openssl/openssl_3.5.4.orig.tar.gz.asc' openssl_3.5.4.orig.tar.gz.asc 833 SHA256:cfcabcfc6e43237392e0ab42e2326fceb71037036c2adaa7ecc7e251778e38f4
+'http://deb.debian.org/debian-security/pool/updates/main/o/openssl/openssl_3.5.4-1%7edeb13u2.debian.tar.xz' openssl_3.5.4-1~deb13u2.debian.tar.xz 65020 SHA256:f9edcab4e1d849a6c29e1c7821516c19d7dead327bb78b015d07445622922437
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/openssl/3.5.4-1~deb13u1/ (for browsing the source)
-- https://sources.debian.net/src/openssl/3.5.4-1~deb13u1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/openssl/3.5.4-1~deb13u1/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/openssl/3.5.4-1~deb13u2/ (for browsing the source)
+- https://sources.debian.net/src/openssl/3.5.4-1~deb13u2/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/openssl/3.5.4-1~deb13u2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `p11-kit=0.25.5-3`
 
@@ -2591,7 +2591,7 @@ Other potentially useful URLs:
 
 Binary Packages:
 
-- `sqv=1.3.0-3`
+- `sqv=1.3.0-3+b2`
 
 Licenses: (parsed from: `/usr/share/doc/sqv/copyright`)
 

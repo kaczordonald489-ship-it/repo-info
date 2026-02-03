@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:e839276832294da2eb289b6c077def09d3753a12dddbc1ff97c2d510a6928c05`
-- Created: `2025-10-21T20:48:19Z`
-- Virtual Size: ~ 208.32 Mb  
+- Image ID: `sha256:f68c41c38696d11f883eff1970913412d5f4bf1d0f7a04ef86d7227e232e4a84`
+- Created: `2026-01-28T02:39:49.152559354Z`
+- Virtual Size: ~ 208.42 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["/bin/sh"]`
@@ -69,16 +69,16 @@ MIT
 ### `apk` package: `amazon-corretto-8`
 
 ```console
-amazon-corretto-8-8.472.08.1-r0 description:
+amazon-corretto-8-8.482.08.1-r0 description:
 Corretto-8
 
-amazon-corretto-8-8.472.08.1-r0 webpage:
+amazon-corretto-8-8.482.08.1-r0 webpage:
 https://github.com/corretto/corretto-8
 
-amazon-corretto-8-8.472.08.1-r0 installed size:
+amazon-corretto-8-8.482.08.1-r0 installed size:
 88 MiB
 
-amazon-corretto-8-8.472.08.1-r0 license:
+amazon-corretto-8-8.482.08.1-r0 license:
 GPL-2.0-only WITH Classpath-exception-2.0
 
 ```
@@ -86,16 +86,16 @@ GPL-2.0-only WITH Classpath-exception-2.0
 ### `apk` package: `amazon-corretto-8-jre`
 
 ```console
-amazon-corretto-8-jre-8.472.08.1-r0 description:
+amazon-corretto-8-jre-8.482.08.1-r0 description:
 Amazon Corretto 8 Java Runtime
 
-amazon-corretto-8-jre-8.472.08.1-r0 webpage:
+amazon-corretto-8-jre-8.482.08.1-r0 webpage:
 https://github.com/corretto/corretto-8
 
-amazon-corretto-8-jre-8.472.08.1-r0 installed size:
+amazon-corretto-8-jre-8.482.08.1-r0 installed size:
 103 MiB
 
-amazon-corretto-8-jre-8.472.08.1-r0 license:
+amazon-corretto-8-jre-8.482.08.1-r0 license:
 GPL-2.0-only WITH Classpath-exception-2.0
 
 ```
@@ -120,16 +120,16 @@ GPL-2.0-only
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.36.1-r30 description:
+busybox-1.36.1-r31 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.36.1-r30 webpage:
+busybox-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-1.36.1-r30 installed size:
+busybox-1.36.1-r31 installed size:
 908 KiB
 
-busybox-1.36.1-r30 license:
+busybox-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -137,16 +137,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.36.1-r30 description:
+busybox-binsh-1.36.1-r31 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.36.1-r30 webpage:
+busybox-binsh-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-binsh-1.36.1-r30 installed size:
+busybox-binsh-1.36.1-r31 installed size:
 8192 B
 
-busybox-binsh-1.36.1-r30 license:
+busybox-binsh-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -188,16 +188,16 @@ GPL-2.0-or-later
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.3.5-r0 description:
+libcrypto3-3.3.6-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.3.5-r0 webpage:
+libcrypto3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.3.5-r0 installed size:
-4660 KiB
+libcrypto3-3.3.6-r0 installed size:
+4664 KiB
 
-libcrypto3-3.3.5-r0 license:
+libcrypto3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -205,16 +205,16 @@ Apache-2.0
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.3.5-r0 description:
+libssl3-3.3.6-r0 description:
 SSL shared libraries
 
-libssl3-3.3.5-r0 webpage:
+libssl3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.3.5-r0 installed size:
+libssl3-3.3.6-r0 installed size:
 800 KiB
 
-libssl3-3.3.5-r0 license:
+libssl3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -273,16 +273,16 @@ GPL-2.0-only
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.36.1-r30 description:
+ssl_client-1.36.1-r31 description:
 EXternal ssl_client for busybox wget
 
-ssl_client-1.36.1-r30 webpage:
+ssl_client-1.36.1-r31 webpage:
 https://busybox.net/
 
-ssl_client-1.36.1-r30 installed size:
+ssl_client-1.36.1-r31 installed size:
 28 KiB
 
-ssl_client-1.36.1-r30 license:
+ssl_client-1.36.1-r31 license:
 GPL-2.0-only
 
 ```

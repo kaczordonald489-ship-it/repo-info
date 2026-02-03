@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:8262598e0486b3ea4d39b289b647133195858119582b668a085daa795a30b014`
-- Created: `2025-11-08T18:40:36.856918056Z`
+- Image ID: `sha256:9c14b80e79574c0c88bd9aa2ccf0f61c4ee934f98c1fcf69da50fe2b98163941`
+- Created: `2026-01-28T04:25:09.916073921Z`
 - Virtual Size: ~ 328.37 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -93,16 +93,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.22.2-r0 description:
+alpine-release-3.22.3-r0 description:
 Alpine release data
 
-alpine-release-3.22.2-r0 webpage:
+alpine-release-3.22.3-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.22.2-r0 installed size:
+alpine-release-3.22.3-r0 installed size:
 343 B
 
-alpine-release-3.22.2-r0 license:
+alpine-release-3.22.3-r0 license:
 MIT
 
 ```
@@ -161,16 +161,16 @@ MIT
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r19 description:
+busybox-1.37.0-r20 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r19 webpage:
+busybox-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r19 installed size:
+busybox-1.37.0-r20 installed size:
 798 KiB
 
-busybox-1.37.0-r19 license:
+busybox-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -178,16 +178,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r19 description:
+busybox-binsh-1.37.0-r20 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r19 webpage:
+busybox-binsh-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r19 installed size:
+busybox-binsh-1.37.0-r20 installed size:
 1 B
 
-busybox-binsh-1.37.0-r19 license:
+busybox-binsh-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -399,16 +399,16 @@ bzip2-1.0.6
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.5.4-r0 description:
+libcrypto3-3.5.5-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.5.4-r0 webpage:
+libcrypto3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.5.4-r0 installed size:
+libcrypto3-3.5.5-r0 installed size:
 5091 KiB
 
-libcrypto3-3.5.4-r0 license:
+libcrypto3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -501,16 +501,16 @@ X11
 ### `apk` package: `libpng`
 
 ```console
-libpng-1.6.47-r0 description:
+libpng-1.6.54-r0 description:
 Portable Network Graphics library
 
-libpng-1.6.47-r0 webpage:
+libpng-1.6.54-r0 webpage:
 http://www.libpng.org
 
-libpng-1.6.47-r0 installed size:
+libpng-1.6.54-r0 installed size:
 181 KiB
 
-libpng-1.6.47-r0 license:
+libpng-1.6.54-r0 license:
 Libpng
 
 ```
@@ -518,16 +518,16 @@ Libpng
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.5.4-r0 description:
+libssl3-3.5.5-r0 description:
 SSL shared libraries
 
-libssl3-3.5.4-r0 webpage:
+libssl3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.5.4-r0 installed size:
+libssl3-3.5.5-r0 installed size:
 823 KiB
 
-libssl3-3.5.4-r0 license:
+libssl3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -535,16 +535,16 @@ Apache-2.0
 ### `apk` package: `libtasn1`
 
 ```console
-libtasn1-4.20.0-r0 description:
+libtasn1-4.21.0-r0 description:
 The ASN.1 library used in GNUTLS
 
-libtasn1-4.20.0-r0 webpage:
+libtasn1-4.21.0-r0 webpage:
 https://www.gnu.org/software/gnutls/
 
-libtasn1-4.20.0-r0 installed size:
+libtasn1-4.21.0-r0 installed size:
 65 KiB
 
-libtasn1-4.20.0-r0 license:
+libtasn1-4.21.0-r0 license:
 LGPL-2.1-or-later
 
 ```
@@ -739,16 +739,16 @@ ISC
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r19 description:
+ssl_client-1.37.0-r20 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r19 webpage:
+ssl_client-1.37.0-r20 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r19 installed size:
+ssl_client-1.37.0-r20 installed size:
 14 KiB
 
-ssl_client-1.37.0-r19 license:
+ssl_client-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -756,16 +756,16 @@ GPL-2.0-only
 ### `apk` package: `tzdata`
 
 ```console
-tzdata-2025b-r0 description:
+tzdata-2025c-r0 description:
 Timezone data
 
-tzdata-2025b-r0 webpage:
+tzdata-2025c-r0 webpage:
 https://www.iana.org/time-zones
 
-tzdata-2025b-r0 installed size:
-435 KiB
+tzdata-2025c-r0 installed size:
+436 KiB
 
-tzdata-2025b-r0 license:
+tzdata-2025c-r0 license:
 Public-Domain
 
 ```

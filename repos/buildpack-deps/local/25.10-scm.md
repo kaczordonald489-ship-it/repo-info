@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:3f264e44882a4a382430ec6e197af3d536d071dbb1924eb96fcd44e0357d78ef`
-- Created: `2025-05-19T22:25:54Z`
-- Virtual Size: ~ 282.66 Mb  
+- Image ID: `sha256:137b3e4b6885968c6d217ecbf9660ceee00c7a3bbeedb48d44fbef9afd7e0a17`
+- Created: `2026-01-02T23:59:05.268288711Z`
+- Virtual Size: ~ 281.94 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["/bin/bash"]`
@@ -547,11 +547,11 @@ $ apt-get source -qq --print-uris diffutils=1:3.10-4
 'http://archive.ubuntu.com/ubuntu/pool/main/d/diffutils/diffutils_3.10-4.debian.tar.xz' diffutils_3.10-4.debian.tar.xz 14304 SHA512:447d360101e549e520210cd6da9573cce293c1b59266d960b066da4eeff8ce473c19d2269e30cd82e33e162cd6c6b870755b3bb292d8592a51511ca19e974350
 ```
 
-### `dpkg` source package: `dpkg=1.22.21ubuntu3`
+### `dpkg` source package: `dpkg=1.22.21ubuntu3.1`
 
 Binary Packages:
 
-- `dpkg=1.22.21ubuntu3`
+- `dpkg=1.22.21ubuntu3.1`
 
 Licenses: (parsed from: `/usr/share/doc/dpkg/copyright`)
 
@@ -562,9 +562,9 @@ Licenses: (parsed from: `/usr/share/doc/dpkg/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris dpkg=1.22.21ubuntu3
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.22.21ubuntu3.dsc' dpkg_1.22.21ubuntu3.dsc 3457 SHA512:b6ee366e65fe84d71d7fa8b0160b6b762e16a2bc2725795de3c255d48cbf8d0d3711aefc3a2b9a40fc924e99d34be5e30bc6d542686a0243a0e20487345b90fa
-'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.22.21ubuntu3.tar.xz' dpkg_1.22.21ubuntu3.tar.xz 5675688 SHA512:f9219c5c8643c729cc9849fe4d4b4354fd684263d3c7f0eded7001b805153d3e60b1f22d3612a4e70b9f4b9a70213c56890e9578c6bbf337dc559ec17a62cd05
+$ apt-get source -qq --print-uris dpkg=1.22.21ubuntu3.1
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.22.21ubuntu3.1.dsc' dpkg_1.22.21ubuntu3.1.dsc 3486 SHA512:142ea330912e6c2c9fdc6de497b5613de30b394850ef2faf4888c09a50e58b48ee94d7883ea7b257432c02f50d3f9520fe6a4998c538da6e3c0abe41976663b9
+'http://archive.ubuntu.com/ubuntu/pool/main/d/dpkg/dpkg_1.22.21ubuntu3.1.tar.xz' dpkg_1.22.21ubuntu3.1.tar.xz 5672872 SHA512:7e49ffdf72eaa89e1b165aa7c54bd254c5382eb674bbec64e3f4c62037560f20c6b331661cf4022ddd81ece73df6e0e7c1085ab578523a2fcc183626118be386
 ```
 
 ### `dpkg` source package: `e2fsprogs=1.47.2-3ubuntu2`
@@ -2155,14 +2155,14 @@ $ apt-get source -qq --print-uris python3-defaults=3.13.7-1
 'http://archive.ubuntu.com/ubuntu/pool/main/p/python3-defaults/python3-defaults_3.13.7-1.tar.gz' python3-defaults_3.13.7-1.tar.gz 146793 SHA512:58aee233ad3f34b28b0031ec77872f8a027160659cb7eb31e8839cf98f9c6d977f1d211f681d687a58444f043a0dd30885933973fbeb8226e8aeed3ef5e7c39a
 ```
 
-### `dpkg` source package: `python3.13=3.13.7-1`
+### `dpkg` source package: `python3.13=3.13.7-1ubuntu0.1`
 
 Binary Packages:
 
-- `libpython3.13-minimal:amd64=3.13.7-1`
-- `libpython3.13-stdlib:amd64=3.13.7-1`
-- `python3.13=3.13.7-1`
-- `python3.13-minimal=3.13.7-1`
+- `libpython3.13-minimal:amd64=3.13.7-1ubuntu0.1`
+- `libpython3.13-stdlib:amd64=3.13.7-1ubuntu0.1`
+- `python3.13=3.13.7-1ubuntu0.1`
+- `python3.13-minimal=3.13.7-1ubuntu0.1`
 
 Licenses: (parsed from: `/usr/share/doc/libpython3.13-minimal/copyright`, `/usr/share/doc/libpython3.13-stdlib/copyright`, `/usr/share/doc/python3.13/copyright`, `/usr/share/doc/python3.13-minimal/copyright`)
 
@@ -2184,15 +2184,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.13-minimal/copyright`, `/usr/
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.13=3.13.7-1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.7-1.dsc' python3.13_3.13.7-1.dsc 3689 SHA512:2264e406b17c9346972627931d43543b5a8eabd7f7bedd8aa64288838cbf2fa4674688ee5bb410a56492f6974e5dde170e32a726689bdfd9e8d020429b5c5e28
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.7.orig.tar.xz' python3.13_3.13.7.orig.tar.xz 22769492 SHA512:73fa04db860e8b98c204f84d403598fcb802b19bfc8f2675df2fddb6b153b1643daf081746a043f57c8fa71b950a439581aa5204c2bfadb8cfd8864ca4f42f0d
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.7.orig.tar.xz.asc' python3.13_3.13.7.orig.tar.xz.asc 963 SHA512:71cd002c18ebb47861abd3309c8cf38972d3d916cca5595d895ba3940719243c66fa28595c2370a8846d9d1c4b3cb4ac5baeda9e9cf94be30302892d01df5e87
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.7-1.debian.tar.xz' python3.13_3.13.7-1.debian.tar.xz 260456 SHA512:08f8d15954f4040befb2def9bd7c167cadf76a929c9a3842b5034aa5eabce9592f82b464b8b46903e7a68308eab6453ad8b8fb7477800692b3bfafa96a0624bb
-```
 
 ### `dpkg` source package: `readline=8.3-3`
 
@@ -2240,11 +2234,11 @@ $ apt-get source -qq --print-uris rtmpdump=2.4+20151223.gitfa8646d.1-2build8
 'http://archive.ubuntu.com/ubuntu/pool/main/r/rtmpdump/rtmpdump_2.4%2b20151223.gitfa8646d.1-2build8.debian.tar.xz' rtmpdump_2.4+20151223.gitfa8646d.1-2build8.debian.tar.xz 8528 SHA512:4f30eafd277f62e6717465a6db0ab045d268ce9962155a0d0032049cd2368b26e3a2073e42736c8967960635b0e1d38bdf090040eb64856eb21a3be105e0b0af
 ```
 
-### `dpkg` source package: `rust-coreutils=0.2.2-0ubuntu2`
+### `dpkg` source package: `rust-coreutils=0.2.2-0ubuntu2.1`
 
 Binary Packages:
 
-- `rust-coreutils=0.2.2-0ubuntu2`
+- `rust-coreutils=0.2.2-0ubuntu2.1`
 
 Licenses: (parsed from: `/usr/share/doc/rust-coreutils/copyright`)
 
@@ -2255,11 +2249,11 @@ Licenses: (parsed from: `/usr/share/doc/rust-coreutils/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris rust-coreutils=0.2.2-0ubuntu2
-'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2-0ubuntu2.dsc' rust-coreutils_0.2.2-0ubuntu2.dsc 8098 SHA512:2d66b7fc43d187ac5ef00cd4d6ebb2a67b86287f0c72a1352a07b8b09a2cf38dbbb0b10be22506a5d049ec8a9974c552b5dd44ab00c50c89f5df7a2415acf1bb
+$ apt-get source -qq --print-uris rust-coreutils=0.2.2-0ubuntu2.1
+'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2-0ubuntu2.1.dsc' rust-coreutils_0.2.2-0ubuntu2.1.dsc 8098 SHA512:889ac86cee4ae6a400c4ad335c68dac5e18f0cab46c3c2f2c8c8fe6f182301120fc7faf2b7690c3f373da1d4fd48d89a551774046df720aead1673f2acac18c7
 'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2.orig-rust-vendor.tar.xz' rust-coreutils_0.2.2.orig-rust-vendor.tar.xz 10803468 SHA512:a9b29f06270f216da761f535f303db4a840535259030695a8bbe7a5269fdab872941785700b22ab21a570b105ad0ade2750015dc1648ca4ec385b9fe4b414c52
 'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2.orig.tar.gz' rust-coreutils_0.2.2.orig.tar.gz 2827753 SHA512:58def9fe8f01640c6eb7c16cd182061bf62fab22124bdedcb931cdb39b25c2bd3f31523561e321a4822d9e09107dc0c5cc2ddf8e20333138ddaa19d284db609f
-'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2-0ubuntu2.debian.tar.xz' rust-coreutils_0.2.2-0ubuntu2.debian.tar.xz 17228 SHA512:d72221f314ba0429bec3378489392b42b4d7f91506eca6c8f2d2ffadc06ae45a369a0d4f07ee7c933db7525f1c3e1bf467732927435beca751b7ea1359175ff6
+'http://archive.ubuntu.com/ubuntu/pool/main/r/rust-coreutils/rust-coreutils_0.2.2-0ubuntu2.1.debian.tar.xz' rust-coreutils_0.2.2-0ubuntu2.1.debian.tar.xz 19448 SHA512:e63052b47df74ae3411db007b17fd7e1be606c84eb87583c1aef774f2f72b7ac8921dc1560363f35de11cc2d60b2caa969a998e646bb0f7928c381a77f34c43f
 ```
 
 ### `dpkg` source package: `rust-sequoia-sq=1.3.1-2`
@@ -2584,19 +2578,19 @@ $ apt-get source -qq --print-uris utf8proc=2.9.0-1build1
 'http://archive.ubuntu.com/ubuntu/pool/universe/u/utf8proc/utf8proc_2.9.0-1build1.debian.tar.xz' utf8proc_2.9.0-1build1.debian.tar.xz 5956 SHA512:66f918055be1f55b39929c504521094860b66518c99f644a2d826a52076416a7e79d0ed6ec260617e47202e4907f69d7489549737d38ff920942c173e0867693
 ```
 
-### `dpkg` source package: `util-linux=2.41-4ubuntu4`
+### `dpkg` source package: `util-linux=2.41-4ubuntu4.1`
 
 Binary Packages:
 
-- `bsdutils=1:2.41-4ubuntu4`
-- `libblkid1:amd64=2.41-4ubuntu4`
-- `liblastlog2-2:amd64=2.41-4ubuntu4`
-- `libmount1:amd64=2.41-4ubuntu4`
-- `libsmartcols1:amd64=2.41-4ubuntu4`
-- `libuuid1:amd64=2.41-4ubuntu4`
-- `login=1:4.16.0-2+really2.41-4ubuntu4`
-- `mount=2.41-4ubuntu4`
-- `util-linux=2.41-4ubuntu4`
+- `bsdutils=1:2.41-4ubuntu4.1`
+- `libblkid1:amd64=2.41-4ubuntu4.1`
+- `liblastlog2-2:amd64=2.41-4ubuntu4.1`
+- `libmount1:amd64=2.41-4ubuntu4.1`
+- `libsmartcols1:amd64=2.41-4ubuntu4.1`
+- `libuuid1:amd64=2.41-4ubuntu4.1`
+- `login=1:4.16.0-2+really2.41-4ubuntu4.1`
+- `mount=2.41-4ubuntu4.1`
+- `util-linux=2.41-4ubuntu4.1`
 
 Licenses: (parsed from: `/usr/share/doc/bsdutils/copyright`, `/usr/share/doc/libblkid1/copyright`, `/usr/share/doc/liblastlog2-2/copyright`, `/usr/share/doc/libmount1/copyright`, `/usr/share/doc/libsmartcols1/copyright`, `/usr/share/doc/libuuid1/copyright`, `/usr/share/doc/login/copyright`, `/usr/share/doc/mount/copyright`, `/usr/share/doc/util-linux/copyright`)
 
@@ -2622,10 +2616,10 @@ Licenses: (parsed from: `/usr/share/doc/bsdutils/copyright`, `/usr/share/doc/lib
 Source:
 
 ```console
-$ apt-get source -qq --print-uris util-linux=2.41-4ubuntu4
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41-4ubuntu4.dsc' util-linux_2.41-4ubuntu4.dsc 5049 SHA512:ce4f196a2ac9bafc2b7eb218ff6100eb6b320334f8cd7853f7dab88da3628ceca780766515937f319bc4be1151127b0480a519cbc8622f582ebf8e90892b1afe
+$ apt-get source -qq --print-uris util-linux=2.41-4ubuntu4.1
+'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41-4ubuntu4.1.dsc' util-linux_2.41-4ubuntu4.1.dsc 5086 SHA512:c373a65a0164a033f5be210864dc11db05d68ee0a1494bd17f47c4552470bb93f2c32b629e748c1c44be415d37cec78711ea3104cb699f925775c64d3f9506d4
 'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41.orig.tar.xz' util-linux_2.41.orig.tar.xz 9535724 SHA512:800ff92ee7a047732c0accb9dd759d6ed659947373ca72e0dd3ca601d0a6fed9db92c0838cfaff6bcdb8c08bdc1ffa675721893f42945885c57ccd59ab676318
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41-4ubuntu4.debian.tar.xz' util-linux_2.41-4ubuntu4.debian.tar.xz 127176 SHA512:436ec42b3ac4a1863bdf2335abf40eab3c894ee03f166d1382ed2c0a20bddd455255dbccd4e564e2881ae3716cd81abe23c70a6d30c35ae18e29eecedc200498
+'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.41-4ubuntu4.1.debian.tar.xz' util-linux_2.41-4ubuntu4.1.debian.tar.xz 127456 SHA512:9ca20fd849d2d5711fa3edf0b047add1f4f81dbfa55e930c123465dabb6c7fea619fad27184bb4cd7cccb742b6f3f8176a0c169c1aaade30ce272a1f3298d877
 ```
 
 ### `dpkg` source package: `wget=1.25.0-2ubuntu3`

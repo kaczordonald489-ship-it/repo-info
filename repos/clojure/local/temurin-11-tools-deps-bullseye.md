@@ -2,16 +2,16 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:3f9bb06262e84bcc38be2daaa7a02a59fe0e865a90671cd915effdd25b73c631`
-- Created: `2025-11-18T06:08:21.190369162Z`
-- Virtual Size: ~ 556.46 Mb  
+- Image ID: `sha256:cb4032515eed771aab64c13f01280b4ba70eba4ebf39ffed065578394a3f64f1`
+- Created: `2026-01-28T18:03:49.749929541Z`
+- Virtual Size: ~ 556.48 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["clj"]`
 - Environment:
   - `PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `JAVA_HOME=/opt/java/openjdk`
-  - `CLOJURE_VERSION=1.12.3.1577`
+  - `CLOJURE_VERSION=1.12.4.1602`
 
 ## `dpkg` (`.deb`-based packages)
 
@@ -352,11 +352,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/coreutils/8.32-4/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/coreutils/8.32-4/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `curl=7.74.0-1.3+deb11u15`
+### `dpkg` source package: `curl=7.74.0-1.3+deb11u16`
 
 Binary Packages:
 
-- `libcurl3-gnutls:amd64=7.74.0-1.3+deb11u15`
+- `libcurl3-gnutls:amd64=7.74.0-1.3+deb11u16`
 
 Licenses: (parsed from: `/usr/share/doc/libcurl3-gnutls/copyright`)
 
@@ -370,17 +370,17 @@ Licenses: (parsed from: `/usr/share/doc/libcurl3-gnutls/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris curl=7.74.0-1.3+deb11u15
-'http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u15.dsc' curl_7.74.0-1.3+deb11u15.dsc 2703 SHA256:6357ca6704bec1b8a690dd5396d910422ffd0f42e6a6bf62aaf1dca7999fd85a
+$ apt-get source -qq --print-uris curl=7.74.0-1.3+deb11u16
+'http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u16.dsc' curl_7.74.0-1.3+deb11u16.dsc 2703 SHA256:5fed534496027faffb3e607d5c24373d915f3d181287eb0d207c7d87bcd1ee01
 'http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0.orig.tar.gz' curl_7.74.0.orig.tar.gz 4043409 SHA256:e56b3921eeb7a2951959c02db0912b5fcd5fdba5aca071da819e1accf338bbd7
-'http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u15.debian.tar.xz' curl_7.74.0-1.3+deb11u15.debian.tar.xz 78740 SHA256:2c4b3ead4123f8a91cf80321f90c85fa8059c5eecb5b1999f15708744d67925a
+'http://deb.debian.org/debian-security/pool/updates/main/c/curl/curl_7.74.0-1.3%2bdeb11u16.debian.tar.xz' curl_7.74.0-1.3+deb11u16.debian.tar.xz 79272 SHA256:eb1c67ce096c696ad7e8346abfb9005f993d8f0d2062529eaf3ebdd72a210b0d
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/curl/7.74.0-1.3+deb11u15/ (for browsing the source)
-- https://sources.debian.net/src/curl/7.74.0-1.3+deb11u15/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/curl/7.74.0-1.3+deb11u15/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/curl/7.74.0-1.3+deb11u16/ (for browsing the source)
+- https://sources.debian.net/src/curl/7.74.0-1.3+deb11u16/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/curl/7.74.0-1.3+deb11u16/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `cyrus-sasl2=2.1.27+dfsg-2.1+deb11u1`
 
@@ -2584,14 +2584,14 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/python3-defaults/3.9.2-3/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/python3-defaults/3.9.2-3/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `python3.9=3.9.2-1+deb11u3`
+### `dpkg` source package: `python3.9=3.9.2-1+deb11u5`
 
 Binary Packages:
 
-- `libpython3.9-minimal:amd64=3.9.2-1+deb11u3`
-- `libpython3.9-stdlib:amd64=3.9.2-1+deb11u3`
-- `python3.9=3.9.2-1+deb11u3`
-- `python3.9-minimal=3.9.2-1+deb11u3`
+- `libpython3.9-minimal:amd64=3.9.2-1+deb11u5`
+- `libpython3.9-stdlib:amd64=3.9.2-1+deb11u5`
+- `python3.9=3.9.2-1+deb11u5`
+- `python3.9-minimal=3.9.2-1+deb11u5`
 
 Licenses: (parsed from: `/usr/share/doc/libpython3.9-minimal/copyright`, `/usr/share/doc/libpython3.9-stdlib/copyright`, `/usr/share/doc/python3.9/copyright`, `/usr/share/doc/python3.9-minimal/copyright`)
 
@@ -2616,17 +2616,17 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.9-minimal/copyright`, `/usr/s
 Source:
 
 ```console
-$ apt-get source -qq --print-uris python3.9=3.9.2-1+deb11u3
-'http://deb.debian.org/debian-security/pool/updates/main/p/python3.9/python3.9_3.9.2-1%2bdeb11u3.dsc' python3.9_3.9.2-1+deb11u3.dsc 3670 SHA256:03d03424e4e53ee42f25e085201e51170760c323505c792fe546e12cd49c20c1
+$ apt-get source -qq --print-uris python3.9=3.9.2-1+deb11u5
+'http://deb.debian.org/debian-security/pool/updates/main/p/python3.9/python3.9_3.9.2-1%2bdeb11u5.dsc' python3.9_3.9.2-1+deb11u5.dsc 3007 SHA256:e1484a80600e726c3e6d0790c2f07a3fdc984c16f8464124f8fdacd587bd5fb8
 'http://deb.debian.org/debian-security/pool/updates/main/p/python3.9/python3.9_3.9.2.orig.tar.xz' python3.9_3.9.2.orig.tar.xz 18889164 SHA256:3c2034c54f811448f516668dce09d24008a0716c3a794dd8639b5388cbde247d
-'http://deb.debian.org/debian-security/pool/updates/main/p/python3.9/python3.9_3.9.2-1%2bdeb11u3.debian.tar.xz' python3.9_3.9.2-1+deb11u3.debian.tar.xz 269772 SHA256:ff18438c4fd80234c9e66ea363865e908d2a4bd706ede50bb4fe828954cdeee7
+'http://deb.debian.org/debian-security/pool/updates/main/p/python3.9/python3.9_3.9.2-1%2bdeb11u5.debian.tar.xz' python3.9_3.9.2-1+deb11u5.debian.tar.xz 302112 SHA256:b6731f8cb7800ee81512086b36dcffd1a8358a98bdb02f1c31677f0812df526a
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/python3.9/3.9.2-1+deb11u3/ (for browsing the source)
-- https://sources.debian.net/src/python3.9/3.9.2-1+deb11u3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/python3.9/3.9.2-1+deb11u3/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/python3.9/3.9.2-1+deb11u5/ (for browsing the source)
+- https://sources.debian.net/src/python3.9/3.9.2-1+deb11u5/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/python3.9/3.9.2-1+deb11u5/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `readline=8.1-1`
 
@@ -2873,11 +2873,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/tar/1.34+dfsg-1+deb11u1/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/tar/1.34+dfsg-1+deb11u1/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `tzdata=2025b-0+deb11u1`
+### `dpkg` source package: `tzdata=2025b-0+deb11u2`
 
 Binary Packages:
 
-- `tzdata=2025b-0+deb11u1`
+- `tzdata=2025b-0+deb11u2`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -2886,18 +2886,18 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris tzdata=2025b-0+deb11u1
-'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u1.dsc' tzdata_2025b-0+deb11u1.dsc 2269 SHA256:5121967edc9e3805e104ddf325afcad8b8fac643677a5253f3443a341123f7a0
+$ apt-get source -qq --print-uris tzdata=2025b-0+deb11u2
+'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u2.dsc' tzdata_2025b-0+deb11u2.dsc 2269 SHA256:48749da68ba9d581e02e0675ddabb793395cc6df0a3af3abc091553652a4f8e6
 'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b.orig.tar.gz' tzdata_2025b.orig.tar.gz 464295 SHA256:11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474
 'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b.orig.tar.gz.asc' tzdata_2025b.orig.tar.gz.asc 833 SHA256:829c06258175c0143754a89e26d7445c243a86cef8e9cf7d020b128f6d82496b
-'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u1.debian.tar.xz' tzdata_2025b-0+deb11u1.debian.tar.xz 108596 SHA256:42bfe4e25a15fd0ea6b3eda7e40ad52930ee1d93d923dba42891c6ea85184fab
+'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u2.debian.tar.xz' tzdata_2025b-0+deb11u2.debian.tar.xz 109300 SHA256:ad10ef5bc073504a8bab8195fa61abab3304b09bce908764e0e91a379e693e22
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/tzdata/2025b-0+deb11u1/ (for browsing the source)
-- https://sources.debian.net/src/tzdata/2025b-0+deb11u1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/tzdata/2025b-0+deb11u1/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/tzdata/2025b-0+deb11u2/ (for browsing the source)
+- https://sources.debian.net/src/tzdata/2025b-0+deb11u2/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/tzdata/2025b-0+deb11u2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `util-linux=2.36.1-8+deb11u2`
 

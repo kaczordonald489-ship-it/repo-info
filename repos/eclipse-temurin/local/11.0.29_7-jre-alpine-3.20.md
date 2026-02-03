@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:4f1348c68cbc20c95ad8e11563dabc9f78b88c8a1ec4589febae11d8a7d33b74`
-- Created: `2025-11-08T17:57:41.072644956Z`
-- Virtual Size: ~ 168.18 Mb  
+- Image ID: `sha256:9d9d5859a17f9dac0dd4fa5a1648e7a53811a4ef3f8089c5ac44e925565aa719`
+- Created: `2026-01-28T03:04:12.509789745Z`
+- Virtual Size: ~ 168.31 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/__cacert_entrypoint.sh"]`
@@ -106,16 +106,16 @@ MIT
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.36.1-r30 description:
+busybox-1.36.1-r31 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.36.1-r30 webpage:
+busybox-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-1.36.1-r30 installed size:
+busybox-1.36.1-r31 installed size:
 908 KiB
 
-busybox-1.36.1-r30 license:
+busybox-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -123,16 +123,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.36.1-r30 description:
+busybox-binsh-1.36.1-r31 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.36.1-r30 webpage:
+busybox-binsh-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-binsh-1.36.1-r30 installed size:
+busybox-binsh-1.36.1-r31 installed size:
 8192 B
 
-busybox-binsh-1.36.1-r30 license:
+busybox-binsh-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -344,16 +344,16 @@ LGPL-3.0-or-later OR GPL-2.0-or-later
 ### `apk` package: `gnupg`
 
 ```console
-gnupg-2.4.5-r0 description:
+gnupg-2.4.9-r0 description:
 GNU Privacy Guard 2 - meta package for full GnuPG suite
 
-gnupg-2.4.5-r0 webpage:
+gnupg-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-2.4.5-r0 installed size:
+gnupg-2.4.9-r0 installed size:
 4096 B
 
-gnupg-2.4.5-r0 license:
+gnupg-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -361,16 +361,16 @@ GPL-3.0-or-later
 ### `apk` package: `gnupg-dirmngr`
 
 ```console
-gnupg-dirmngr-2.4.5-r0 description:
+gnupg-dirmngr-2.4.9-r0 description:
 GNU Privacy Guard 2 - network certificate management service
 
-gnupg-dirmngr-2.4.5-r0 webpage:
+gnupg-dirmngr-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-dirmngr-2.4.5-r0 installed size:
+gnupg-dirmngr-2.4.9-r0 installed size:
 660 KiB
 
-gnupg-dirmngr-2.4.5-r0 license:
+gnupg-dirmngr-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -378,16 +378,16 @@ GPL-3.0-or-later
 ### `apk` package: `gnupg-gpgconf`
 
 ```console
-gnupg-gpgconf-2.4.5-r0 description:
+gnupg-gpgconf-2.4.9-r0 description:
 GNU Privacy Guard 2 - core configuration utilities
 
-gnupg-gpgconf-2.4.5-r0 webpage:
+gnupg-gpgconf-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-gpgconf-2.4.5-r0 installed size:
+gnupg-gpgconf-2.4.9-r0 installed size:
 260 KiB
 
-gnupg-gpgconf-2.4.5-r0 license:
+gnupg-gpgconf-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -395,16 +395,16 @@ GPL-3.0-or-later
 ### `apk` package: `gnupg-keyboxd`
 
 ```console
-gnupg-keyboxd-2.4.5-r0 description:
+gnupg-keyboxd-2.4.9-r0 description:
 GNU Privacy Guard 2 - keyboxd manager
 
-gnupg-keyboxd-2.4.5-r0 webpage:
+gnupg-keyboxd-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-keyboxd-2.4.5-r0 installed size:
+gnupg-keyboxd-2.4.9-r0 installed size:
 236 KiB
 
-gnupg-keyboxd-2.4.5-r0 license:
+gnupg-keyboxd-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -412,16 +412,16 @@ GPL-3.0-or-later
 ### `apk` package: `gnupg-utils`
 
 ```console
-gnupg-utils-2.4.5-r0 description:
+gnupg-utils-2.4.9-r0 description:
 GNU Privacy Guard 2 - utility programs
 
-gnupg-utils-2.4.5-r0 webpage:
+gnupg-utils-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-utils-2.4.5-r0 installed size:
-764 KiB
+gnupg-utils-2.4.9-r0 installed size:
+868 KiB
 
-gnupg-utils-2.4.5-r0 license:
+gnupg-utils-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -429,16 +429,16 @@ GPL-3.0-or-later
 ### `apk` package: `gnupg-wks-client`
 
 ```console
-gnupg-wks-client-2.4.5-r0 description:
+gnupg-wks-client-2.4.9-r0 description:
 GNU Privacy Guard 2 - Web Key Service client
 
-gnupg-wks-client-2.4.5-r0 webpage:
+gnupg-wks-client-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gnupg-wks-client-2.4.5-r0 installed size:
+gnupg-wks-client-2.4.9-r0 installed size:
 188 KiB
 
-gnupg-wks-client-2.4.5-r0 license:
+gnupg-wks-client-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -463,16 +463,16 @@ LGPL-2.1-or-later
 ### `apk` package: `gpg`
 
 ```console
-gpg-2.4.5-r0 description:
+gpg-2.4.9-r0 description:
 GNU Privacy Guard 2 - public key operations only
 
-gpg-2.4.5-r0 webpage:
+gpg-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gpg-2.4.5-r0 installed size:
-940 KiB
+gpg-2.4.9-r0 installed size:
+944 KiB
 
-gpg-2.4.5-r0 license:
+gpg-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -480,16 +480,16 @@ GPL-3.0-or-later
 ### `apk` package: `gpg-agent`
 
 ```console
-gpg-agent-2.4.5-r0 description:
+gpg-agent-2.4.9-r0 description:
 GNU Privacy Guard 2 - cryptographic agent
 
-gpg-agent-2.4.5-r0 webpage:
+gpg-agent-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gpg-agent-2.4.5-r0 installed size:
-668 KiB
+gpg-agent-2.4.9-r0 installed size:
+676 KiB
 
-gpg-agent-2.4.5-r0 license:
+gpg-agent-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -497,16 +497,16 @@ GPL-3.0-or-later
 ### `apk` package: `gpg-wks-server`
 
 ```console
-gpg-wks-server-2.4.5-r0 description:
+gpg-wks-server-2.4.9-r0 description:
 GNU Privacy Guard 2 - Web Key Service server
 
-gpg-wks-server-2.4.5-r0 webpage:
+gpg-wks-server-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gpg-wks-server-2.4.5-r0 installed size:
+gpg-wks-server-2.4.9-r0 installed size:
 164 KiB
 
-gpg-wks-server-2.4.5-r0 license:
+gpg-wks-server-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -514,16 +514,16 @@ GPL-3.0-or-later
 ### `apk` package: `gpgsm`
 
 ```console
-gpgsm-2.4.5-r0 description:
+gpgsm-2.4.9-r0 description:
 GNU Privacy Guard 2 - S/MIME version
 
-gpgsm-2.4.5-r0 webpage:
+gpgsm-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gpgsm-2.4.5-r0 installed size:
-492 KiB
+gpgsm-2.4.9-r0 installed size:
+496 KiB
 
-gpgsm-2.4.5-r0 license:
+gpgsm-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -531,16 +531,16 @@ GPL-3.0-or-later
 ### `apk` package: `gpgv`
 
 ```console
-gpgv-2.4.5-r0 description:
+gpgv-2.4.9-r0 description:
 GNU Privacy Guard 2 - signature verification only
 
-gpgv-2.4.5-r0 webpage:
+gpgv-2.4.9-r0 webpage:
 https://www.gnupg.org/
 
-gpgv-2.4.5-r0 installed size:
-440 KiB
+gpgv-2.4.9-r0 installed size:
+444 KiB
 
-gpgv-2.4.5-r0 license:
+gpgv-2.4.9-r0 license:
 GPL-3.0-or-later
 
 ```
@@ -616,16 +616,16 @@ bzip2-1.0.6
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.3.5-r0 description:
+libcrypto3-3.3.6-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.3.5-r0 webpage:
+libcrypto3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.3.5-r0 installed size:
-4660 KiB
+libcrypto3-3.3.6-r0 installed size:
+4664 KiB
 
-libcrypto3-3.3.5-r0 license:
+libcrypto3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -803,16 +803,16 @@ X11
 ### `apk` package: `libpng`
 
 ```console
-libpng-1.6.44-r0 description:
+libpng-1.6.54-r0 description:
 Portable Network Graphics library
 
-libpng-1.6.44-r0 webpage:
+libpng-1.6.54-r0 webpage:
 http://www.libpng.org
 
-libpng-1.6.44-r0 installed size:
-200 KiB
+libpng-1.6.54-r0 installed size:
+196 KiB
 
-libpng-1.6.44-r0 license:
+libpng-1.6.54-r0 license:
 Libpng
 
 ```
@@ -837,16 +837,16 @@ BSD-3-Clause-Attribution AND BSD-4-Clause
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.3.5-r0 description:
+libssl3-3.3.6-r0 description:
 SSL shared libraries
 
-libssl3-3.3.5-r0 webpage:
+libssl3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.3.5-r0 installed size:
+libssl3-3.3.6-r0 installed size:
 800 KiB
 
-libssl3-3.3.5-r0 license:
+libssl3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -854,16 +854,16 @@ Apache-2.0
 ### `apk` package: `libtasn1`
 
 ```console
-libtasn1-4.20.0-r0 description:
+libtasn1-4.21.0-r0 description:
 The ASN.1 library used in GNUTLS
 
-libtasn1-4.20.0-r0 webpage:
+libtasn1-4.21.0-r0 webpage:
 https://www.gnu.org/software/gnutls/
 
-libtasn1-4.20.0-r0 installed size:
+libtasn1-4.21.0-r0 installed size:
 80 KiB
 
-libtasn1-4.20.0-r0 license:
+libtasn1-4.21.0-r0 license:
 LGPL-2.1-or-later
 
 ```
@@ -1024,16 +1024,16 @@ LGPL-2.0-or-later
 ### `apk` package: `openssl`
 
 ```console
-openssl-3.3.5-r0 description:
+openssl-3.3.6-r0 description:
 Toolkit for Transport Layer Security (TLS)
 
-openssl-3.3.5-r0 webpage:
+openssl-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-openssl-3.3.5-r0 installed size:
+openssl-3.3.6-r0 installed size:
 788 KiB
 
-openssl-3.3.5-r0 license:
+openssl-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -1143,16 +1143,16 @@ blessing
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.36.1-r30 description:
+ssl_client-1.36.1-r31 description:
 EXternal ssl_client for busybox wget
 
-ssl_client-1.36.1-r30 webpage:
+ssl_client-1.36.1-r31 webpage:
 https://busybox.net/
 
-ssl_client-1.36.1-r30 installed size:
+ssl_client-1.36.1-r31 installed size:
 28 KiB
 
-ssl_client-1.36.1-r30 license:
+ssl_client-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -1160,16 +1160,16 @@ GPL-2.0-only
 ### `apk` package: `tzdata`
 
 ```console
-tzdata-2025b-r0 description:
+tzdata-2025c-r0 description:
 Timezone data
 
-tzdata-2025b-r0 webpage:
+tzdata-2025c-r0 webpage:
 https://www.iana.org/time-zones
 
-tzdata-2025b-r0 installed size:
+tzdata-2025c-r0 installed size:
 1516 KiB
 
-tzdata-2025b-r0 license:
+tzdata-2025c-r0 license:
 Public-Domain
 
 ```

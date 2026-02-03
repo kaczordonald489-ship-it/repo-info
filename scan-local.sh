@@ -27,7 +27,7 @@ docker create \
 echo '# `'"$image"'`'
 
 size="$(
-	docker inspect -f '{{ .VirtualSize }}' "$image" | awk '{
+	docker inspect -f '{{ if index . "VirtualSize" }}{{ .VirtualSize }}{{ else }}{{ .Size }}{{ end }}' "$image" | awk '{
 		oneKb = 1000;
 		oneMb = 1000 * oneKb;
 		oneGb = 1000 * oneMb;
@@ -51,8 +51,8 @@ docker inspect -f '
 - Virtual Size: '"$size"'  
   (total size of all layers on-disk)
 - Arch: `{{ .Os }}`/`{{ .Architecture }}`
-{{ if .Config.Entrypoint }}- Entrypoint: `{{ json .Config.Entrypoint }}`
-{{ end }}{{ if .Config.Cmd }}- Command: `{{ json .Config.Cmd }}`
+{{ if index .Config "Entrypoint" }}- Entrypoint: `{{ json .Config.Entrypoint }}`
+{{ end }}{{ if index .Config "Cmd" }}- Command: `{{ json .Config.Cmd }}`
 {{ end }}- Environment:{{ range .Config.Env }}{{ "\n" }}  - `{{ . }}`{{ end }}{{ if .Config.Labels }}
 - Labels:{{ range $k, $v := .Config.Labels }}{{ "\n" }}  - `{{ $k }}={{ $v }}`{{ end }}{{ end }}' "$image"
 

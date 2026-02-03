@@ -1,21 +1,22 @@
-# `nginx:1.29.3-alpine-otel`
+# `nginx:1.29.4-alpine-otel`
 
 ## Docker Metadata
 
-- Image ID: `sha256:780c034661764426fff1d70505a00ff9831e5ae7f4e40dd1bcf06d5eb7c727b5`
-- Created: `2025-10-28T22:25:23.805226954Z`
-- Virtual Size: ~ 88.41 Mb  
+- Image ID: `sha256:b76d3afe07bad0d584108e0ac5f90cbd8f08d72bfee4b826ed7b30372328074d`
+- Created: `2026-01-28T04:50:28.296568413Z`
+- Virtual Size: ~ 104.96 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/docker-entrypoint.sh"]`
 - Command: `["nginx","-g","daemon off;"]`
 - Environment:
   - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
-  - `NGINX_VERSION=1.29.3`
+  - `NGINX_VERSION=1.29.4`
   - `PKG_RELEASE=1`
   - `DYNPKG_RELEASE=1`
   - `NJS_VERSION=0.9.4`
   - `NJS_RELEASE=1`
+  - `ACME_VERSION=0.3.1`
   - `OTEL_VERSION=0.1.2`
 - Labels:
   - `maintainer=NGINX Docker Maintainers <docker-maint@nginx.com>`
@@ -25,16 +26,16 @@
 ### `apk` package: `abseil-cpp-base`
 
 ```console
-abseil-cpp-base-20240722.1-r1 description:
+abseil-cpp-base-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-base
 
-abseil-cpp-base-20240722.1-r1 webpage:
+abseil-cpp-base-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-base-20240722.1-r1 installed size:
+abseil-cpp-base-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-base-20240722.1-r1 license:
+abseil-cpp-base-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -42,16 +43,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-city`
 
 ```console
-abseil-cpp-city-20240722.1-r1 description:
+abseil-cpp-city-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-city
 
-abseil-cpp-city-20240722.1-r1 webpage:
+abseil-cpp-city-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-city-20240722.1-r1 installed size:
+abseil-cpp-city-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-city-20240722.1-r1 license:
+abseil-cpp-city-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -59,16 +60,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-cord`
 
 ```console
-abseil-cpp-cord-20240722.1-r1 description:
+abseil-cpp-cord-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-cord
 
-abseil-cpp-cord-20240722.1-r1 webpage:
+abseil-cpp-cord-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-cord-20240722.1-r1 installed size:
-77 KiB
+abseil-cpp-cord-20250814.1-r0 installed size:
+81 KiB
 
-abseil-cpp-cord-20240722.1-r1 license:
+abseil-cpp-cord-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -76,16 +77,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-cord-internal`
 
 ```console
-abseil-cpp-cord-internal-20240722.1-r1 description:
+abseil-cpp-cord-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-cord-internal
 
-abseil-cpp-cord-internal-20240722.1-r1 webpage:
+abseil-cpp-cord-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-cord-internal-20240722.1-r1 installed size:
+abseil-cpp-cord-internal-20250814.1-r0 installed size:
 41 KiB
 
-abseil-cpp-cord-internal-20240722.1-r1 license:
+abseil-cpp-cord-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -93,16 +94,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-cordz-functions`
 
 ```console
-abseil-cpp-cordz-functions-20240722.1-r1 description:
+abseil-cpp-cordz-functions-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-cordz-functions
 
-abseil-cpp-cordz-functions-20240722.1-r1 webpage:
+abseil-cpp-cordz-functions-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-cordz-functions-20240722.1-r1 installed size:
+abseil-cpp-cordz-functions-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-cordz-functions-20240722.1-r1 license:
+abseil-cpp-cordz-functions-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -110,16 +111,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-cordz-handle`
 
 ```console
-abseil-cpp-cordz-handle-20240722.1-r1 description:
+abseil-cpp-cordz-handle-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-cordz-handle
 
-abseil-cpp-cordz-handle-20240722.1-r1 webpage:
+abseil-cpp-cordz-handle-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-cordz-handle-20240722.1-r1 installed size:
+abseil-cpp-cordz-handle-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-cordz-handle-20240722.1-r1 license:
+abseil-cpp-cordz-handle-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -127,16 +128,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-cordz-info`
 
 ```console
-abseil-cpp-cordz-info-20240722.1-r1 description:
+abseil-cpp-cordz-info-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-cordz-info
 
-abseil-cpp-cordz-info-20240722.1-r1 webpage:
+abseil-cpp-cordz-info-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-cordz-info-20240722.1-r1 installed size:
+abseil-cpp-cordz-info-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-cordz-info-20240722.1-r1 license:
+abseil-cpp-cordz-info-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -144,16 +145,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-crc-cord-state`
 
 ```console
-abseil-cpp-crc-cord-state-20240722.1-r1 description:
+abseil-cpp-crc-cord-state-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-crc-cord-state
 
-abseil-cpp-crc-cord-state-20240722.1-r1 webpage:
+abseil-cpp-crc-cord-state-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-crc-cord-state-20240722.1-r1 installed size:
+abseil-cpp-crc-cord-state-20250814.1-r0 installed size:
 29 KiB
 
-abseil-cpp-crc-cord-state-20240722.1-r1 license:
+abseil-cpp-crc-cord-state-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -161,16 +162,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-crc-internal`
 
 ```console
-abseil-cpp-crc-internal-20240722.1-r1 description:
+abseil-cpp-crc-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-crc-internal
 
-abseil-cpp-crc-internal-20240722.1-r1 webpage:
+abseil-cpp-crc-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-crc-internal-20240722.1-r1 installed size:
+abseil-cpp-crc-internal-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-crc-internal-20240722.1-r1 license:
+abseil-cpp-crc-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -178,16 +179,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-crc32c`
 
 ```console
-abseil-cpp-crc32c-20240722.1-r1 description:
+abseil-cpp-crc32c-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-crc32c
 
-abseil-cpp-crc32c-20240722.1-r1 webpage:
+abseil-cpp-crc32c-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-crc32c-20240722.1-r1 installed size:
+abseil-cpp-crc32c-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-crc32c-20240722.1-r1 license:
+abseil-cpp-crc32c-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -195,16 +196,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-debugging-internal`
 
 ```console
-abseil-cpp-debugging-internal-20240722.1-r1 description:
+abseil-cpp-debugging-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-debugging-internal
 
-abseil-cpp-debugging-internal-20240722.1-r1 webpage:
+abseil-cpp-debugging-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-debugging-internal-20240722.1-r1 installed size:
+abseil-cpp-debugging-internal-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-debugging-internal-20240722.1-r1 license:
+abseil-cpp-debugging-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -212,16 +213,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-die-if-null`
 
 ```console
-abseil-cpp-die-if-null-20240722.1-r1 description:
+abseil-cpp-die-if-null-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-die-if-null
 
-abseil-cpp-die-if-null-20240722.1-r1 webpage:
+abseil-cpp-die-if-null-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-die-if-null-20240722.1-r1 installed size:
+abseil-cpp-die-if-null-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-die-if-null-20240722.1-r1 license:
+abseil-cpp-die-if-null-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -229,16 +230,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-examine-stack`
 
 ```console
-abseil-cpp-examine-stack-20240722.1-r1 description:
+abseil-cpp-examine-stack-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-examine-stack
 
-abseil-cpp-examine-stack-20240722.1-r1 webpage:
+abseil-cpp-examine-stack-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-examine-stack-20240722.1-r1 installed size:
+abseil-cpp-examine-stack-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-examine-stack-20240722.1-r1 license:
+abseil-cpp-examine-stack-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -246,16 +247,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-exponential-biased`
 
 ```console
-abseil-cpp-exponential-biased-20240722.1-r1 description:
+abseil-cpp-exponential-biased-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-exponential-biased
 
-abseil-cpp-exponential-biased-20240722.1-r1 webpage:
+abseil-cpp-exponential-biased-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-exponential-biased-20240722.1-r1 installed size:
+abseil-cpp-exponential-biased-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-exponential-biased-20240722.1-r1 license:
+abseil-cpp-exponential-biased-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -263,16 +264,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-commandlineflag`
 
 ```console
-abseil-cpp-flags-commandlineflag-20240722.1-r1 description:
+abseil-cpp-flags-commandlineflag-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-commandlineflag
 
-abseil-cpp-flags-commandlineflag-20240722.1-r1 webpage:
+abseil-cpp-flags-commandlineflag-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-commandlineflag-20240722.1-r1 installed size:
+abseil-cpp-flags-commandlineflag-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-flags-commandlineflag-20240722.1-r1 license:
+abseil-cpp-flags-commandlineflag-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -280,16 +281,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-commandlineflag-internal`
 
 ```console
-abseil-cpp-flags-commandlineflag-internal-20240722.1-r1 description:
+abseil-cpp-flags-commandlineflag-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-commandlineflag-internal
 
-abseil-cpp-flags-commandlineflag-internal-20240722.1-r1 webpage:
+abseil-cpp-flags-commandlineflag-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-commandlineflag-internal-20240722.1-r1 installed size:
+abseil-cpp-flags-commandlineflag-internal-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-flags-commandlineflag-internal-20240722.1-r1 license:
+abseil-cpp-flags-commandlineflag-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -297,16 +298,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-config`
 
 ```console
-abseil-cpp-flags-config-20240722.1-r1 description:
+abseil-cpp-flags-config-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-config
 
-abseil-cpp-flags-config-20240722.1-r1 webpage:
+abseil-cpp-flags-config-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-config-20240722.1-r1 installed size:
+abseil-cpp-flags-config-20250814.1-r0 installed size:
 25 KiB
 
-abseil-cpp-flags-config-20240722.1-r1 license:
+abseil-cpp-flags-config-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -314,16 +315,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-internal`
 
 ```console
-abseil-cpp-flags-internal-20240722.1-r1 description:
+abseil-cpp-flags-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-internal
 
-abseil-cpp-flags-internal-20240722.1-r1 webpage:
+abseil-cpp-flags-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-internal-20240722.1-r1 installed size:
+abseil-cpp-flags-internal-20250814.1-r0 installed size:
 41 KiB
 
-abseil-cpp-flags-internal-20240722.1-r1 license:
+abseil-cpp-flags-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -331,16 +332,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-marshalling`
 
 ```console
-abseil-cpp-flags-marshalling-20240722.1-r1 description:
+abseil-cpp-flags-marshalling-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-marshalling
 
-abseil-cpp-flags-marshalling-20240722.1-r1 webpage:
+abseil-cpp-flags-marshalling-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-marshalling-20240722.1-r1 installed size:
-37 KiB
+abseil-cpp-flags-marshalling-20250814.1-r0 installed size:
+33 KiB
 
-abseil-cpp-flags-marshalling-20240722.1-r1 license:
+abseil-cpp-flags-marshalling-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -348,16 +349,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-private-handle-accessor`
 
 ```console
-abseil-cpp-flags-private-handle-accessor-20240722.1-r1 description:
+abseil-cpp-flags-private-handle-accessor-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-private-handle-accessor
 
-abseil-cpp-flags-private-handle-accessor-20240722.1-r1 webpage:
+abseil-cpp-flags-private-handle-accessor-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-private-handle-accessor-20240722.1-r1 installed size:
+abseil-cpp-flags-private-handle-accessor-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-flags-private-handle-accessor-20240722.1-r1 license:
+abseil-cpp-flags-private-handle-accessor-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -365,16 +366,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-program-name`
 
 ```console
-abseil-cpp-flags-program-name-20240722.1-r1 description:
+abseil-cpp-flags-program-name-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-program-name
 
-abseil-cpp-flags-program-name-20240722.1-r1 webpage:
+abseil-cpp-flags-program-name-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-program-name-20240722.1-r1 installed size:
+abseil-cpp-flags-program-name-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-flags-program-name-20240722.1-r1 license:
+abseil-cpp-flags-program-name-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -382,16 +383,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-flags-reflection`
 
 ```console
-abseil-cpp-flags-reflection-20240722.1-r1 description:
+abseil-cpp-flags-reflection-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-flags-reflection
 
-abseil-cpp-flags-reflection-20240722.1-r1 webpage:
+abseil-cpp-flags-reflection-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-flags-reflection-20240722.1-r1 installed size:
+abseil-cpp-flags-reflection-20250814.1-r0 installed size:
 37 KiB
 
-abseil-cpp-flags-reflection-20240722.1-r1 license:
+abseil-cpp-flags-reflection-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -399,16 +400,33 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-hash`
 
 ```console
-abseil-cpp-hash-20240722.1-r1 description:
+abseil-cpp-hash-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-hash
 
-abseil-cpp-hash-20240722.1-r1 webpage:
+abseil-cpp-hash-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-hash-20240722.1-r1 installed size:
+abseil-cpp-hash-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-hash-20240722.1-r1 license:
+abseil-cpp-hash-20250814.1-r0 license:
+Apache-2.0
+
+```
+
+### `apk` package: `abseil-cpp-hashtablez-sampler`
+
+```console
+abseil-cpp-hashtablez-sampler-20250814.1-r0 description:
+Abseil Common C++ library: abseil-cpp-hashtablez-sampler
+
+abseil-cpp-hashtablez-sampler-20250814.1-r0 webpage:
+https://abseil.io/
+
+abseil-cpp-hashtablez-sampler-20250814.1-r0 installed size:
+17 KiB
+
+abseil-cpp-hashtablez-sampler-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -416,16 +434,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-int128`
 
 ```console
-abseil-cpp-int128-20240722.1-r1 description:
+abseil-cpp-int128-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-int128
 
-abseil-cpp-int128-20240722.1-r1 webpage:
+abseil-cpp-int128-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-int128-20240722.1-r1 installed size:
+abseil-cpp-int128-20250814.1-r0 installed size:
 21 KiB
 
-abseil-cpp-int128-20240722.1-r1 license:
+abseil-cpp-int128-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -433,16 +451,33 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-kernel-timeout-internal`
 
 ```console
-abseil-cpp-kernel-timeout-internal-20240722.1-r1 description:
+abseil-cpp-kernel-timeout-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-kernel-timeout-internal
 
-abseil-cpp-kernel-timeout-internal-20240722.1-r1 webpage:
+abseil-cpp-kernel-timeout-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-kernel-timeout-internal-20240722.1-r1 installed size:
+abseil-cpp-kernel-timeout-internal-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-kernel-timeout-internal-20240722.1-r1 license:
+abseil-cpp-kernel-timeout-internal-20250814.1-r0 license:
+Apache-2.0
+
+```
+
+### `apk` package: `abseil-cpp-leak-check`
+
+```console
+abseil-cpp-leak-check-20250814.1-r0 description:
+Abseil Common C++ library: abseil-cpp-leak-check
+
+abseil-cpp-leak-check-20250814.1-r0 webpage:
+https://abseil.io/
+
+abseil-cpp-leak-check-20250814.1-r0 installed size:
+13 KiB
+
+abseil-cpp-leak-check-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -450,16 +485,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-globals`
 
 ```console
-abseil-cpp-log-globals-20240722.1-r1 description:
+abseil-cpp-log-globals-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-globals
 
-abseil-cpp-log-globals-20240722.1-r1 webpage:
+abseil-cpp-log-globals-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-globals-20240722.1-r1 installed size:
+abseil-cpp-log-globals-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-log-globals-20240722.1-r1 license:
+abseil-cpp-log-globals-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -467,16 +502,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-initialize`
 
 ```console
-abseil-cpp-log-initialize-20240722.1-r1 description:
+abseil-cpp-log-initialize-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-initialize
 
-abseil-cpp-log-initialize-20240722.1-r1 webpage:
+abseil-cpp-log-initialize-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-initialize-20240722.1-r1 installed size:
+abseil-cpp-log-initialize-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-initialize-20240722.1-r1 license:
+abseil-cpp-log-initialize-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -484,16 +519,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-check-op`
 
 ```console
-abseil-cpp-log-internal-check-op-20240722.1-r1 description:
+abseil-cpp-log-internal-check-op-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-check-op
 
-abseil-cpp-log-internal-check-op-20240722.1-r1 webpage:
+abseil-cpp-log-internal-check-op-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-check-op-20240722.1-r1 installed size:
-25 KiB
+abseil-cpp-log-internal-check-op-20250814.1-r0 installed size:
+21 KiB
 
-abseil-cpp-log-internal-check-op-20240722.1-r1 license:
+abseil-cpp-log-internal-check-op-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -501,16 +536,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-conditions`
 
 ```console
-abseil-cpp-log-internal-conditions-20240722.1-r1 description:
+abseil-cpp-log-internal-conditions-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-conditions
 
-abseil-cpp-log-internal-conditions-20240722.1-r1 webpage:
+abseil-cpp-log-internal-conditions-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-conditions-20240722.1-r1 installed size:
+abseil-cpp-log-internal-conditions-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-internal-conditions-20240722.1-r1 license:
+abseil-cpp-log-internal-conditions-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -518,16 +553,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-fnmatch`
 
 ```console
-abseil-cpp-log-internal-fnmatch-20240722.1-r1 description:
+abseil-cpp-log-internal-fnmatch-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-fnmatch
 
-abseil-cpp-log-internal-fnmatch-20240722.1-r1 webpage:
+abseil-cpp-log-internal-fnmatch-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-fnmatch-20240722.1-r1 installed size:
+abseil-cpp-log-internal-fnmatch-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-internal-fnmatch-20240722.1-r1 license:
+abseil-cpp-log-internal-fnmatch-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -535,16 +570,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-format`
 
 ```console
-abseil-cpp-log-internal-format-20240722.1-r1 description:
+abseil-cpp-log-internal-format-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-format
 
-abseil-cpp-log-internal-format-20240722.1-r1 webpage:
+abseil-cpp-log-internal-format-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-format-20240722.1-r1 installed size:
+abseil-cpp-log-internal-format-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-log-internal-format-20240722.1-r1 license:
+abseil-cpp-log-internal-format-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -552,16 +587,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-globals`
 
 ```console
-abseil-cpp-log-internal-globals-20240722.1-r1 description:
+abseil-cpp-log-internal-globals-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-globals
 
-abseil-cpp-log-internal-globals-20240722.1-r1 webpage:
+abseil-cpp-log-internal-globals-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-globals-20240722.1-r1 installed size:
+abseil-cpp-log-internal-globals-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-internal-globals-20240722.1-r1 license:
+abseil-cpp-log-internal-globals-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -569,16 +604,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-log-sink-set`
 
 ```console
-abseil-cpp-log-internal-log-sink-set-20240722.1-r1 description:
+abseil-cpp-log-internal-log-sink-set-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-log-sink-set
 
-abseil-cpp-log-internal-log-sink-set-20240722.1-r1 webpage:
+abseil-cpp-log-internal-log-sink-set-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-log-sink-set-20240722.1-r1 installed size:
+abseil-cpp-log-internal-log-sink-set-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-log-internal-log-sink-set-20240722.1-r1 license:
+abseil-cpp-log-internal-log-sink-set-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -586,16 +621,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-message`
 
 ```console
-abseil-cpp-log-internal-message-20240722.1-r1 description:
+abseil-cpp-log-internal-message-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-message
 
-abseil-cpp-log-internal-message-20240722.1-r1 webpage:
+abseil-cpp-log-internal-message-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-message-20240722.1-r1 installed size:
-45 KiB
+abseil-cpp-log-internal-message-20250814.1-r0 installed size:
+49 KiB
 
-abseil-cpp-log-internal-message-20240722.1-r1 license:
+abseil-cpp-log-internal-message-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -603,16 +638,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-nullguard`
 
 ```console
-abseil-cpp-log-internal-nullguard-20240722.1-r1 description:
+abseil-cpp-log-internal-nullguard-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-nullguard
 
-abseil-cpp-log-internal-nullguard-20240722.1-r1 webpage:
+abseil-cpp-log-internal-nullguard-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-nullguard-20240722.1-r1 installed size:
+abseil-cpp-log-internal-nullguard-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-internal-nullguard-20240722.1-r1 license:
+abseil-cpp-log-internal-nullguard-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -620,16 +655,33 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-internal-proto`
 
 ```console
-abseil-cpp-log-internal-proto-20240722.1-r1 description:
+abseil-cpp-log-internal-proto-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-internal-proto
 
-abseil-cpp-log-internal-proto-20240722.1-r1 webpage:
+abseil-cpp-log-internal-proto-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-internal-proto-20240722.1-r1 installed size:
+abseil-cpp-log-internal-proto-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-internal-proto-20240722.1-r1 license:
+abseil-cpp-log-internal-proto-20250814.1-r0 license:
+Apache-2.0
+
+```
+
+### `apk` package: `abseil-cpp-log-internal-structured-proto`
+
+```console
+abseil-cpp-log-internal-structured-proto-20250814.1-r0 description:
+Abseil Common C++ library: abseil-cpp-log-internal-structured-proto
+
+abseil-cpp-log-internal-structured-proto-20250814.1-r0 webpage:
+https://abseil.io/
+
+abseil-cpp-log-internal-structured-proto-20250814.1-r0 installed size:
+13 KiB
+
+abseil-cpp-log-internal-structured-proto-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -637,33 +689,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-log-sink`
 
 ```console
-abseil-cpp-log-sink-20240722.1-r1 description:
+abseil-cpp-log-sink-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-log-sink
 
-abseil-cpp-log-sink-20240722.1-r1 webpage:
+abseil-cpp-log-sink-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-log-sink-20240722.1-r1 installed size:
+abseil-cpp-log-sink-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-log-sink-20240722.1-r1 license:
-Apache-2.0
-
-```
-
-### `apk` package: `abseil-cpp-low-level-hash`
-
-```console
-abseil-cpp-low-level-hash-20240722.1-r1 description:
-Abseil Common C++ library: abseil-cpp-low-level-hash
-
-abseil-cpp-low-level-hash-20240722.1-r1 webpage:
-https://abseil.io/
-
-abseil-cpp-low-level-hash-20240722.1-r1 installed size:
-13 KiB
-
-abseil-cpp-low-level-hash-20240722.1-r1 license:
+abseil-cpp-log-sink-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -671,16 +706,33 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-malloc-internal`
 
 ```console
-abseil-cpp-malloc-internal-20240722.1-r1 description:
+abseil-cpp-malloc-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-malloc-internal
 
-abseil-cpp-malloc-internal-20240722.1-r1 webpage:
+abseil-cpp-malloc-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-malloc-internal-20240722.1-r1 installed size:
+abseil-cpp-malloc-internal-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-malloc-internal-20240722.1-r1 license:
+abseil-cpp-malloc-internal-20250814.1-r0 license:
+Apache-2.0
+
+```
+
+### `apk` package: `abseil-cpp-random-internal-entropy-pool`
+
+```console
+abseil-cpp-random-internal-entropy-pool-20250814.1-r0 description:
+Abseil Common C++ library: abseil-cpp-random-internal-entropy-pool
+
+abseil-cpp-random-internal-entropy-pool-20250814.1-r0 webpage:
+https://abseil.io/
+
+abseil-cpp-random-internal-entropy-pool-20250814.1-r0 installed size:
+13 KiB
+
+abseil-cpp-random-internal-entropy-pool-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -688,33 +740,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-platform`
 
 ```console
-abseil-cpp-random-internal-platform-20240722.1-r1 description:
+abseil-cpp-random-internal-platform-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-platform
 
-abseil-cpp-random-internal-platform-20240722.1-r1 webpage:
+abseil-cpp-random-internal-platform-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-platform-20240722.1-r1 installed size:
+abseil-cpp-random-internal-platform-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-random-internal-platform-20240722.1-r1 license:
-Apache-2.0
-
-```
-
-### `apk` package: `abseil-cpp-random-internal-pool-urbg`
-
-```console
-abseil-cpp-random-internal-pool-urbg-20240722.1-r1 description:
-Abseil Common C++ library: abseil-cpp-random-internal-pool-urbg
-
-abseil-cpp-random-internal-pool-urbg-20240722.1-r1 webpage:
-https://abseil.io/
-
-abseil-cpp-random-internal-pool-urbg-20240722.1-r1 installed size:
-17 KiB
-
-abseil-cpp-random-internal-pool-urbg-20240722.1-r1 license:
+abseil-cpp-random-internal-platform-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -722,16 +757,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-randen`
 
 ```console
-abseil-cpp-random-internal-randen-20240722.1-r1 description:
+abseil-cpp-random-internal-randen-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-randen
 
-abseil-cpp-random-internal-randen-20240722.1-r1 webpage:
+abseil-cpp-random-internal-randen-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-randen-20240722.1-r1 installed size:
+abseil-cpp-random-internal-randen-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-random-internal-randen-20240722.1-r1 license:
+abseil-cpp-random-internal-randen-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -739,16 +774,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-randen-hwaes`
 
 ```console
-abseil-cpp-random-internal-randen-hwaes-20240722.1-r1 description:
+abseil-cpp-random-internal-randen-hwaes-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-randen-hwaes
 
-abseil-cpp-random-internal-randen-hwaes-20240722.1-r1 webpage:
+abseil-cpp-random-internal-randen-hwaes-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-randen-hwaes-20240722.1-r1 installed size:
+abseil-cpp-random-internal-randen-hwaes-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-random-internal-randen-hwaes-20240722.1-r1 license:
+abseil-cpp-random-internal-randen-hwaes-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -756,16 +791,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-randen-hwaes-impl`
 
 ```console
-abseil-cpp-random-internal-randen-hwaes-impl-20240722.1-r1 description:
+abseil-cpp-random-internal-randen-hwaes-impl-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-randen-hwaes-impl
 
-abseil-cpp-random-internal-randen-hwaes-impl-20240722.1-r1 webpage:
+abseil-cpp-random-internal-randen-hwaes-impl-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-randen-hwaes-impl-20240722.1-r1 installed size:
+abseil-cpp-random-internal-randen-hwaes-impl-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-random-internal-randen-hwaes-impl-20240722.1-r1 license:
+abseil-cpp-random-internal-randen-hwaes-impl-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -773,16 +808,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-randen-slow`
 
 ```console
-abseil-cpp-random-internal-randen-slow-20240722.1-r1 description:
+abseil-cpp-random-internal-randen-slow-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-randen-slow
 
-abseil-cpp-random-internal-randen-slow-20240722.1-r1 webpage:
+abseil-cpp-random-internal-randen-slow-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-randen-slow-20240722.1-r1 installed size:
+abseil-cpp-random-internal-randen-slow-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-random-internal-randen-slow-20240722.1-r1 license:
+abseil-cpp-random-internal-randen-slow-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -790,16 +825,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-internal-seed-material`
 
 ```console
-abseil-cpp-random-internal-seed-material-20240722.1-r1 description:
+abseil-cpp-random-internal-seed-material-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-internal-seed-material
 
-abseil-cpp-random-internal-seed-material-20240722.1-r1 webpage:
+abseil-cpp-random-internal-seed-material-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-internal-seed-material-20240722.1-r1 installed size:
+abseil-cpp-random-internal-seed-material-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-random-internal-seed-material-20240722.1-r1 license:
+abseil-cpp-random-internal-seed-material-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -807,16 +842,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-random-seed-gen-exception`
 
 ```console
-abseil-cpp-random-seed-gen-exception-20240722.1-r1 description:
+abseil-cpp-random-seed-gen-exception-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-random-seed-gen-exception
 
-abseil-cpp-random-seed-gen-exception-20240722.1-r1 webpage:
+abseil-cpp-random-seed-gen-exception-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-random-seed-gen-exception-20240722.1-r1 installed size:
+abseil-cpp-random-seed-gen-exception-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-random-seed-gen-exception-20240722.1-r1 license:
+abseil-cpp-random-seed-gen-exception-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -824,16 +859,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-raw-hash-set`
 
 ```console
-abseil-cpp-raw-hash-set-20240722.1-r1 description:
+abseil-cpp-raw-hash-set-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-raw-hash-set
 
-abseil-cpp-raw-hash-set-20240722.1-r1 webpage:
+abseil-cpp-raw-hash-set-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-raw-hash-set-20240722.1-r1 installed size:
-17 KiB
+abseil-cpp-raw-hash-set-20250814.1-r0 installed size:
+29 KiB
 
-abseil-cpp-raw-hash-set-20240722.1-r1 license:
+abseil-cpp-raw-hash-set-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -841,16 +876,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-raw-logging-internal`
 
 ```console
-abseil-cpp-raw-logging-internal-20240722.1-r1 description:
+abseil-cpp-raw-logging-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-raw-logging-internal
 
-abseil-cpp-raw-logging-internal-20240722.1-r1 webpage:
+abseil-cpp-raw-logging-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-raw-logging-internal-20240722.1-r1 installed size:
+abseil-cpp-raw-logging-internal-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-raw-logging-internal-20240722.1-r1 license:
+abseil-cpp-raw-logging-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -858,16 +893,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-spinlock-wait`
 
 ```console
-abseil-cpp-spinlock-wait-20240722.1-r1 description:
+abseil-cpp-spinlock-wait-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-spinlock-wait
 
-abseil-cpp-spinlock-wait-20240722.1-r1 webpage:
+abseil-cpp-spinlock-wait-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-spinlock-wait-20240722.1-r1 installed size:
+abseil-cpp-spinlock-wait-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-spinlock-wait-20240722.1-r1 license:
+abseil-cpp-spinlock-wait-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -875,16 +910,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-stacktrace`
 
 ```console
-abseil-cpp-stacktrace-20240722.1-r1 description:
+abseil-cpp-stacktrace-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-stacktrace
 
-abseil-cpp-stacktrace-20240722.1-r1 webpage:
+abseil-cpp-stacktrace-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-stacktrace-20240722.1-r1 installed size:
+abseil-cpp-stacktrace-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-stacktrace-20240722.1-r1 license:
+abseil-cpp-stacktrace-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -892,16 +927,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-status`
 
 ```console
-abseil-cpp-status-20240722.1-r1 description:
+abseil-cpp-status-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-status
 
-abseil-cpp-status-20240722.1-r1 webpage:
+abseil-cpp-status-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-status-20240722.1-r1 installed size:
+abseil-cpp-status-20250814.1-r0 installed size:
 37 KiB
 
-abseil-cpp-status-20240722.1-r1 license:
+abseil-cpp-status-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -909,16 +944,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-statusor`
 
 ```console
-abseil-cpp-statusor-20240722.1-r1 description:
+abseil-cpp-statusor-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-statusor
 
-abseil-cpp-statusor-20240722.1-r1 webpage:
+abseil-cpp-statusor-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-statusor-20240722.1-r1 installed size:
+abseil-cpp-statusor-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-statusor-20240722.1-r1 license:
+abseil-cpp-statusor-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -926,16 +961,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-str-format-internal`
 
 ```console
-abseil-cpp-str-format-internal-20240722.1-r1 description:
+abseil-cpp-str-format-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-str-format-internal
 
-abseil-cpp-str-format-internal-20240722.1-r1 webpage:
+abseil-cpp-str-format-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-str-format-internal-20240722.1-r1 installed size:
+abseil-cpp-str-format-internal-20250814.1-r0 installed size:
 81 KiB
 
-abseil-cpp-str-format-internal-20240722.1-r1 license:
+abseil-cpp-str-format-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -943,16 +978,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-strerror`
 
 ```console
-abseil-cpp-strerror-20240722.1-r1 description:
+abseil-cpp-strerror-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-strerror
 
-abseil-cpp-strerror-20240722.1-r1 webpage:
+abseil-cpp-strerror-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-strerror-20240722.1-r1 installed size:
+abseil-cpp-strerror-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-strerror-20240722.1-r1 license:
+abseil-cpp-strerror-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -960,16 +995,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-strings`
 
 ```console
-abseil-cpp-strings-20240722.1-r1 description:
+abseil-cpp-strings-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-strings
 
-abseil-cpp-strings-20240722.1-r1 webpage:
+abseil-cpp-strings-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-strings-20240722.1-r1 installed size:
+abseil-cpp-strings-20250814.1-r0 installed size:
 101 KiB
 
-abseil-cpp-strings-20240722.1-r1 license:
+abseil-cpp-strings-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -977,16 +1012,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-strings-internal`
 
 ```console
-abseil-cpp-strings-internal-20240722.1-r1 description:
+abseil-cpp-strings-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-strings-internal
 
-abseil-cpp-strings-internal-20240722.1-r1 webpage:
+abseil-cpp-strings-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-strings-internal-20240722.1-r1 installed size:
+abseil-cpp-strings-internal-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-strings-internal-20240722.1-r1 license:
+abseil-cpp-strings-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -994,16 +1029,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-symbolize`
 
 ```console
-abseil-cpp-symbolize-20240722.1-r1 description:
+abseil-cpp-symbolize-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-symbolize
 
-abseil-cpp-symbolize-20240722.1-r1 webpage:
+abseil-cpp-symbolize-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-symbolize-20240722.1-r1 installed size:
+abseil-cpp-symbolize-20250814.1-r0 installed size:
 13 KiB
 
-abseil-cpp-symbolize-20240722.1-r1 license:
+abseil-cpp-symbolize-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1011,16 +1046,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-synchronization`
 
 ```console
-abseil-cpp-synchronization-20240722.1-r1 description:
+abseil-cpp-synchronization-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-synchronization
 
-abseil-cpp-synchronization-20240722.1-r1 webpage:
+abseil-cpp-synchronization-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-synchronization-20240722.1-r1 installed size:
+abseil-cpp-synchronization-20250814.1-r0 installed size:
 49 KiB
 
-abseil-cpp-synchronization-20240722.1-r1 license:
+abseil-cpp-synchronization-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1028,16 +1063,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-throw-delegate`
 
 ```console
-abseil-cpp-throw-delegate-20240722.1-r1 description:
+abseil-cpp-throw-delegate-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-throw-delegate
 
-abseil-cpp-throw-delegate-20240722.1-r1 webpage:
+abseil-cpp-throw-delegate-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-throw-delegate-20240722.1-r1 installed size:
+abseil-cpp-throw-delegate-20250814.1-r0 installed size:
 17 KiB
 
-abseil-cpp-throw-delegate-20240722.1-r1 license:
+abseil-cpp-throw-delegate-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1045,16 +1080,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-time`
 
 ```console
-abseil-cpp-time-20240722.1-r1 description:
+abseil-cpp-time-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-time
 
-abseil-cpp-time-20240722.1-r1 webpage:
+abseil-cpp-time-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-time-20240722.1-r1 installed size:
-70 KiB
+abseil-cpp-time-20250814.1-r0 installed size:
+65 KiB
 
-abseil-cpp-time-20240722.1-r1 license:
+abseil-cpp-time-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1062,16 +1097,33 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-time-zone`
 
 ```console
-abseil-cpp-time-zone-20240722.1-r1 description:
+abseil-cpp-time-zone-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-time-zone
 
-abseil-cpp-time-zone-20240722.1-r1 webpage:
+abseil-cpp-time-zone-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-time-zone-20240722.1-r1 installed size:
+abseil-cpp-time-zone-20250814.1-r0 installed size:
 93 KiB
 
-abseil-cpp-time-zone-20240722.1-r1 license:
+abseil-cpp-time-zone-20250814.1-r0 license:
+Apache-2.0
+
+```
+
+### `apk` package: `abseil-cpp-tracing-internal`
+
+```console
+abseil-cpp-tracing-internal-20250814.1-r0 description:
+Abseil Common C++ library: abseil-cpp-tracing-internal
+
+abseil-cpp-tracing-internal-20250814.1-r0 webpage:
+https://abseil.io/
+
+abseil-cpp-tracing-internal-20250814.1-r0 installed size:
+13 KiB
+
+abseil-cpp-tracing-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1079,16 +1131,16 @@ Apache-2.0
 ### `apk` package: `abseil-cpp-vlog-config-internal`
 
 ```console
-abseil-cpp-vlog-config-internal-20240722.1-r1 description:
+abseil-cpp-vlog-config-internal-20250814.1-r0 description:
 Abseil Common C++ library: abseil-cpp-vlog-config-internal
 
-abseil-cpp-vlog-config-internal-20240722.1-r1 webpage:
+abseil-cpp-vlog-config-internal-20250814.1-r0 webpage:
 https://abseil.io/
 
-abseil-cpp-vlog-config-internal-20240722.1-r1 installed size:
+abseil-cpp-vlog-config-internal-20250814.1-r0 installed size:
 25 KiB
 
-abseil-cpp-vlog-config-internal-20240722.1-r1 license:
+abseil-cpp-vlog-config-internal-20250814.1-r0 license:
 Apache-2.0
 
 ```
@@ -1096,16 +1148,16 @@ Apache-2.0
 ### `apk` package: `alpine-baselayout`
 
 ```console
-alpine-baselayout-3.7.0-r0 description:
+alpine-baselayout-3.7.1-r8 description:
 Alpine base dir structure and init scripts
 
-alpine-baselayout-3.7.0-r0 webpage:
+alpine-baselayout-3.7.1-r8 webpage:
 https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
 
-alpine-baselayout-3.7.0-r0 installed size:
-6441 B
+alpine-baselayout-3.7.1-r8 installed size:
+6552 B
 
-alpine-baselayout-3.7.0-r0 license:
+alpine-baselayout-3.7.1-r8 license:
 GPL-2.0-only
 
 ```
@@ -1113,16 +1165,16 @@ GPL-2.0-only
 ### `apk` package: `alpine-baselayout-data`
 
 ```console
-alpine-baselayout-data-3.7.0-r0 description:
+alpine-baselayout-data-3.7.1-r8 description:
 Alpine base dir structure and init scripts
 
-alpine-baselayout-data-3.7.0-r0 webpage:
+alpine-baselayout-data-3.7.1-r8 webpage:
 https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
 
-alpine-baselayout-data-3.7.0-r0 installed size:
+alpine-baselayout-data-3.7.1-r8 installed size:
 18 KiB
 
-alpine-baselayout-data-3.7.0-r0 license:
+alpine-baselayout-data-3.7.1-r8 license:
 GPL-2.0-only
 
 ```
@@ -1130,16 +1182,16 @@ GPL-2.0-only
 ### `apk` package: `alpine-keys`
 
 ```console
-alpine-keys-2.5-r0 description:
+alpine-keys-2.6-r0 description:
 Public keys for Alpine Linux packages
 
-alpine-keys-2.5-r0 webpage:
+alpine-keys-2.6-r0 webpage:
 https://alpinelinux.org
 
-alpine-keys-2.5-r0 installed size:
-13 KiB
+alpine-keys-2.6-r0 installed size:
+12 KiB
 
-alpine-keys-2.5-r0 license:
+alpine-keys-2.6-r0 license:
 MIT
 
 ```
@@ -1147,16 +1199,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.22.2-r0 description:
+alpine-release-3.23.3-r0 description:
 Alpine release data
 
-alpine-release-3.22.2-r0 webpage:
+alpine-release-3.23.3-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.22.2-r0 installed size:
+alpine-release-3.23.3-r0 installed size:
 343 B
 
-alpine-release-3.22.2-r0 license:
+alpine-release-3.23.3-r0 license:
 MIT
 
 ```
@@ -1164,16 +1216,16 @@ MIT
 ### `apk` package: `aom-libs`
 
 ```console
-aom-libs-3.12.1-r0 description:
+aom-libs-3.13.1-r0 description:
 Alliance for Open Media (AOM) AV1 codec SDK (libraries)
 
-aom-libs-3.12.1-r0 webpage:
+aom-libs-3.13.1-r0 webpage:
 https://aomedia.org/
 
-aom-libs-3.12.1-r0 installed size:
-7450 KiB
+aom-libs-3.13.1-r0 installed size:
+8140 KiB
 
-aom-libs-3.12.1-r0 license:
+aom-libs-3.13.1-r0 license:
 BSD-2-Clause AND custom
 
 ```
@@ -1181,16 +1233,16 @@ BSD-2-Clause AND custom
 ### `apk` package: `apk-tools`
 
 ```console
-apk-tools-2.14.9-r3 description:
+apk-tools-3.0.3-r1 description:
 Alpine Package Keeper - package manager for alpine
 
-apk-tools-2.14.9-r3 webpage:
+apk-tools-3.0.3-r1 webpage:
 https://gitlab.alpinelinux.org/alpine/apk-tools
 
-apk-tools-2.14.9-r3 installed size:
-68 KiB
+apk-tools-3.0.3-r1 installed size:
+112 KiB
 
-apk-tools-2.14.9-r3 license:
+apk-tools-3.0.3-r1 license:
 GPL-2.0-only
 
 ```
@@ -1198,16 +1250,16 @@ GPL-2.0-only
 ### `apk` package: `brotli-libs`
 
 ```console
-brotli-libs-1.1.0-r2 description:
+brotli-libs-1.2.0-r0 description:
 Generic lossless compressor (libraries)
 
-brotli-libs-1.1.0-r2 webpage:
+brotli-libs-1.2.0-r0 webpage:
 https://github.com/google/brotli
 
-brotli-libs-1.1.0-r2 installed size:
-913 KiB
+brotli-libs-1.2.0-r0 installed size:
+957 KiB
 
-brotli-libs-1.1.0-r2 license:
+brotli-libs-1.2.0-r0 license:
 MIT
 
 ```
@@ -1215,16 +1267,16 @@ MIT
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r19 description:
+busybox-1.37.0-r30 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r19 webpage:
+busybox-1.37.0-r30 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r19 installed size:
-798 KiB
+busybox-1.37.0-r30 installed size:
+794 KiB
 
-busybox-1.37.0-r19 license:
+busybox-1.37.0-r30 license:
 GPL-2.0-only
 
 ```
@@ -1232,16 +1284,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r19 description:
+busybox-binsh-1.37.0-r30 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r19 webpage:
+busybox-binsh-1.37.0-r30 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r19 installed size:
+busybox-binsh-1.37.0-r30 installed size:
 1 B
 
-busybox-binsh-1.37.0-r19 license:
+busybox-binsh-1.37.0-r30 license:
 GPL-2.0-only
 
 ```
@@ -1249,16 +1301,16 @@ GPL-2.0-only
 ### `apk` package: `c-ares`
 
 ```console
-c-ares-1.34.5-r0 description:
+c-ares-1.34.6-r0 description:
 Asynchronous DNS/names resolver library
 
-c-ares-1.34.5-r0 webpage:
+c-ares-1.34.6-r0 webpage:
 https://c-ares.org/
 
-c-ares-1.34.5-r0 installed size:
+c-ares-1.34.6-r0 installed size:
 233 KiB
 
-c-ares-1.34.5-r0 license:
+c-ares-1.34.6-r0 license:
 MIT
 
 ```
@@ -1266,16 +1318,16 @@ MIT
 ### `apk` package: `ca-certificates`
 
 ```console
-ca-certificates-20250911-r0 description:
+ca-certificates-20251003-r0 description:
 Common CA certificates PEM files from Mozilla
 
-ca-certificates-20250911-r0 webpage:
+ca-certificates-20251003-r0 webpage:
 https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 
-ca-certificates-20250911-r0 installed size:
-248 KiB
+ca-certificates-20251003-r0 installed size:
+250 KiB
 
-ca-certificates-20250911-r0 license:
+ca-certificates-20251003-r0 license:
 MPL-2.0 AND MIT
 
 ```
@@ -1283,16 +1335,16 @@ MPL-2.0 AND MIT
 ### `apk` package: `ca-certificates-bundle`
 
 ```console
-ca-certificates-bundle-20250911-r0 description:
+ca-certificates-bundle-20251003-r0 description:
 Pre generated bundle of Mozilla certificates
 
-ca-certificates-bundle-20250911-r0 webpage:
+ca-certificates-bundle-20251003-r0 webpage:
 https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 
-ca-certificates-bundle-20250911-r0 installed size:
-214 KiB
+ca-certificates-bundle-20251003-r0 installed size:
+216 KiB
 
-ca-certificates-bundle-20250911-r0 license:
+ca-certificates-bundle-20251003-r0 license:
 MPL-2.0 AND MIT
 
 ```
@@ -1300,16 +1352,16 @@ MPL-2.0 AND MIT
 ### `apk` package: `curl`
 
 ```console
-curl-8.14.1-r2 description:
+curl-8.17.0-r1 description:
 URL retrival utility and library
 
-curl-8.14.1-r2 webpage:
+curl-8.17.0-r1 webpage:
 https://curl.se/
 
-curl-8.14.1-r2 installed size:
-260 KiB
+curl-8.17.0-r1 installed size:
+265 KiB
 
-curl-8.14.1-r2 license:
+curl-8.17.0-r1 license:
 curl
 
 ```
@@ -1317,16 +1369,16 @@ curl
 ### `apk` package: `fontconfig`
 
 ```console
-fontconfig-2.15.0-r3 description:
+fontconfig-2.17.1-r0 description:
 Library for configuring and customizing font access
 
-fontconfig-2.15.0-r3 webpage:
+fontconfig-2.17.1-r0 webpage:
 https://www.freedesktop.org/wiki/Software/fontconfig
 
-fontconfig-2.15.0-r3 installed size:
-515 KiB
+fontconfig-2.17.1-r0 installed size:
+518 KiB
 
-fontconfig-2.15.0-r3 license:
+fontconfig-2.17.1-r0 license:
 MIT
 
 ```
@@ -1334,16 +1386,16 @@ MIT
 ### `apk` package: `freetype`
 
 ```console
-freetype-2.13.3-r0 description:
+freetype-2.14.1-r0 description:
 TrueType font rendering library
 
-freetype-2.13.3-r0 webpage:
+freetype-2.14.1-r0 webpage:
 https://www.freetype.org/
 
-freetype-2.13.3-r0 installed size:
-646 KiB
+freetype-2.14.1-r0 installed size:
+658 KiB
 
-freetype-2.13.3-r0 license:
+freetype-2.14.1-r0 license:
 FTL OR GPL-2.0-or-later
 
 ```
@@ -1358,7 +1410,7 @@ geoip-1.6.12-r6 webpage:
 http://www.maxmind.com/app/ip-location
 
 geoip-1.6.12-r6 installed size:
-221 KiB
+225 KiB
 
 geoip-1.6.12-r6 license:
 LGPL-2.1-or-later
@@ -1368,16 +1420,16 @@ LGPL-2.1-or-later
 ### `apk` package: `gettext-envsubst`
 
 ```console
-gettext-envsubst-0.24.1-r0 description:
+gettext-envsubst-0.24.1-r1 description:
 GNU gettext envsubst binary
 
-gettext-envsubst-0.24.1-r0 webpage:
+gettext-envsubst-0.24.1-r1 webpage:
 https://www.gnu.org/software/gettext/gettext.html
 
-gettext-envsubst-0.24.1-r0 installed size:
+gettext-envsubst-0.24.1-r1 installed size:
 45 KiB
 
-gettext-envsubst-0.24.1-r0 license:
+gettext-envsubst-0.24.1-r1 license:
 GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
 
 ```
@@ -1385,16 +1437,16 @@ GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT
 ### `apk` package: `grpc`
 
 ```console
-grpc-1.72.0-r0 description:
+grpc-1.76.0-r2 description:
 The C based gRPC
 
-grpc-1.72.0-r0 webpage:
+grpc-1.76.0-r2 webpage:
 https://grpc.io/
 
-grpc-1.72.0-r0 installed size:
-92 KiB
+grpc-1.76.0-r2 installed size:
+260 KiB
 
-grpc-1.72.0-r0 license:
+grpc-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1402,16 +1454,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `grpc-cpp`
 
 ```console
-grpc-cpp-1.72.0-r0 description:
+grpc-cpp-1.76.0-r2 description:
 C++ language bindings for gRPC
 
-grpc-cpp-1.72.0-r0 webpage:
+grpc-cpp-1.76.0-r2 webpage:
 https://grpc.io/
 
-grpc-cpp-1.72.0-r0 installed size:
-2211 KiB
+grpc-cpp-1.76.0-r2 installed size:
+2516 KiB
 
-grpc-cpp-1.72.0-r0 license:
+grpc-cpp-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1443,7 +1495,7 @@ icu-libs-76.1-r1 webpage:
 https://icu.unicode.org/
 
 icu-libs-76.1-r1 installed size:
-4659 KiB
+4651 KiB
 
 icu-libs-76.1-r1 license:
 ICU
@@ -1453,33 +1505,33 @@ ICU
 ### `apk` package: `libaddress_sorting`
 
 ```console
-libaddress_sorting-1.72.0-r0 description:
+libaddress_sorting-1.76.0-r2 description:
 The C based gRPC (libaddress_sorting library)
 
-libaddress_sorting-1.72.0-r0 webpage:
+libaddress_sorting-1.76.0-r2 webpage:
 https://grpc.io/
 
-libaddress_sorting-1.72.0-r0 installed size:
+libaddress_sorting-1.76.0-r2 installed size:
 13 KiB
 
-libaddress_sorting-1.72.0-r0 license:
+libaddress_sorting-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
 
-### `apk` package: `libapk2`
+### `apk` package: `libapk`
 
 ```console
-libapk2-2.14.9-r3 description:
+libapk-3.0.3-r1 description:
 Alpine Package Keeper - package manager for alpine
 
-libapk2-2.14.9-r3 webpage:
+libapk-3.0.3-r1 webpage:
 https://gitlab.alpinelinux.org/alpine/apk-tools
 
-libapk2-2.14.9-r3 installed size:
-179 KiB
+libapk-3.0.3-r1 installed size:
+270 KiB
 
-libapk2-2.14.9-r3 license:
+libapk-3.0.3-r1 license:
 GPL-2.0-only
 
 ```
@@ -1494,7 +1546,7 @@ libavif-1.3.0-r0 webpage:
 https://aomediacodec.github.io/av1-avif/
 
 libavif-1.3.0-r0 installed size:
-221 KiB
+225 KiB
 
 libavif-1.3.0-r0 license:
 BSD-2-Clause
@@ -1528,7 +1580,7 @@ libbz2-1.0.8-r6 webpage:
 https://sourceware.org/bzip2/
 
 libbz2-1.0.8-r6 installed size:
-72 KiB
+76 KiB
 
 libbz2-1.0.8-r6 license:
 bzip2-1.0.6
@@ -1538,16 +1590,16 @@ bzip2-1.0.6
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.5.4-r0 description:
+libcrypto3-3.5.5-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.5.4-r0 webpage:
+libcrypto3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.5.4-r0 installed size:
-5091 KiB
+libcrypto3-3.5.5-r0 installed size:
+5083 KiB
 
-libcrypto3-3.5.4-r0 license:
+libcrypto3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -1555,16 +1607,16 @@ Apache-2.0
 ### `apk` package: `libcurl`
 
 ```console
-libcurl-8.14.1-r2 description:
+libcurl-8.17.0-r1 description:
 The multiprotocol file transfer library
 
-libcurl-8.14.1-r2 webpage:
+libcurl-8.17.0-r1 webpage:
 https://curl.se/
 
-libcurl-8.14.1-r2 installed size:
-669 KiB
+libcurl-8.17.0-r1 installed size:
+721 KiB
 
-libcurl-8.14.1-r2 license:
+libcurl-8.17.0-r1 license:
 curl
 
 ```
@@ -1572,16 +1624,16 @@ curl
 ### `apk` package: `libdav1d`
 
 ```console
-libdav1d-1.5.1-r0 description:
+libdav1d-1.5.2-r0 description:
 small and fast AV1 Decoder (libraries)
 
-libdav1d-1.5.1-r0 webpage:
+libdav1d-1.5.2-r0 webpage:
 https://code.videolan.org/videolan/dav1d
 
-libdav1d-1.5.1-r0 installed size:
-1697 KiB
+libdav1d-1.5.2-r0 installed size:
+1709 KiB
 
-libdav1d-1.5.1-r0 license:
+libdav1d-1.5.2-r0 license:
 BSD-2-Clause
 
 ```
@@ -1589,16 +1641,16 @@ BSD-2-Clause
 ### `apk` package: `libedit`
 
 ```console
-libedit-20250104.3.1-r1 description:
+libedit-20251016.3.1-r0 description:
 BSD line editing library
 
-libedit-20250104.3.1-r1 webpage:
+libedit-20251016.3.1-r0 webpage:
 https://www.thrysoee.dk/editline
 
-libedit-20250104.3.1-r1 installed size:
+libedit-20251016.3.1-r0 installed size:
 173 KiB
 
-libedit-20250104.3.1-r1 license:
+libedit-20251016.3.1-r0 license:
 BSD-3-Clause
 
 ```
@@ -1623,16 +1675,16 @@ MIT
 ### `apk` package: `libgcc`
 
 ```console
-libgcc-14.2.0-r6 description:
+libgcc-15.2.0-r2 description:
 GNU C compiler runtime libraries
 
-libgcc-14.2.0-r6 webpage:
+libgcc-15.2.0-r2 webpage:
 https://gcc.gnu.org
 
-libgcc-14.2.0-r6 installed size:
+libgcc-15.2.0-r2 installed size:
 169 KiB
 
-libgcc-14.2.0-r6 license:
+libgcc-15.2.0-r2 license:
 GPL-2.0-or-later AND LGPL-2.1-or-later
 
 ```
@@ -1657,16 +1709,16 @@ GD
 ### `apk` package: `libgpr`
 
 ```console
-libgpr-1.72.0-r0 description:
+libgpr-1.76.0-r2 description:
 The C based gRPC (libgpr library)
 
-libgpr-1.72.0-r0 webpage:
+libgpr-1.76.0-r2 webpage:
 https://grpc.io/
 
-libgpr-1.72.0-r0 installed size:
-111 KiB
+libgpr-1.76.0-r2 installed size:
+120 KiB
 
-libgpr-1.72.0-r0 license:
+libgpr-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1674,16 +1726,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libgrpc`
 
 ```console
-libgrpc-1.72.0-r0 description:
+libgrpc-1.76.0-r2 description:
 The C based gRPC (libgrpc library)
 
-libgrpc-1.72.0-r0 webpage:
+libgrpc-1.76.0-r2 webpage:
 https://grpc.io/
 
-libgrpc-1.72.0-r0 installed size:
-8395 KiB
+libgrpc-1.76.0-r2 installed size:
+10 MiB
 
-libgrpc-1.72.0-r0 license:
+libgrpc-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1691,16 +1743,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libgrpc_unsecure`
 
 ```console
-libgrpc_unsecure-1.72.0-r0 description:
+libgrpc_unsecure-1.76.0-r2 description:
 The C based gRPC (libgrpc_unsecure library)
 
-libgrpc_unsecure-1.72.0-r0 webpage:
+libgrpc_unsecure-1.76.0-r2 webpage:
 https://grpc.io/
 
-libgrpc_unsecure-1.72.0-r0 installed size:
-5492 KiB
+libgrpc_unsecure-1.76.0-r2 installed size:
+7200 KiB
 
-libgrpc_unsecure-1.72.0-r0 license:
+libgrpc_unsecure-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1725,16 +1777,16 @@ X11
 ### `apk` package: `libidn2`
 
 ```console
-libidn2-2.3.7-r0 description:
+libidn2-2.3.8-r0 description:
 Encode/Decode library for internationalized domain names
 
-libidn2-2.3.7-r0 webpage:
+libidn2-2.3.8-r0 webpage:
 https://www.gnu.org/software/libidn#libidn2
 
-libidn2-2.3.7-r0 installed size:
+libidn2-2.3.8-r0 installed size:
 193 KiB
 
-libidn2-2.3.7-r0 license:
+libidn2-2.3.8-r0 license:
 GPL-2.0-or-later OR LGPL-3.0-or-later
 
 ```
@@ -1742,16 +1794,16 @@ GPL-2.0-or-later OR LGPL-3.0-or-later
 ### `apk` package: `libintl`
 
 ```console
-libintl-0.24.1-r0 description:
+libintl-0.24.1-r1 description:
 GNU gettext runtime library
 
-libintl-0.24.1-r0 webpage:
+libintl-0.24.1-r1 webpage:
 https://www.gnu.org/software/gettext/gettext.html
 
-libintl-0.24.1-r0 installed size:
+libintl-0.24.1-r1 installed size:
 133 KiB
 
-libintl-0.24.1-r0 license:
+libintl-0.24.1-r1 license:
 LGPL-2.1-or-later
 
 ```
@@ -1759,16 +1811,16 @@ LGPL-2.1-or-later
 ### `apk` package: `libjpeg-turbo`
 
 ```console
-libjpeg-turbo-3.1.0-r0 description:
+libjpeg-turbo-3.1.2-r0 description:
 Accelerated baseline JPEG compression and decompression library
 
-libjpeg-turbo-3.1.0-r0 webpage:
+libjpeg-turbo-3.1.2-r0 webpage:
 https://libjpeg-turbo.org/
 
-libjpeg-turbo-3.1.0-r0 installed size:
-629 KiB
+libjpeg-turbo-3.1.2-r0 installed size:
+641 KiB
 
-libjpeg-turbo-3.1.0-r0 license:
+libjpeg-turbo-3.1.2-r0 license:
 BSD-3-Clause AND IJG AND Zlib
 
 ```
@@ -1793,16 +1845,16 @@ BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain
 ### `apk` package: `libncursesw`
 
 ```console
-libncursesw-6.5_p20250503-r0 description:
+libncursesw-6.5_p20251123-r0 description:
 Console display library (libncursesw)
 
-libncursesw-6.5_p20250503-r0 webpage:
+libncursesw-6.5_p20251123-r0 webpage:
 https://invisible-island.net/ncurses/
 
-libncursesw-6.5_p20250503-r0 installed size:
+libncursesw-6.5_p20251123-r0 installed size:
 334 KiB
 
-libncursesw-6.5_p20250503-r0 license:
+libncursesw-6.5_p20251123-r0 license:
 X11
 
 ```
@@ -1810,16 +1862,16 @@ X11
 ### `apk` package: `libpng`
 
 ```console
-libpng-1.6.47-r0 description:
+libpng-1.6.54-r0 description:
 Portable Network Graphics library
 
-libpng-1.6.47-r0 webpage:
+libpng-1.6.54-r0 webpage:
 http://www.libpng.org
 
-libpng-1.6.47-r0 installed size:
-181 KiB
+libpng-1.6.54-r0 installed size:
+177 KiB
 
-libpng-1.6.47-r0 license:
+libpng-1.6.54-r0 license:
 Libpng
 
 ```
@@ -1827,16 +1879,16 @@ Libpng
 ### `apk` package: `libprotobuf`
 
 ```console
-libprotobuf-29.4-r0 description:
+libprotobuf-31.1-r1 description:
 Runtime library for C++ users of protocol buffers
 
-libprotobuf-29.4-r0 webpage:
+libprotobuf-31.1-r1 webpage:
 https://github.com/protocolbuffers/protobuf
 
-libprotobuf-29.4-r0 installed size:
-2867 KiB
+libprotobuf-31.1-r1 installed size:
+2940 KiB
 
-libprotobuf-29.4-r0 license:
+libprotobuf-31.1-r1 license:
 BSD-3-Clause
 
 ```
@@ -1844,16 +1896,16 @@ BSD-3-Clause
 ### `apk` package: `libprotobuf-lite`
 
 ```console
-libprotobuf-lite-29.4-r0 description:
+libprotobuf-lite-31.1-r1 description:
 Runtime library for C++ users with 'lite runtime' setting of protocol buffers
 
-libprotobuf-lite-29.4-r0 webpage:
+libprotobuf-lite-31.1-r1 webpage:
 https://github.com/protocolbuffers/protobuf
 
-libprotobuf-lite-29.4-r0 installed size:
-562 KiB
+libprotobuf-lite-31.1-r1 installed size:
+602 KiB
 
-libprotobuf-lite-29.4-r0 license:
+libprotobuf-lite-31.1-r1 license:
 BSD-3-Clause
 
 ```
@@ -1861,16 +1913,16 @@ BSD-3-Clause
 ### `apk` package: `libprotoc`
 
 ```console
-libprotoc-29.4-r0 description:
+libprotoc-31.1-r1 description:
 Runtime library for Protocol Buffer compiler
 
-libprotoc-29.4-r0 webpage:
+libprotoc-31.1-r1 webpage:
 https://github.com/protocolbuffers/protobuf
 
-libprotoc-29.4-r0 installed size:
-3412 KiB
+libprotoc-31.1-r1 installed size:
+3797 KiB
 
-libprotoc-29.4-r0 license:
+libprotoc-31.1-r1 license:
 BSD-3-Clause
 
 ```
@@ -1895,16 +1947,16 @@ MIT
 ### `apk` package: `libsharpyuv`
 
 ```console
-libsharpyuv-1.5.0-r0 description:
+libsharpyuv-1.6.0-r0 description:
 Libraries for working with WebP images (libsharpyuv library)
 
-libsharpyuv-1.5.0-r0 webpage:
+libsharpyuv-1.6.0-r0 webpage:
 https://developers.google.com/speed/webp
 
-libsharpyuv-1.5.0-r0 installed size:
+libsharpyuv-1.6.0-r0 installed size:
 25 KiB
 
-libsharpyuv-1.5.0-r0 license:
+libsharpyuv-1.6.0-r0 license:
 BSD-3-Clause
 
 ```
@@ -1912,16 +1964,16 @@ BSD-3-Clause
 ### `apk` package: `libsm`
 
 ```console
-libsm-1.2.5-r0 description:
+libsm-1.2.6-r0 description:
 X11 Session Management library
 
-libsm-1.2.5-r0 webpage:
+libsm-1.2.6-r0 webpage:
 https://xorg.freedesktop.org/
 
-libsm-1.2.5-r0 installed size:
+libsm-1.2.6-r0 installed size:
 33 KiB
 
-libsm-1.2.5-r0 license:
+libsm-1.2.6-r0 license:
 MIT
 
 ```
@@ -1929,16 +1981,16 @@ MIT
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.5.4-r0 description:
+libssl3-3.5.5-r0 description:
 SSL shared libraries
 
-libssl3-3.5.4-r0 webpage:
+libssl3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.5.4-r0 installed size:
-823 KiB
+libssl3-3.5.5-r0 installed size:
+819 KiB
 
-libssl3-3.5.4-r0 license:
+libssl3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -1946,16 +1998,16 @@ Apache-2.0
 ### `apk` package: `libstdc++`
 
 ```console
-libstdc++-14.2.0-r6 description:
+libstdc++-15.2.0-r2 description:
 GNU C++ standard runtime library
 
-libstdc++-14.2.0-r6 webpage:
+libstdc++-15.2.0-r2 webpage:
 https://gcc.gnu.org
 
-libstdc++-14.2.0-r6 installed size:
-2706 KiB
+libstdc++-15.2.0-r2 installed size:
+2738 KiB
 
-libstdc++-14.2.0-r6 license:
+libstdc++-15.2.0-r2 license:
 GPL-2.0-or-later AND LGPL-2.1-or-later
 
 ```
@@ -1963,16 +2015,16 @@ GPL-2.0-or-later AND LGPL-2.1-or-later
 ### `apk` package: `libunistring`
 
 ```console
-libunistring-1.3-r0 description:
+libunistring-1.4.1-r0 description:
 Library for manipulating Unicode strings and C strings
 
-libunistring-1.3-r0 webpage:
+libunistring-1.4.1-r0 webpage:
 https://www.gnu.org/software/libunistring/
 
-libunistring-1.3-r0 installed size:
-1857 KiB
+libunistring-1.4.1-r0 installed size:
+1877 KiB
 
-libunistring-1.3-r0 license:
+libunistring-1.4.1-r0 license:
 GPL-2.0-or-later OR LGPL-3.0-or-later
 
 ```
@@ -1980,16 +2032,16 @@ GPL-2.0-or-later OR LGPL-3.0-or-later
 ### `apk` package: `libupb_base_lib`
 
 ```console
-libupb_base_lib-1.72.0-r0 description:
+libupb_base_lib-1.76.0-r2 description:
 The C based gRPC (libupb_base_lib library)
 
-libupb_base_lib-1.72.0-r0 webpage:
+libupb_base_lib-1.76.0-r2 webpage:
 https://grpc.io/
 
-libupb_base_lib-1.72.0-r0 installed size:
+libupb_base_lib-1.76.0-r2 installed size:
 13 KiB
 
-libupb_base_lib-1.72.0-r0 license:
+libupb_base_lib-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -1997,16 +2049,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libupb_json_lib`
 
 ```console
-libupb_json_lib-1.72.0-r0 description:
+libupb_json_lib-1.76.0-r2 description:
 The C based gRPC (libupb_json_lib library)
 
-libupb_json_lib-1.72.0-r0 webpage:
+libupb_json_lib-1.76.0-r2 webpage:
 https://grpc.io/
 
-libupb_json_lib-1.72.0-r0 installed size:
-145 KiB
+libupb_json_lib-1.76.0-r2 installed size:
+41 KiB
 
-libupb_json_lib-1.72.0-r0 license:
+libupb_json_lib-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -2014,16 +2066,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libupb_mem_lib`
 
 ```console
-libupb_mem_lib-1.72.0-r0 description:
+libupb_mem_lib-1.76.0-r2 description:
 The C based gRPC (libupb_mem_lib library)
 
-libupb_mem_lib-1.72.0-r0 webpage:
+libupb_mem_lib-1.76.0-r2 webpage:
 https://grpc.io/
 
-libupb_mem_lib-1.72.0-r0 installed size:
+libupb_mem_lib-1.76.0-r2 installed size:
 13 KiB
 
-libupb_mem_lib-1.72.0-r0 license:
+libupb_mem_lib-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -2031,16 +2083,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libupb_message_lib`
 
 ```console
-libupb_message_lib-1.72.0-r0 description:
+libupb_message_lib-1.76.0-r2 description:
 The C based gRPC (libupb_message_lib library)
 
-libupb_message_lib-1.72.0-r0 webpage:
+libupb_message_lib-1.76.0-r2 webpage:
 https://grpc.io/
 
-libupb_message_lib-1.72.0-r0 installed size:
-41 KiB
+libupb_message_lib-1.76.0-r2 installed size:
+33 KiB
 
-libupb_message_lib-1.72.0-r0 license:
+libupb_message_lib-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -2048,16 +2100,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libupb_textformat_lib`
 
 ```console
-libupb_textformat_lib-1.72.0-r0 description:
+libupb_textformat_lib-1.76.0-r2 description:
 The C based gRPC (libupb_textformat_lib library)
 
-libupb_textformat_lib-1.72.0-r0 webpage:
+libupb_textformat_lib-1.76.0-r2 webpage:
 https://grpc.io/
 
-libupb_textformat_lib-1.72.0-r0 installed size:
-121 KiB
+libupb_textformat_lib-1.76.0-r2 installed size:
+21 KiB
 
-libupb_textformat_lib-1.72.0-r0 license:
+libupb_textformat_lib-1.76.0-r2 license:
 Apache-2.0 AND BSD-3-Clause AND MIT
 
 ```
@@ -2065,16 +2117,16 @@ Apache-2.0 AND BSD-3-Clause AND MIT
 ### `apk` package: `libuuid`
 
 ```console
-libuuid-2.41-r9 description:
+libuuid-2.41.2-r0 description:
 DCE compatible Universally Unique Identifier library
 
-libuuid-2.41-r9 webpage:
+libuuid-2.41.2-r0 webpage:
 https://git.kernel.org/cgit/utils/util-linux/util-linux.git
 
-libuuid-2.41-r9 installed size:
+libuuid-2.41.2-r0 installed size:
 29 KiB
 
-libuuid-2.41-r9 license:
+libuuid-2.41.2-r0 license:
 BSD-3-Clause
 
 ```
@@ -2082,16 +2134,16 @@ BSD-3-Clause
 ### `apk` package: `libwebp`
 
 ```console
-libwebp-1.5.0-r0 description:
+libwebp-1.6.0-r0 description:
 Libraries for working with WebP images
 
-libwebp-1.5.0-r0 webpage:
+libwebp-1.6.0-r0 webpage:
 https://developers.google.com/speed/webp
 
-libwebp-1.5.0-r0 installed size:
-485 KiB
+libwebp-1.6.0-r0 installed size:
+545 KiB
 
-libwebp-1.5.0-r0 license:
+libwebp-1.6.0-r0 license:
 BSD-3-Clause
 
 ```
@@ -2099,16 +2151,16 @@ BSD-3-Clause
 ### `apk` package: `libx11`
 
 ```console
-libx11-1.8.11-r0 description:
+libx11-1.8.12-r1 description:
 X11 client-side library
 
-libx11-1.8.11-r0 webpage:
+libx11-1.8.12-r1 webpage:
 https://xorg.freedesktop.org/
 
-libx11-1.8.11-r0 installed size:
-2275 KiB
+libx11-1.8.12-r1 installed size:
+2271 KiB
 
-libx11-1.8.11-r0 license:
+libx11-1.8.12-r1 license:
 X11
 
 ```
@@ -2133,16 +2185,16 @@ MIT
 ### `apk` package: `libxcb`
 
 ```console
-libxcb-1.17.0-r0 description:
+libxcb-1.17.0-r1 description:
 X11 client-side library
 
-libxcb-1.17.0-r0 webpage:
+libxcb-1.17.0-r1 webpage:
 https://xcb.freedesktop.org/
 
-libxcb-1.17.0-r0 installed size:
-966 KiB
+libxcb-1.17.0-r1 installed size:
+943 KiB
 
-libxcb-1.17.0-r0 license:
+libxcb-1.17.0-r1 license:
 MIT
 
 ```
@@ -2191,7 +2243,7 @@ libxml2-2.13.9-r0 webpage:
 https://gitlab.gnome.org/GNOME/libxml2
 
 libxml2-2.13.9-r0 installed size:
-1050 KiB
+1046 KiB
 
 libxml2-2.13.9-r0 license:
 MIT
@@ -2225,7 +2277,7 @@ libxslt-1.1.43-r3 webpage:
 http://xmlsoft.org/XSLT/
 
 libxslt-1.1.43-r3 installed size:
-305 KiB
+301 KiB
 
 libxslt-1.1.43-r3 license:
 X11
@@ -2259,7 +2311,7 @@ libyuv-0.0.1887.20251502-r1 webpage:
 https://chromium.googlesource.com/libyuv/libyuv/
 
 libyuv-0.0.1887.20251502-r1 installed size:
-2183 KiB
+1915 KiB
 
 libyuv-0.0.1887.20251502-r1 license:
 BSD-3-Clause
@@ -2269,16 +2321,16 @@ BSD-3-Clause
 ### `apk` package: `musl`
 
 ```console
-musl-1.2.5-r10 description:
+musl-1.2.5-r21 description:
 the musl c library (libc) implementation
 
-musl-1.2.5-r10 webpage:
+musl-1.2.5-r21 webpage:
 https://musl.libc.org/
 
-musl-1.2.5-r10 installed size:
-646 KiB
+musl-1.2.5-r21 installed size:
+650 KiB
 
-musl-1.2.5-r10 license:
+musl-1.2.5-r21 license:
 MIT
 
 ```
@@ -2286,16 +2338,16 @@ MIT
 ### `apk` package: `musl-utils`
 
 ```console
-musl-utils-1.2.5-r10 description:
+musl-utils-1.2.5-r21 description:
 the musl c library (libc) implementation
 
-musl-utils-1.2.5-r10 webpage:
+musl-utils-1.2.5-r21 webpage:
 https://musl.libc.org/
 
-musl-utils-1.2.5-r10 installed size:
+musl-utils-1.2.5-r21 installed size:
 54 KiB
 
-musl-utils-1.2.5-r10 license:
+musl-utils-1.2.5-r21 license:
 MIT AND BSD-2-Clause AND GPL-2.0-or-later
 
 ```
@@ -2303,16 +2355,16 @@ MIT AND BSD-2-Clause AND GPL-2.0-or-later
 ### `apk` package: `ncurses-terminfo-base`
 
 ```console
-ncurses-terminfo-base-6.5_p20250503-r0 description:
+ncurses-terminfo-base-6.5_p20251123-r0 description:
 Descriptions of common terminals
 
-ncurses-terminfo-base-6.5_p20250503-r0 webpage:
+ncurses-terminfo-base-6.5_p20251123-r0 webpage:
 https://invisible-island.net/ncurses/
 
-ncurses-terminfo-base-6.5_p20250503-r0 installed size:
+ncurses-terminfo-base-6.5_p20251123-r0 installed size:
 98 KiB
 
-ncurses-terminfo-base-6.5_p20250503-r0 license:
+ncurses-terminfo-base-6.5_p20251123-r0 license:
 X11
 
 ```
@@ -2320,16 +2372,33 @@ X11
 ### `apk` package: `nghttp2-libs`
 
 ```console
-nghttp2-libs-1.65.0-r0 description:
+nghttp2-libs-1.68.0-r0 description:
 HTTP/2 C client, server and proxy (libraries)
 
-nghttp2-libs-1.65.0-r0 webpage:
+nghttp2-libs-1.68.0-r0 webpage:
 https://nghttp2.org
 
-nghttp2-libs-1.65.0-r0 installed size:
+nghttp2-libs-1.68.0-r0 installed size:
 129 KiB
 
-nghttp2-libs-1.65.0-r0 license:
+nghttp2-libs-1.68.0-r0 license:
+MIT
+
+```
+
+### `apk` package: `nghttp3`
+
+```console
+nghttp3-1.13.1-r0 description:
+HTTP/3 library written in C
+
+nghttp3-1.13.1-r0 webpage:
+https://github.com/ngtcp2/nghttp3
+
+nghttp3-1.13.1-r0 installed size:
+140 KiB
+
+nghttp3-1.13.1-r0 license:
 MIT
 
 ```
@@ -2337,16 +2406,33 @@ MIT
 ### `apk` package: `nginx`
 
 ```console
-nginx-1.29.3-r1 description:
+nginx-1.29.4-r1 description:
 High performance web server
 
-nginx-1.29.3-r1 webpage:
+nginx-1.29.4-r1 webpage:
 https://nginx.org/
 
-nginx-1.29.3-r1 installed size:
-2661 KiB
+nginx-1.29.4-r1 installed size:
+2702 KiB
 
-nginx-1.29.3-r1 license:
+nginx-1.29.4-r1 license:
+2-clause BSD-like license
+
+```
+
+### `apk` package: `nginx-module-acme`
+
+```console
+nginx-module-acme-1.29.4.0.3.1-r1 description:
+nginx nginx-acme
+
+nginx-module-acme-1.29.4.0.3.1-r1 webpage:
+https://nginx.org/
+
+nginx-module-acme-1.29.4.0.3.1-r1 installed size:
+7959 KiB
+
+nginx-module-acme-1.29.4.0.3.1-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2354,16 +2440,16 @@ nginx-1.29.3-r1 license:
 ### `apk` package: `nginx-module-geoip`
 
 ```console
-nginx-module-geoip-1.29.3-r1 description:
+nginx-module-geoip-1.29.4-r1 description:
 nginx GeoIP dynamic modules
 
-nginx-module-geoip-1.29.3-r1 webpage:
+nginx-module-geoip-1.29.4-r1 webpage:
 https://nginx.org/
 
-nginx-module-geoip-1.29.3-r1 installed size:
+nginx-module-geoip-1.29.4-r1 installed size:
 62 KiB
 
-nginx-module-geoip-1.29.3-r1 license:
+nginx-module-geoip-1.29.4-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2371,16 +2457,16 @@ nginx-module-geoip-1.29.3-r1 license:
 ### `apk` package: `nginx-module-image-filter`
 
 ```console
-nginx-module-image-filter-1.29.3-r1 description:
+nginx-module-image-filter-1.29.4-r1 description:
 nginx image filter dynamic module
 
-nginx-module-image-filter-1.29.3-r1 webpage:
+nginx-module-image-filter-1.29.4-r1 webpage:
 https://nginx.org/
 
-nginx-module-image-filter-1.29.3-r1 installed size:
+nginx-module-image-filter-1.29.4-r1 installed size:
 46 KiB
 
-nginx-module-image-filter-1.29.3-r1 license:
+nginx-module-image-filter-1.29.4-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2388,16 +2474,16 @@ nginx-module-image-filter-1.29.3-r1 license:
 ### `apk` package: `nginx-module-njs`
 
 ```console
-nginx-module-njs-1.29.3.0.9.4-r1 description:
+nginx-module-njs-1.29.4.0.9.4-r1 description:
 nginx njs dynamic modules
 
-nginx-module-njs-1.29.3.0.9.4-r1 webpage:
+nginx-module-njs-1.29.4.0.9.4-r1 webpage:
 https://nginx.org/
 
-nginx-module-njs-1.29.3.0.9.4-r1 installed size:
-9164 KiB
+nginx-module-njs-1.29.4.0.9.4-r1 installed size:
+9120 KiB
 
-nginx-module-njs-1.29.3.0.9.4-r1 license:
+nginx-module-njs-1.29.4.0.9.4-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2405,16 +2491,16 @@ nginx-module-njs-1.29.3.0.9.4-r1 license:
 ### `apk` package: `nginx-module-otel`
 
 ```console
-nginx-module-otel-1.29.3.0.1.2-r1 description:
+nginx-module-otel-1.29.4.0.1.2-r1 description:
 nginx OpenTelemetry dynamic module
 
-nginx-module-otel-1.29.3.0.1.2-r1 webpage:
+nginx-module-otel-1.29.4.0.1.2-r1 webpage:
 https://nginx.org/
 
-nginx-module-otel-1.29.3.0.1.2-r1 installed size:
-723 KiB
+nginx-module-otel-1.29.4.0.1.2-r1 installed size:
+724 KiB
 
-nginx-module-otel-1.29.3.0.1.2-r1 license:
+nginx-module-otel-1.29.4.0.1.2-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2422,16 +2508,16 @@ nginx-module-otel-1.29.3.0.1.2-r1 license:
 ### `apk` package: `nginx-module-xslt`
 
 ```console
-nginx-module-xslt-1.29.3-r1 description:
+nginx-module-xslt-1.29.4-r1 description:
 nginx xslt dynamic module
 
-nginx-module-xslt-1.29.3-r1 webpage:
+nginx-module-xslt-1.29.4-r1 webpage:
 https://nginx.org/
 
-nginx-module-xslt-1.29.3-r1 installed size:
+nginx-module-xslt-1.29.4-r1 installed size:
 46 KiB
 
-nginx-module-xslt-1.29.3-r1 license:
+nginx-module-xslt-1.29.4-r1 license:
 2-clause BSD-like license
 
 ```
@@ -2439,16 +2525,16 @@ nginx-module-xslt-1.29.3-r1 license:
 ### `apk` package: `pcre2`
 
 ```console
-pcre2-10.46-r0 description:
+pcre2-10.47-r0 description:
 Perl-compatible regular expression library
 
-pcre2-10.46-r0 webpage:
+pcre2-10.47-r0 webpage:
 https://pcre.org/
 
-pcre2-10.46-r0 installed size:
-767 KiB
+pcre2-10.47-r0 installed size:
+775 KiB
 
-pcre2-10.46-r0 license:
+pcre2-10.47-r0 license:
 BSD-3-Clause
 
 ```
@@ -2456,16 +2542,16 @@ BSD-3-Clause
 ### `apk` package: `protobuf`
 
 ```console
-protobuf-29.4-r0 description:
+protobuf-31.1-r1 description:
 Library for extensible, efficient structure packing
 
-protobuf-29.4-r0 webpage:
+protobuf-31.1-r1 webpage:
 https://github.com/protocolbuffers/protobuf
 
-protobuf-29.4-r0 installed size:
+protobuf-31.1-r1 installed size:
 27 KiB
 
-protobuf-29.4-r0 license:
+protobuf-31.1-r1 license:
 BSD-3-Clause
 
 ```
@@ -2473,16 +2559,16 @@ BSD-3-Clause
 ### `apk` package: `protoc`
 
 ```console
-protoc-29.4-r0 description:
+protoc-31.1-r1 description:
 Protocol buffer compiler binary and library
 
-protoc-29.4-r0 webpage:
+protoc-31.1-r1 webpage:
 https://github.com/protocolbuffers/protobuf
 
-protoc-29.4-r0 installed size:
-645 KiB
+protoc-31.1-r1 installed size:
+3418 KiB
 
-protoc-29.4-r0 license:
+protoc-31.1-r1 license:
 BSD-3-Clause
 
 ```
@@ -2490,16 +2576,16 @@ BSD-3-Clause
 ### `apk` package: `re2`
 
 ```console
-re2-2024.07.02-r3 description:
+re2-2025.11.05-r0 description:
 Efficient, principled regular expression library
 
-re2-2024.07.02-r3 webpage:
+re2-2025.11.05-r0 webpage:
 https://github.com/google/re2
 
-re2-2024.07.02-r3 installed size:
-514 KiB
+re2-2025.11.05-r0 installed size:
+518 KiB
 
-re2-2024.07.02-r3 license:
+re2-2025.11.05-r0 license:
 BSD-3-Clause
 
 ```
@@ -2507,16 +2593,16 @@ BSD-3-Clause
 ### `apk` package: `scanelf`
 
 ```console
-scanelf-1.3.8-r1 description:
+scanelf-1.3.8-r2 description:
 Scan ELF binaries for stuff
 
-scanelf-1.3.8-r1 webpage:
+scanelf-1.3.8-r2 webpage:
 https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 
-scanelf-1.3.8-r1 installed size:
+scanelf-1.3.8-r2 installed size:
 65 KiB
 
-scanelf-1.3.8-r1 license:
+scanelf-1.3.8-r2 license:
 GPL-2.0-only
 
 ```
@@ -2524,16 +2610,16 @@ GPL-2.0-only
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r19 description:
+ssl_client-1.37.0-r30 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r19 webpage:
+ssl_client-1.37.0-r30 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r19 installed size:
+ssl_client-1.37.0-r30 installed size:
 14 KiB
 
-ssl_client-1.37.0-r19 license:
+ssl_client-1.37.0-r30 license:
 GPL-2.0-only
 
 ```
@@ -2542,7 +2628,7 @@ GPL-2.0-only
 
 ```console
 tiff-4.7.1-r0 description:
-Provides support for the Tag Image File Format or TIFF
+Support for the Tag Image File Format or TIFF
 
 tiff-4.7.1-r0 webpage:
 https://gitlab.com/libtiff/libtiff
@@ -2558,16 +2644,16 @@ libtiff
 ### `apk` package: `tzdata`
 
 ```console
-tzdata-2025b-r0 description:
+tzdata-2025c-r0 description:
 Timezone data
 
-tzdata-2025b-r0 webpage:
+tzdata-2025c-r0 webpage:
 https://www.iana.org/time-zones
 
-tzdata-2025b-r0 installed size:
-435 KiB
+tzdata-2025c-r0 installed size:
+436 KiB
 
-tzdata-2025b-r0 license:
+tzdata-2025c-r0 license:
 Public-Domain
 
 ```
@@ -2575,16 +2661,16 @@ Public-Domain
 ### `apk` package: `xz-libs`
 
 ```console
-xz-libs-5.8.1-r0 description:
+xz-libs-5.8.2-r0 description:
 Library and CLI tools for XZ and LZMA compressed files (libraries)
 
-xz-libs-5.8.1-r0 webpage:
+xz-libs-5.8.2-r0 webpage:
 https://tukaani.org/xz/
 
-xz-libs-5.8.1-r0 installed size:
-225 KiB
+xz-libs-5.8.2-r0 installed size:
+221 KiB
 
-xz-libs-5.8.1-r0 license:
+xz-libs-5.8.2-r0 license:
 GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 
 ```
@@ -2609,16 +2695,16 @@ Zlib
 ### `apk` package: `zstd-libs`
 
 ```console
-zstd-libs-1.5.7-r0 description:
+zstd-libs-1.5.7-r2 description:
 Zstandard - Fast real-time compression algorithm (libraries)
 
-zstd-libs-1.5.7-r0 webpage:
+zstd-libs-1.5.7-r2 webpage:
 https://facebook.github.io/zstd/
 
-zstd-libs-1.5.7-r0 installed size:
-701 KiB
+zstd-libs-1.5.7-r2 installed size:
+693 KiB
 
-zstd-libs-1.5.7-r0 license:
+zstd-libs-1.5.7-r2 license:
 BSD-3-Clause OR GPL-2.0-or-later
 
 ```

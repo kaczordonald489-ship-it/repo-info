@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:253863311a5a25502ace8c058f4c76a28702511aa01919e78e2023e89dd9ba96`
-- Created: `2025-11-18T05:20:15.204356938Z`
+- Image ID: `sha256:35f4dcc34be26973df6ef685e5dfe6c9611acf3fa72a6382cf2f23eb24ec23ca`
+- Created: `2026-01-13T02:26:34.303111949Z`
 - Virtual Size: ~ 278.06 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -1858,11 +1858,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/tar/1.34+dfsg-1+deb11u1/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/tar/1.34+dfsg-1+deb11u1/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `tzdata=2025b-0+deb11u1`
+### `dpkg` source package: `tzdata=2025b-0+deb11u2`
 
 Binary Packages:
 
-- `tzdata=2025b-0+deb11u1`
+- `tzdata=2025b-0+deb11u2`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
@@ -1871,18 +1871,18 @@ If source is available (seen below), check the contents of `debian/copyright` wi
 Source:
 
 ```console
-$ apt-get source -qq --print-uris tzdata=2025b-0+deb11u1
-'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u1.dsc' tzdata_2025b-0+deb11u1.dsc 2269 SHA256:5121967edc9e3805e104ddf325afcad8b8fac643677a5253f3443a341123f7a0
+$ apt-get source -qq --print-uris tzdata=2025b-0+deb11u2
+'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u2.dsc' tzdata_2025b-0+deb11u2.dsc 2269 SHA256:48749da68ba9d581e02e0675ddabb793395cc6df0a3af3abc091553652a4f8e6
 'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b.orig.tar.gz' tzdata_2025b.orig.tar.gz 464295 SHA256:11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474
 'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b.orig.tar.gz.asc' tzdata_2025b.orig.tar.gz.asc 833 SHA256:829c06258175c0143754a89e26d7445c243a86cef8e9cf7d020b128f6d82496b
-'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u1.debian.tar.xz' tzdata_2025b-0+deb11u1.debian.tar.xz 108596 SHA256:42bfe4e25a15fd0ea6b3eda7e40ad52930ee1d93d923dba42891c6ea85184fab
+'http://deb.debian.org/debian-security/pool/updates/main/t/tzdata/tzdata_2025b-0%2bdeb11u2.debian.tar.xz' tzdata_2025b-0+deb11u2.debian.tar.xz 109300 SHA256:ad10ef5bc073504a8bab8195fa61abab3304b09bce908764e0e91a379e693e22
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/tzdata/2025b-0+deb11u1/ (for browsing the source)
-- https://sources.debian.net/src/tzdata/2025b-0+deb11u1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/tzdata/2025b-0+deb11u1/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/tzdata/2025b-0+deb11u2/ (for browsing the source)
+- https://sources.debian.net/src/tzdata/2025b-0+deb11u2/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/tzdata/2025b-0+deb11u2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `unixodbc=2.3.6-0.1`
 

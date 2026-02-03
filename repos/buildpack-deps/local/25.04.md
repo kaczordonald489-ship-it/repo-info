@@ -1285,15 +1285,9 @@ Licenses: (parsed from: `/usr/share/doc/gir1.2-glib-2.0/copyright`, `/usr/share/
 - `cmph`
 - `old-glib-tests`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris glib2.0=2.84.1-1ubuntu0.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.84.1-1ubuntu0.1.dsc' glib2.0_2.84.1-1ubuntu0.1.dsc 4927 SHA512:23b6425f66f084a322c92a59aafb626cbadc98def81a856222f4144e7ecd5f3b726e7ca272ef71dfc7b2ff7f7e157f46248b858dbfcb4fc78f7bcabfc7378c7d
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.84.1.orig-unicode-data.tar.xz' glib2.0_2.84.1.orig-unicode-data.tar.xz 660708 SHA512:09546f4f69b7b911fbde1fea66b11ae32a9e1320d2ede32cdfdd0f15843de985070edceb68b0a6bcb2477ef7b7cc298eefc261d26db5fc6b198fd67eaee35097
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.84.1.orig.tar.xz' glib2.0_2.84.1.orig.tar.xz 5615396 SHA512:ee7f38a4726fd72e41ddb75c4933c7b1bb30935bb2fddc84902d0627a836af512534195132cc02e3d15f168fefc816576181a8d6e436472b582191437b79a456
-'http://archive.ubuntu.com/ubuntu/pool/main/g/glib2.0/glib2.0_2.84.1-1ubuntu0.1.debian.tar.xz' glib2.0_2.84.1-1ubuntu0.1.debian.tar.xz 137396 SHA512:11dc409519160122c753750507fafe8d3ad09fd732c05fae6146fe2d941d5ee51f990025f3ed710088a2c657739b4c839f801f59549cc61a5dbd60935f9ebdd1
-```
 
 ### `dpkg` source package: `glibc=2.41-6ubuntu1.2`
 
@@ -1408,15 +1402,9 @@ Licenses: (parsed from: `/usr/share/doc/dirmngr/copyright`, `/usr/share/doc/gnup
 - `TinySCHEME`
 - `permissive`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris gnupg2=2.4.4-2ubuntu23.1
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.4-2ubuntu23.1.dsc' gnupg2_2.4.4-2ubuntu23.1.dsc 3288 SHA512:c61fa037d797ff6b4753c32a0469f7604df12d0772122416172141eadf2fc80ad977504ad58bddc1a3d99346ed4ddb7cbd3fe9f80b53eea6e9184cde15ba6bb7
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.4.orig.tar.bz2' gnupg2_2.4.4.orig.tar.bz2 7886036 SHA512:3d1a3b08d1ce2319d238d8be96591e418ede1dc0b4ede33a4cc2fe40e9c56d5bbc27b1984736d8a786e7f292ddbc836846a8bdb4bf89f064e953c37cb54b94ef
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.4.orig.tar.bz2.asc' gnupg2_2.4.4.orig.tar.bz2.asc 386 SHA512:abb44c8bfa59e589bdcd660f1d1a2e268bade8729d95b34263e3d3b5388d1d2276420313989777938f17f97739c554808f97a63257ca0f53d2122a346d70ec85
-'http://archive.ubuntu.com/ubuntu/pool/main/g/gnupg2/gnupg2_2.4.4-2ubuntu23.1.debian.tar.xz' gnupg2_2.4.4-2ubuntu23.1.debian.tar.xz 97748 SHA512:9df8dae14cf7a03deb5630956a67a3e88b9c19983cbfa61237f3ec4fbda066c7abf00d289583d760df64160b418b5af51720beb76a8b5d173ba84d02418c9efa
-```
 
 ### `dpkg` source package: `gnutls28=3.8.9-2ubuntu3.1`
 
@@ -4067,14 +4055,9 @@ Licenses: (parsed from: `/usr/share/doc/libpq-dev/copyright`, `/usr/share/doc/li
 - `double-metaphone`
 - `nagaysau-ishii`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris postgresql-17=17.6-0ubuntu0.25.04.1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-17/postgresql-17_17.6-0ubuntu0.25.04.1.dsc' postgresql-17_17.6-0ubuntu0.25.04.1.dsc 4381 SHA512:a719ea08d42858ca725f976534da1e462a4108bf31ff94ed6a90658f90811802707609f183a5bd577b73a6ec6ef502476d85e64d3ef7f363cd1ab6167e3cfe0d
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-17/postgresql-17_17.6.orig.tar.gz' postgresql-17_17.6.orig.tar.gz 28141372 SHA512:8774324283a6cc141a29e80e45f69aee146b2c4a5814187368fa096eb418b4063448c9f1ffceecac52bee909c030c019d2697f7a2727f728baaeaab25ec1573f
-'http://archive.ubuntu.com/ubuntu/pool/main/p/postgresql-17/postgresql-17_17.6-0ubuntu0.25.04.1.debian.tar.xz' postgresql-17_17.6-0ubuntu0.25.04.1.debian.tar.xz 29184 SHA512:055db1704a3e58f5ffd5d4c0ffac9cc738cf2f8abe7dccd624a0f9e77077dddf947a527da6b0dbd93a96f2769edb94dce35576abc94111422584952274ed4064
-```
 
 ### `dpkg` source package: `procps=2:4.0.4-7ubuntu1`
 
@@ -4170,15 +4153,9 @@ Licenses: (parsed from: `/usr/share/doc/libpython3.13-minimal/copyright`, `/usr/
 - `use in source`
 - `without`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris python3.13=3.13.3-1ubuntu0.3
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.3-1ubuntu0.3.dsc' python3.13_3.13.3-1ubuntu0.3.dsc 4440 SHA512:90a10b0e5b894650b2175160b94f17144020003848beceac70cb074a39a6be3883884afe825a49e69ed3b76080a99bbf5eeb0dc2cc2ea4de3a02a7320213bea1
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.3.orig.tar.xz' python3.13_3.13.3.orig.tar.xz 22654240 SHA512:f7559b6dceae69f48742af0a6497fbec42cd1e5304f64b6eb9d89222a1171ccf12fa186cc0decabb4e98d05223184967a4a7537754c01083dacdc9073cb1a578
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.3.orig.tar.xz.asc' python3.13_3.13.3.orig.tar.xz.asc 963 SHA512:54f8da5f4a4dcadc9830cb07aecf695a26a2de48ab98e1f42b09fdde1c70989476d07ce7ea81337216f1e5fcbf6b688e0608c88a2545ced416b01640108e94db
-'http://archive.ubuntu.com/ubuntu/pool/main/p/python3.13/python3.13_3.13.3-1ubuntu0.3.debian.tar.xz' python3.13_3.13.3-1ubuntu0.3.debian.tar.xz 287252 SHA512:b4dcf0c02d2b949e28a1f975a8edc2c7cee668e6776661774607cf08381f4d6e852fd77134f36955bc72b7a3fd47a679b8c1d0a52062f33e03afcee61cf6ae78
-```
 
 ### `dpkg` source package: `readline=8.2-6`
 
@@ -4732,14 +4709,9 @@ Licenses: (parsed from: `/usr/share/doc/bsdutils/copyright`, `/usr/share/doc/lib
 - `LGPL-3+`
 - `public-domain`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris util-linux=2.40.2-14ubuntu1.1
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.40.2-14ubuntu1.1.dsc' util-linux_2.40.2-14ubuntu1.1.dsc 5135 SHA512:0efeb9ceaf5b4262809f4d3bafee86c88e423321453817bd7f2e27f9fae18c667c11d465ba05e4e0fe699b250e3d8ce3b317453fd26306014a6288cffcbdf6b7
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.40.2.orig.tar.xz' util-linux_2.40.2.orig.tar.xz 8854820 SHA512:ffe20b915a518a150401d429b0338bc7022190e4ca0ef91a6d9eea345db8c1e11ad01784163b8fcf978506f3f5cad473f29d5d4ef93a4c66a5ae0ebd9fb0c8f2
-'http://archive.ubuntu.com/ubuntu/pool/main/u/util-linux/util-linux_2.40.2-14ubuntu1.1.debian.tar.xz' util-linux_2.40.2-14ubuntu1.1.debian.tar.xz 163696 SHA512:5cafc17f4ef11d9ec594776701f004d8b47158bde93ba75a92707aeba32319b7e8ac9a440f772d9fa9e08bcf60ade31f2b82ae390b26d8b16d4cff26a3739a5a
-```
 
 ### `dpkg` source package: `wget=1.24.5-2ubuntu1`
 

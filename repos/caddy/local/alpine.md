@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:e4bd530ab75a01a5c22fbb097938267e4cde118eab50ae68078df59ce83bceb2`
-- Created: `2025-08-23T03:19:59Z`
-- Virtual Size: ~ 53.46 Mb  
+- Image ID: `sha256:3aed261b9d04b08cca89b6076e336af590dbedcd5178dfd6d490cf26da61debf`
+- Created: `2026-01-28T03:49:56.51721785Z`
+- Virtual Size: ~ 58.62 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["caddy","run","--config","/etc/caddy/Caddyfile","--adapter","caddyfile"]`
@@ -79,16 +79,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.22.2-r0 description:
+alpine-release-3.22.3-r0 description:
 Alpine release data
 
-alpine-release-3.22.2-r0 webpage:
+alpine-release-3.22.3-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.22.2-r0 installed size:
+alpine-release-3.22.3-r0 installed size:
 343 B
 
-alpine-release-3.22.2-r0 license:
+alpine-release-3.22.3-r0 license:
 MIT
 
 ```
@@ -110,19 +110,36 @@ GPL-2.0-only
 
 ```
 
+### `apk` package: `brotli-libs`
+
+```console
+brotli-libs-1.1.0-r2 description:
+Generic lossless compressor (libraries)
+
+brotli-libs-1.1.0-r2 webpage:
+https://github.com/google/brotli
+
+brotli-libs-1.1.0-r2 installed size:
+913 KiB
+
+brotli-libs-1.1.0-r2 license:
+MIT
+
+```
+
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r19 description:
+busybox-1.37.0-r20 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r19 webpage:
+busybox-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r19 installed size:
+busybox-1.37.0-r20 installed size:
 798 KiB
 
-busybox-1.37.0-r19 license:
+busybox-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -130,17 +147,34 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r19 description:
+busybox-binsh-1.37.0-r20 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r19 webpage:
+busybox-binsh-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r19 installed size:
+busybox-binsh-1.37.0-r20 installed size:
 1 B
 
-busybox-binsh-1.37.0-r19 license:
+busybox-binsh-1.37.0-r20 license:
 GPL-2.0-only
+
+```
+
+### `apk` package: `c-ares`
+
+```console
+c-ares-1.34.6-r0 description:
+Asynchronous DNS/names resolver library
+
+c-ares-1.34.6-r0 webpage:
+https://c-ares.org/
+
+c-ares-1.34.6-r0 installed size:
+233 KiB
+
+c-ares-1.34.6-r0 license:
+MIT
 
 ```
 
@@ -175,6 +209,23 @@ ca-certificates-bundle-20250911-r0 installed size:
 
 ca-certificates-bundle-20250911-r0 license:
 MPL-2.0 AND MIT
+
+```
+
+### `apk` package: `curl`
+
+```console
+curl-8.14.1-r2 description:
+URL retrival utility and library
+
+curl-8.14.1-r2 webpage:
+https://curl.se/
+
+curl-8.14.1-r2 installed size:
+260 KiB
+
+curl-8.14.1-r2 license:
+curl
 
 ```
 
@@ -283,34 +334,102 @@ BSD-3-Clause OR GPL-2.0-only
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.5.4-r0 description:
+libcrypto3-3.5.5-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.5.4-r0 webpage:
+libcrypto3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.5.4-r0 installed size:
+libcrypto3-3.5.5-r0 installed size:
 5091 KiB
 
-libcrypto3-3.5.4-r0 license:
+libcrypto3-3.5.5-r0 license:
 Apache-2.0
+
+```
+
+### `apk` package: `libcurl`
+
+```console
+libcurl-8.14.1-r2 description:
+The multiprotocol file transfer library
+
+libcurl-8.14.1-r2 webpage:
+https://curl.se/
+
+libcurl-8.14.1-r2 installed size:
+669 KiB
+
+libcurl-8.14.1-r2 license:
+curl
+
+```
+
+### `apk` package: `libidn2`
+
+```console
+libidn2-2.3.7-r0 description:
+Encode/Decode library for internationalized domain names
+
+libidn2-2.3.7-r0 webpage:
+https://www.gnu.org/software/libidn#libidn2
+
+libidn2-2.3.7-r0 installed size:
+193 KiB
+
+libidn2-2.3.7-r0 license:
+GPL-2.0-or-later OR LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libpsl`
+
+```console
+libpsl-0.21.5-r3 description:
+C library for the Publix Suffix List
+
+libpsl-0.21.5-r3 webpage:
+https://rockdaboot.github.io/libpsl
+
+libpsl-0.21.5-r3 installed size:
+73 KiB
+
+libpsl-0.21.5-r3 license:
+MIT
 
 ```
 
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.5.4-r0 description:
+libssl3-3.5.5-r0 description:
 SSL shared libraries
 
-libssl3-3.5.4-r0 webpage:
+libssl3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.5.4-r0 installed size:
+libssl3-3.5.5-r0 installed size:
 823 KiB
 
-libssl3-3.5.4-r0 license:
+libssl3-3.5.5-r0 license:
 Apache-2.0
+
+```
+
+### `apk` package: `libunistring`
+
+```console
+libunistring-1.3-r0 description:
+Library for manipulating Unicode strings and C strings
+
+libunistring-1.3-r0 webpage:
+https://www.gnu.org/software/libunistring/
+
+libunistring-1.3-r0 installed size:
+1857 KiB
+
+libunistring-1.3-r0 license:
+GPL-2.0-or-later OR LGPL-3.0-or-later
 
 ```
 
@@ -365,6 +484,23 @@ MIT AND BSD-2-Clause AND GPL-2.0-or-later
 
 ```
 
+### `apk` package: `nghttp2-libs`
+
+```console
+nghttp2-libs-1.65.0-r0 description:
+HTTP/2 C client, server and proxy (libraries)
+
+nghttp2-libs-1.65.0-r0 webpage:
+https://nghttp2.org
+
+nghttp2-libs-1.65.0-r0 installed size:
+129 KiB
+
+nghttp2-libs-1.65.0-r0 license:
+MIT
+
+```
+
 ### `apk` package: `scanelf`
 
 ```console
@@ -385,16 +521,16 @@ GPL-2.0-only
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r19 description:
+ssl_client-1.37.0-r20 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r19 webpage:
+ssl_client-1.37.0-r20 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r19 installed size:
+ssl_client-1.37.0-r20 installed size:
 14 KiB
 
-ssl_client-1.37.0-r19 license:
+ssl_client-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -413,5 +549,22 @@ zlib-1.3.1-r2 installed size:
 
 zlib-1.3.1-r2 license:
 Zlib
+
+```
+
+### `apk` package: `zstd-libs`
+
+```console
+zstd-libs-1.5.7-r0 description:
+Zstandard - Fast real-time compression algorithm (libraries)
+
+zstd-libs-1.5.7-r0 webpage:
+https://facebook.github.io/zstd/
+
+zstd-libs-1.5.7-r0 installed size:
+701 KiB
+
+zstd-libs-1.5.7-r0 license:
+BSD-3-Clause OR GPL-2.0-or-later
 
 ```

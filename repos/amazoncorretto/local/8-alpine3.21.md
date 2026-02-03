@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:e7489fc53bc0153f84aad9140898451fe39c3ee221ddac084aff79cdb26d6b08`
-- Created: `2025-10-21T20:48:19Z`
-- Virtual Size: ~ 208.36 Mb  
+- Image ID: `sha256:de8dc831f4bb6b9cd97cc5de6b4cdc3e1ed5144630b8a5424d1d46895516ab9e`
+- Created: `2026-01-28T02:40:58.865044182Z`
+- Virtual Size: ~ 208.45 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["/bin/sh"]`
@@ -69,16 +69,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.21.5-r0 description:
+alpine-release-3.21.6-r0 description:
 Alpine release data
 
-alpine-release-3.21.5-r0 webpage:
+alpine-release-3.21.6-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.21.5-r0 installed size:
+alpine-release-3.21.6-r0 installed size:
 346 B
 
-alpine-release-3.21.5-r0 license:
+alpine-release-3.21.6-r0 license:
 MIT
 
 ```
@@ -86,16 +86,16 @@ MIT
 ### `apk` package: `amazon-corretto-8`
 
 ```console
-amazon-corretto-8-8.472.08.1-r0 description:
+amazon-corretto-8-8.482.08.1-r0 description:
 Corretto-8
 
-amazon-corretto-8-8.472.08.1-r0 webpage:
+amazon-corretto-8-8.482.08.1-r0 webpage:
 https://github.com/corretto/corretto-8
 
-amazon-corretto-8-8.472.08.1-r0 installed size:
+amazon-corretto-8-8.482.08.1-r0 installed size:
 88 MiB
 
-amazon-corretto-8-8.472.08.1-r0 license:
+amazon-corretto-8-8.482.08.1-r0 license:
 GPL-2.0-only WITH Classpath-exception-2.0
 
 ```
@@ -103,16 +103,16 @@ GPL-2.0-only WITH Classpath-exception-2.0
 ### `apk` package: `amazon-corretto-8-jre`
 
 ```console
-amazon-corretto-8-jre-8.472.08.1-r0 description:
+amazon-corretto-8-jre-8.482.08.1-r0 description:
 Amazon Corretto 8 Java Runtime
 
-amazon-corretto-8-jre-8.472.08.1-r0 webpage:
+amazon-corretto-8-jre-8.482.08.1-r0 webpage:
 https://github.com/corretto/corretto-8
 
-amazon-corretto-8-jre-8.472.08.1-r0 installed size:
+amazon-corretto-8-jre-8.482.08.1-r0 installed size:
 103 MiB
 
-amazon-corretto-8-jre-8.472.08.1-r0 license:
+amazon-corretto-8-jre-8.482.08.1-r0 license:
 GPL-2.0-only WITH Classpath-exception-2.0
 
 ```
@@ -137,16 +137,16 @@ GPL-2.0-only
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r13 description:
+busybox-1.37.0-r14 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r13 webpage:
+busybox-1.37.0-r14 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r13 installed size:
+busybox-1.37.0-r14 installed size:
 798 KiB
 
-busybox-1.37.0-r13 license:
+busybox-1.37.0-r14 license:
 GPL-2.0-only
 
 ```
@@ -154,16 +154,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r13 description:
+busybox-binsh-1.37.0-r14 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r13 webpage:
+busybox-binsh-1.37.0-r14 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r13 installed size:
+busybox-binsh-1.37.0-r14 installed size:
 1 B
 
-busybox-binsh-1.37.0-r13 license:
+busybox-binsh-1.37.0-r14 license:
 GPL-2.0-only
 
 ```
@@ -205,16 +205,16 @@ GPL-2.0-or-later
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.3.5-r0 description:
+libcrypto3-3.3.6-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.3.5-r0 webpage:
+libcrypto3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.3.5-r0 installed size:
-4607 KiB
+libcrypto3-3.3.6-r0 installed size:
+4611 KiB
 
-libcrypto3-3.3.5-r0 license:
+libcrypto3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -222,16 +222,16 @@ Apache-2.0
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.3.5-r0 description:
+libssl3-3.3.6-r0 description:
 SSL shared libraries
 
-libssl3-3.3.5-r0 webpage:
+libssl3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.3.5-r0 installed size:
+libssl3-3.3.6-r0 installed size:
 779 KiB
 
-libssl3-3.3.5-r0 license:
+libssl3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -290,16 +290,16 @@ GPL-2.0-only
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r13 description:
+ssl_client-1.37.0-r14 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r13 webpage:
+ssl_client-1.37.0-r14 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r13 installed size:
+ssl_client-1.37.0-r14 installed size:
 14 KiB
 
-ssl_client-1.37.0-r13 license:
+ssl_client-1.37.0-r14 license:
 GPL-2.0-only
 
 ```

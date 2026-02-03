@@ -1,10 +1,10 @@
-# `redmine:6.1.0-alpine3.22`
+# `redmine:6.1.1-alpine3.22`
 
 ## Docker Metadata
 
-- Image ID: `sha256:608aa808aa838edfbe51b972a009a26251ff153907a79cdfe56f7f42c6fcc752`
-- Created: `2025-10-08T23:35:26Z`
-- Virtual Size: ~ 419.37 Mb  
+- Image ID: `sha256:64f1e3d390df36aa18708788371334e0f66bb0d75b3f1d512d66f5a3e2422408`
+- Created: `2026-01-28T05:05:53.377206167Z`
+- Virtual Size: ~ 420.13 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/docker-entrypoint.sh"]`
@@ -12,18 +12,18 @@
 - Environment:
   - `PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `RUBY_VERSION=3.4.7`
-  - `RUBY_DOWNLOAD_URL=https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.7.tar.xz`
-  - `RUBY_DOWNLOAD_SHA256=db425a86f6e07546957578f4946cc700a91e7fd51115a86c56e096f30e0530c7`
+  - `RUBY_VERSION=3.4.8`
+  - `RUBY_DOWNLOAD_URL=https://cache.ruby-lang.org/pub/ruby/3.4/ruby-3.4.8.tar.xz`
+  - `RUBY_DOWNLOAD_SHA256=53a8ec71111449cbbd42224d8d27c493fa6ded228636731051c48604d4255d68`
   - `GEM_HOME=/usr/local/bundle`
   - `BUNDLE_SILENCE_ROOT_WARNING=1`
   - `BUNDLE_APP_CONFIG=/usr/local/bundle`
   - `GOSU_VERSION=1.19`
   - `RAILS_ENV=production`
   - `HOME=/home/redmine`
-  - `REDMINE_VERSION=6.1.0`
-  - `REDMINE_DOWNLOAD_URL=https://www.redmine.org/releases/redmine-6.1.0.tar.gz`
-  - `REDMINE_DOWNLOAD_SHA256=bc483da195f2444491d870e40f7fc909ae750f7ba8d0e28831e6d6c478812b88`
+  - `REDMINE_VERSION=6.1.1`
+  - `REDMINE_DOWNLOAD_URL=https://www.redmine.org/releases/redmine-6.1.1.tar.gz`
+  - `REDMINE_DOWNLOAD_SHA256=1f2e6dd0697062fc733701f88b5041dc0dfc6b536255eb7902f21fb0970e603e`
   - `RAILS_LOG_TO_STDOUT=true`
 
 ## `apk` (`.apk`-based packages)
@@ -82,16 +82,16 @@ MIT
 ### `apk` package: `alpine-release`
 
 ```console
-alpine-release-3.22.2-r0 description:
+alpine-release-3.22.3-r0 description:
 Alpine release data
 
-alpine-release-3.22.2-r0 webpage:
+alpine-release-3.22.3-r0 webpage:
 https://alpinelinux.org
 
-alpine-release-3.22.2-r0 installed size:
+alpine-release-3.22.3-r0 installed size:
 343 B
 
-alpine-release-3.22.2-r0 license:
+alpine-release-3.22.3-r0 license:
 MIT
 
 ```
@@ -235,16 +235,16 @@ MIT
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.37.0-r19 description:
+busybox-1.37.0-r20 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.37.0-r19 webpage:
+busybox-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-1.37.0-r19 installed size:
+busybox-1.37.0-r20 installed size:
 798 KiB
 
-busybox-1.37.0-r19 license:
+busybox-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -252,16 +252,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.37.0-r19 description:
+busybox-binsh-1.37.0-r20 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.37.0-r19 webpage:
+busybox-binsh-1.37.0-r20 webpage:
 https://busybox.net/
 
-busybox-binsh-1.37.0-r19 installed size:
+busybox-binsh-1.37.0-r20 installed size:
 1 B
 
-busybox-binsh-1.37.0-r19 license:
+busybox-binsh-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -269,16 +269,16 @@ GPL-2.0-only
 ### `apk` package: `c-ares`
 
 ```console
-c-ares-1.34.5-r0 description:
+c-ares-1.34.6-r0 description:
 Asynchronous DNS/names resolver library
 
-c-ares-1.34.5-r0 webpage:
+c-ares-1.34.6-r0 webpage:
 https://c-ares.org/
 
-c-ares-1.34.5-r0 installed size:
+c-ares-1.34.6-r0 installed size:
 233 KiB
 
-c-ares-1.34.5-r0 license:
+c-ares-1.34.6-r0 license:
 MIT
 
 ```
@@ -320,16 +320,16 @@ MPL-2.0 AND MIT
 ### `apk` package: `cups-libs`
 
 ```console
-cups-libs-2.4.11-r0 description:
+cups-libs-2.4.16-r0 description:
 CUPS libraries
 
-cups-libs-2.4.11-r0 webpage:
+cups-libs-2.4.16-r0 webpage:
 https://github.com/OpenPrinting/cups/
 
-cups-libs-2.4.11-r0 installed size:
+cups-libs-2.4.16-r0 installed size:
 559 KiB
 
-cups-libs-2.4.11-r0 license:
+cups-libs-2.4.16-r0 license:
 Apache-2.0
 
 ```
@@ -558,16 +558,16 @@ LGPL-2.1-or-later
 ### `apk` package: `imagemagick`
 
 ```console
-imagemagick-7.1.2.3-r0 description:
+imagemagick-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats
 
-imagemagick-7.1.2.3-r0 webpage:
+imagemagick-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-7.1.2.3-r0 installed size:
-3658 KiB
+imagemagick-7.1.2.8-r0 installed size:
+3662 KiB
 
-imagemagick-7.1.2.3-r0 license:
+imagemagick-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -575,16 +575,16 @@ ImageMagick
 ### `apk` package: `imagemagick-jpeg`
 
 ```console
-imagemagick-jpeg-7.1.2.3-r0 description:
+imagemagick-jpeg-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats (JPEG support modules)
 
-imagemagick-jpeg-7.1.2.3-r0 webpage:
+imagemagick-jpeg-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-jpeg-7.1.2.3-r0 installed size:
+imagemagick-jpeg-7.1.2.8-r0 installed size:
 54 KiB
 
-imagemagick-jpeg-7.1.2.3-r0 license:
+imagemagick-jpeg-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -592,16 +592,16 @@ ImageMagick
 ### `apk` package: `imagemagick-libs`
 
 ```console
-imagemagick-libs-7.1.2.3-r0 description:
+imagemagick-libs-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats (libraries)
 
-imagemagick-libs-7.1.2.3-r0 webpage:
+imagemagick-libs-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-libs-7.1.2.3-r0 installed size:
-4273 KiB
+imagemagick-libs-7.1.2.8-r0 installed size:
+4265 KiB
 
-imagemagick-libs-7.1.2.3-r0 license:
+imagemagick-libs-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -609,16 +609,16 @@ ImageMagick
 ### `apk` package: `imagemagick-pdf`
 
 ```console
-imagemagick-pdf-7.1.2.3-r0 description:
+imagemagick-pdf-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats (PDF support modules)
 
-imagemagick-pdf-7.1.2.3-r0 webpage:
+imagemagick-pdf-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-pdf-7.1.2.3-r0 installed size:
+imagemagick-pdf-7.1.2.8-r0 installed size:
 121 KiB
 
-imagemagick-pdf-7.1.2.3-r0 license:
+imagemagick-pdf-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -626,16 +626,16 @@ ImageMagick
 ### `apk` package: `imagemagick-tiff`
 
 ```console
-imagemagick-tiff-7.1.2.3-r0 description:
+imagemagick-tiff-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats (TIFF support modules)
 
-imagemagick-tiff-7.1.2.3-r0 webpage:
+imagemagick-tiff-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-tiff-7.1.2.3-r0 installed size:
+imagemagick-tiff-7.1.2.8-r0 installed size:
 115 KiB
 
-imagemagick-tiff-7.1.2.3-r0 license:
+imagemagick-tiff-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -643,16 +643,16 @@ ImageMagick
 ### `apk` package: `imagemagick-webp`
 
 ```console
-imagemagick-webp-7.1.2.3-r0 description:
+imagemagick-webp-7.1.2.8-r0 description:
 Collection of tools and libraries for many image formats (WebP support modules)
 
-imagemagick-webp-7.1.2.3-r0 webpage:
+imagemagick-webp-7.1.2.8-r0 webpage:
 https://imagemagick.org/
 
-imagemagick-webp-7.1.2.3-r0 installed size:
+imagemagick-webp-7.1.2.8-r0 installed size:
 30 KiB
 
-imagemagick-webp-7.1.2.3-r0 license:
+imagemagick-webp-7.1.2.8-r0 license:
 ImageMagick
 
 ```
@@ -745,16 +745,16 @@ bzip2-1.0.6
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.5.4-r0 description:
+libcrypto3-3.5.5-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.5.4-r0 webpage:
+libcrypto3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.5.4-r0 installed size:
+libcrypto3-3.5.5-r0 installed size:
 5091 KiB
 
-libcrypto3-3.5.4-r0 license:
+libcrypto3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -1000,16 +1000,16 @@ X11
 ### `apk` package: `libpng`
 
 ```console
-libpng-1.6.47-r0 description:
+libpng-1.6.54-r0 description:
 Portable Network Graphics library
 
-libpng-1.6.47-r0 webpage:
+libpng-1.6.54-r0 webpage:
 http://www.libpng.org
 
-libpng-1.6.47-r0 installed size:
+libpng-1.6.54-r0 installed size:
 181 KiB
 
-libpng-1.6.47-r0 license:
+libpng-1.6.54-r0 license:
 Libpng
 
 ```
@@ -1017,16 +1017,16 @@ Libpng
 ### `apk` package: `libpq`
 
 ```console
-libpq-17.6-r0 description:
+libpq-17.7-r0 description:
 PostgreSQL client library
 
-libpq-17.6-r0 webpage:
+libpq-17.7-r0 webpage:
 https://www.postgresql.org/
 
-libpq-17.6-r0 installed size:
+libpq-17.7-r0 installed size:
 322 KiB
 
-libpq-17.6-r0 license:
+libpq-17.7-r0 license:
 PostgreSQL
 
 ```
@@ -1102,16 +1102,16 @@ MIT
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.5.4-r0 description:
+libssl3-3.5.5-r0 description:
 SSL shared libraries
 
-libssl3-3.5.4-r0 webpage:
+libssl3-3.5.5-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.5.4-r0 installed size:
+libssl3-3.5.5-r0 installed size:
 823 KiB
 
-libssl3-3.5.4-r0 license:
+libssl3-3.5.5-r0 license:
 Apache-2.0
 
 ```
@@ -1136,16 +1136,16 @@ GPL-2.0-or-later AND LGPL-2.1-or-later
 ### `apk` package: `libtasn1`
 
 ```console
-libtasn1-4.20.0-r0 description:
+libtasn1-4.21.0-r0 description:
 The ASN.1 library used in GNUTLS
 
-libtasn1-4.20.0-r0 webpage:
+libtasn1-4.21.0-r0 webpage:
 https://www.gnu.org/software/gnutls/
 
-libtasn1-4.20.0-r0 installed size:
+libtasn1-4.21.0-r0 installed size:
 65 KiB
 
-libtasn1-4.20.0-r0 license:
+libtasn1-4.21.0-r0 license:
 LGPL-2.1-or-later
 
 ```
@@ -1544,16 +1544,16 @@ BSD-2-Clause
 ### `apk` package: `openssh-client-common`
 
 ```console
-openssh-client-common-10.0_p1-r9 description:
+openssh-client-common-10.0_p1-r10 description:
 OpenBSD's SSH client common files
 
-openssh-client-common-10.0_p1-r9 webpage:
+openssh-client-common-10.0_p1-r10 webpage:
 https://www.openssh.com/portable.html
 
-openssh-client-common-10.0_p1-r9 installed size:
+openssh-client-common-10.0_p1-r10 installed size:
 2504 KiB
 
-openssh-client-common-10.0_p1-r9 license:
+openssh-client-common-10.0_p1-r10 license:
 SSH-OpenSSH
 
 ```
@@ -1561,16 +1561,16 @@ SSH-OpenSSH
 ### `apk` package: `openssh-client-default`
 
 ```console
-openssh-client-default-10.0_p1-r9 description:
+openssh-client-default-10.0_p1-r10 description:
 OpenBSD's SSH client
 
-openssh-client-default-10.0_p1-r9 webpage:
+openssh-client-default-10.0_p1-r10 webpage:
 https://www.openssh.com/portable.html
 
-openssh-client-default-10.0_p1-r9 installed size:
+openssh-client-default-10.0_p1-r10 installed size:
 830 KiB
 
-openssh-client-default-10.0_p1-r9 license:
+openssh-client-default-10.0_p1-r10 license:
 SSH-OpenSSH
 
 ```
@@ -1578,16 +1578,16 @@ SSH-OpenSSH
 ### `apk` package: `openssh-keygen`
 
 ```console
-openssh-keygen-10.0_p1-r9 description:
+openssh-keygen-10.0_p1-r10 description:
 ssh helper program for generating keys
 
-openssh-keygen-10.0_p1-r9 webpage:
+openssh-keygen-10.0_p1-r10 webpage:
 https://www.openssh.com/portable.html
 
-openssh-keygen-10.0_p1-r9 installed size:
+openssh-keygen-10.0_p1-r10 installed size:
 470 KiB
 
-openssh-keygen-10.0_p1-r9 license:
+openssh-keygen-10.0_p1-r10 license:
 SSH-OpenSSH
 
 ```
@@ -1612,16 +1612,16 @@ BSD-3-Clause
 ### `apk` package: `pcre2`
 
 ```console
-pcre2-10.43-r1 description:
+pcre2-10.46-r0 description:
 Perl-compatible regular expression library
 
-pcre2-10.43-r1 webpage:
+pcre2-10.46-r0 webpage:
 https://pcre.org/
 
-pcre2-10.43-r1 installed size:
-707 KiB
+pcre2-10.46-r0 installed size:
+767 KiB
 
-pcre2-10.43-r1 license:
+pcre2-10.46-r0 license:
 BSD-3-Clause
 
 ```
@@ -1799,16 +1799,16 @@ MIT
 ### `apk` package: `py3-urllib3`
 
 ```console
-py3-urllib3-1.26.20-r0 description:
+py3-urllib3-1.26.20-r1 description:
 HTTP library with thread-safe connection pooling, file post, and more
 
-py3-urllib3-1.26.20-r0 webpage:
+py3-urllib3-1.26.20-r1 webpage:
 https://github.com/urllib3/urllib3
 
-py3-urllib3-1.26.20-r0 installed size:
-442 KiB
+py3-urllib3-1.26.20-r1 installed size:
+443 KiB
 
-py3-urllib3-1.26.20-r0 license:
+py3-urllib3-1.26.20-r1 license:
 MIT
 
 ```
@@ -1816,16 +1816,16 @@ MIT
 ### `apk` package: `py3-urllib3-pyc`
 
 ```console
-py3-urllib3-pyc-1.26.20-r0 description:
+py3-urllib3-pyc-1.26.20-r1 description:
 Precompiled Python bytecode for py3-urllib3
 
-py3-urllib3-pyc-1.26.20-r0 webpage:
+py3-urllib3-pyc-1.26.20-r1 webpage:
 https://github.com/urllib3/urllib3
 
-py3-urllib3-pyc-1.26.20-r0 installed size:
+py3-urllib3-pyc-1.26.20-r1 installed size:
 425 KiB
 
-py3-urllib3-pyc-1.26.20-r0 license:
+py3-urllib3-pyc-1.26.20-r1 license:
 MIT
 
 ```
@@ -1867,16 +1867,16 @@ MIT
 ### `apk` package: `pyc`
 
 ```console
-pyc-3.12.11-r0 description:
+pyc-3.12.12-r0 description:
 Meta package for pulling in all -pyc packages
 
-pyc-3.12.11-r0 webpage:
+pyc-3.12.12-r0 webpage:
 https://www.python.org/
 
-pyc-3.12.11-r0 installed size:
+pyc-3.12.12-r0 installed size:
 0 B
 
-pyc-3.12.11-r0 license:
+pyc-3.12.12-r0 license:
 PSF-2.0
 
 ```
@@ -1884,16 +1884,16 @@ PSF-2.0
 ### `apk` package: `python3`
 
 ```console
-python3-3.12.11-r0 description:
+python3-3.12.12-r0 description:
 High-level scripting language
 
-python3-3.12.11-r0 webpage:
+python3-3.12.12-r0 webpage:
 https://www.python.org/
 
-python3-3.12.11-r0 installed size:
+python3-3.12.12-r0 installed size:
 22 MiB
 
-python3-3.12.11-r0 license:
+python3-3.12.12-r0 license:
 PSF-2.0
 
 ```
@@ -1901,16 +1901,16 @@ PSF-2.0
 ### `apk` package: `python3-pyc`
 
 ```console
-python3-pyc-3.12.11-r0 description:
+python3-pyc-3.12.12-r0 description:
 High-level scripting language (install .pyc cache files)
 
-python3-pyc-3.12.11-r0 webpage:
+python3-pyc-3.12.12-r0 webpage:
 https://www.python.org/
 
-python3-pyc-3.12.11-r0 installed size:
+python3-pyc-3.12.12-r0 installed size:
 0 B
 
-python3-pyc-3.12.11-r0 license:
+python3-pyc-3.12.12-r0 license:
 PSF-2.0
 
 ```
@@ -1918,16 +1918,16 @@ PSF-2.0
 ### `apk` package: `python3-pycache-pyc0`
 
 ```console
-python3-pycache-pyc0-3.12.11-r0 description:
+python3-pycache-pyc0-3.12.12-r0 description:
 High-level scripting language (.pyc pycache files)
 
-python3-pycache-pyc0-3.12.11-r0 webpage:
+python3-pycache-pyc0-3.12.12-r0 webpage:
 https://www.python.org/
 
-python3-pycache-pyc0-3.12.11-r0 installed size:
+python3-pycache-pyc0-3.12.12-r0 installed size:
 10 MiB
 
-python3-pycache-pyc0-3.12.11-r0 license:
+python3-pycache-pyc0-3.12.12-r0 license:
 PSF-2.0
 
 ```
@@ -2003,16 +2003,16 @@ blessing
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.37.0-r19 description:
+ssl_client-1.37.0-r20 description:
 External ssl_client for busybox wget
 
-ssl_client-1.37.0-r19 webpage:
+ssl_client-1.37.0-r20 webpage:
 https://busybox.net/
 
-ssl_client-1.37.0-r19 installed size:
+ssl_client-1.37.0-r20 installed size:
 14 KiB
 
-ssl_client-1.37.0-r19 license:
+ssl_client-1.37.0-r20 license:
 GPL-2.0-only
 
 ```
@@ -2088,16 +2088,16 @@ MIT
 ### `apk` package: `tzdata`
 
 ```console
-tzdata-2025b-r0 description:
+tzdata-2025c-r0 description:
 Timezone data
 
-tzdata-2025b-r0 webpage:
+tzdata-2025c-r0 webpage:
 https://www.iana.org/time-zones
 
-tzdata-2025b-r0 installed size:
-435 KiB
+tzdata-2025c-r0 installed size:
+436 KiB
 
-tzdata-2025b-r0 license:
+tzdata-2025c-r0 license:
 Public-Domain
 
 ```

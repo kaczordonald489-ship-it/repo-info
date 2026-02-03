@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:26b12c220d55541cc6408c80771359ba21d16d887fc1277fa28f2ca7963c4793`
-- Created: `2025-11-05T01:06:44.058092251Z`
-- Virtual Size: ~ 323.14 Mb  
+- Image ID: `sha256:c77fd02cce3d0008cc249f1322b201bea11ba9f9bd5fa485b593b27e26d90223`
+- Created: `2026-01-28T02:48:46.815810113Z`
+- Virtual Size: ~ 323.15 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Command: `["/bin/sh"]`
@@ -86,16 +86,16 @@ LGPL-2.1-or-later
 ### `apk` package: `amazon-corretto-21`
 
 ```console
-amazon-corretto-21-21.0.9.11.1-r0 description:
+amazon-corretto-21-21.0.10.7.1-r0 description:
 Corretto21
 
-amazon-corretto-21-21.0.9.11.1-r0 webpage:
+amazon-corretto-21-21.0.10.7.1-r0 webpage:
 https://github.com/corretto/corretto-jdk
 
-amazon-corretto-21-21.0.9.11.1-r0 installed size:
+amazon-corretto-21-21.0.10.7.1-r0 installed size:
 347 MiB
 
-amazon-corretto-21-21.0.9.11.1-r0 license:
+amazon-corretto-21-21.0.10.7.1-r0 license:
 GPL-2.0-only WITH Classpath-exception-2.0
 
 ```
@@ -120,16 +120,16 @@ GPL-2.0-only
 ### `apk` package: `busybox`
 
 ```console
-busybox-1.36.1-r30 description:
+busybox-1.36.1-r31 description:
 Size optimized toolbox of many common UNIX utilities
 
-busybox-1.36.1-r30 webpage:
+busybox-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-1.36.1-r30 installed size:
+busybox-1.36.1-r31 installed size:
 908 KiB
 
-busybox-1.36.1-r30 license:
+busybox-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -137,16 +137,16 @@ GPL-2.0-only
 ### `apk` package: `busybox-binsh`
 
 ```console
-busybox-binsh-1.36.1-r30 description:
+busybox-binsh-1.36.1-r31 description:
 busybox ash /bin/sh
 
-busybox-binsh-1.36.1-r30 webpage:
+busybox-binsh-1.36.1-r31 webpage:
 https://busybox.net/
 
-busybox-binsh-1.36.1-r30 installed size:
+busybox-binsh-1.36.1-r31 installed size:
 8192 B
 
-busybox-binsh-1.36.1-r30 license:
+busybox-binsh-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
@@ -205,16 +205,16 @@ BSD-3-Clause
 ### `apk` package: `libcrypto3`
 
 ```console
-libcrypto3-3.3.5-r0 description:
+libcrypto3-3.3.6-r0 description:
 Crypto library from openssl
 
-libcrypto3-3.3.5-r0 webpage:
+libcrypto3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libcrypto3-3.3.5-r0 installed size:
-4660 KiB
+libcrypto3-3.3.6-r0 installed size:
+4664 KiB
 
-libcrypto3-3.3.5-r0 license:
+libcrypto3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -239,16 +239,16 @@ BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain
 ### `apk` package: `libssl3`
 
 ```console
-libssl3-3.3.5-r0 description:
+libssl3-3.3.6-r0 description:
 SSL shared libraries
 
-libssl3-3.3.5-r0 webpage:
+libssl3-3.3.6-r0 webpage:
 https://www.openssl.org/
 
-libssl3-3.3.5-r0 installed size:
+libssl3-3.3.6-r0 installed size:
 800 KiB
 
-libssl3-3.3.5-r0 license:
+libssl3-3.3.6-r0 license:
 Apache-2.0
 
 ```
@@ -443,16 +443,16 @@ GPL-2.0-only
 ### `apk` package: `ssl_client`
 
 ```console
-ssl_client-1.36.1-r30 description:
+ssl_client-1.36.1-r31 description:
 EXternal ssl_client for busybox wget
 
-ssl_client-1.36.1-r30 webpage:
+ssl_client-1.36.1-r31 webpage:
 https://busybox.net/
 
-ssl_client-1.36.1-r30 installed size:
+ssl_client-1.36.1-r31 installed size:
 28 KiB
 
-ssl_client-1.36.1-r30 license:
+ssl_client-1.36.1-r31 license:
 GPL-2.0-only
 
 ```
